@@ -1,6 +1,6 @@
 # Mundo Veg
 
-`Análise e Desenvolvimento de Software - PUC MINAS`
+`Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
 `Projeto: Desenvolvimento de uma Aplicação Interativa`
 
