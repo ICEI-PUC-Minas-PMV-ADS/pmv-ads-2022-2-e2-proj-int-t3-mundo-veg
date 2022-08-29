@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Mundo Veg
 
 `Análise e Desenvolvimento de Software - PUC MINAS`
 
