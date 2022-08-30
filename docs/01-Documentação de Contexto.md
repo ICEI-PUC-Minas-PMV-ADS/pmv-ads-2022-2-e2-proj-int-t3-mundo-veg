@@ -1,46 +1,25 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O vegetarianismo e o veganismo têm trazido à tona um debate e a proposta de reflexão sobre os direitos dos animais e um estilo de vida mais saudável. No vegetarianismo, a alimentação é baseada em alimentos de origem vegetal, excluindo o consumo de carne. Já o veganismo, em caráter mais amplo, se posiciona "contra qualquer modo de exploração animal, incluindo-se aí as formas de trabalho forçado, o seu consumo como fonte alimentícia e, também, como componentes de processos ou produtos manufaturados (cosméticos, roupas, material de limpeza, etc.)" (TRIGUEIRO, 2013, p. 237-238).
+
+Estima-se que no Brasil, cerca de 30 milhões de brasileiros se declaram vegetarianos, 7 milhões se declaram veganos, e 55% dos brasileiros consumiriam mais produtos veganos se houvesse a indicação na embalagem, segundo a pesquisa IBOPE Inteligência realizada em abril de 2018 (IBOPE, 2018 apud Sociedade Vegetariana Brasileira, [202-]).
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Diante do exposto, o desafio que se busca superar com este projeto é a dificuldade de vegetarianos e veganos em conseguir localizar facilmente as lojas e restaurantes que possuam produtos que atendam às suas restrições, sejam elas alimentares ou não. Além disso, será possível encontrar receitas que sejam voltadas às dietas alimentares desse público, uma vez que grande parte das receitas que encontramos na internet utilizam carne ou produtos de origem animal em sua composição.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de uma aplicação interativa de fácil acesso que permita praticidade na localização de produtos considerando as restrições diárias dos usuários vegetarianos e veganos, e pessoas interessadas neste tipo de dieta e estilo de vida.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos destacar:
+<ul><li>Fornecer funcionalidades com opções de pesquisa de alimentos, produtos e receitas;</li>
+<li>Informações de localização de estabelecimentos vegetarianos e veganos.</li></ul>
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Existem diversos benefícios de uma alimentação baseada no veganismo e vegetarianismo, tanto para o corpo quanto para o mundo, e com essa aplicação interativa gostaríamos de ajudar e incentivar a prática, beneficiando as pessoas com uma dieta rica em nutrientes, eficaz contra doenças cardíacas, e que também ajuda na diminuição da chance de cânceres, entre outros. Em relação aos benefícios para a sociedade, ajuda a evitar o sofrimento desnecessário de animais, o desmatamento indireto provocado pela derrubada de largas áreas para criação de pastos, reduz as emissões de gases do efeito estufa, e contribui para a preservação de mais terra, água e da biodiversidade.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Estabeleceu-se como público-alvo desta aplicação interativa pessoas que seguem o regime alimentar do vegetarianismo e o estilo de vida vegano, e pessoas que estejam interessadas em uma alimentação mais saudável com produtos de origem vegetal e o consumo de produtos onde não houve exploração animal em sua fabricação.
