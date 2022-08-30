@@ -6,18 +6,14 @@ A descrição do problema e os pontos mais relevantes a serem tratados neste pro
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+|Nº                  | FOTO                               |DESCRIÇÃO                               |
+|--------------------|------------------------------------|----------------------------------------|
+|1| ![image](https://user-images.githubusercontent.com/100447878/187459339-7b28e19b-fca7-4ba2-885f-82f305445730.png)| Miguel Torres tem 41 anos, é escritor e sócio de uma editora de livros infantis. Utiliza os aplicativos Instagram, Twitter e Facebook. Mora em Nova Lima (MG). É casado com Giovanna Souza, médica, e pai de duas filhas, Ana e Nina, de 5 e 7 anos. Gosta de ouvir músicas, viajar com a família e fazer passeios gastronômicos com a esposa. Miguel se sente frustrado por não sabe cozinhar; por causa da rotina corrida, ainda não conseguiu se organizar para dedicar um tempo à atividade física; não consegue encontrar receitas e alimentos saudáveis de forma prática, e se sente perdido em meio a tantas informações na internet e gostaria de substituir ocasionalmente a carne por proteínas vegetais em sua alimentação. Tem como motivações: quer aprender a cozinhar para que a sua alimentação e das filhas seja mais saudável; gostaria de envolver as filhas e a esposa para que cozinhar se torne uma atividade divertida em família e precisa mudar seus hábitos alimentares por indicação médica.|
+  
+Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
