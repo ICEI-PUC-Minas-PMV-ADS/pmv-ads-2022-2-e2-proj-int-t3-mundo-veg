@@ -9,6 +9,11 @@ A descrição do problema e os pontos mais relevantes a serem tratados neste pro
 |Nº                  | FOTO                               |DESCRIÇÃO                               |
 |--------------------|------------------------------------|----------------------------------------|
 |1| ![image](https://user-images.githubusercontent.com/100447878/187459339-7b28e19b-fca7-4ba2-885f-82f305445730.png)| Miguel Torres tem 41 anos, é escritor e sócio de uma editora de livros infantis. Utiliza os aplicativos Instagram, Twitter e Facebook. Mora em Nova Lima (MG). É casado com Giovanna Souza, médica, e pai de duas filhas, Ana e Nina, de 5 e 7 anos. Gosta de ouvir músicas, viajar com a família e fazer passeios gastronômicos com a esposa. Miguel se sente frustrado por não sabe cozinhar; por causa da rotina corrida, ainda não conseguiu se organizar para dedicar um tempo à atividade física; não consegue encontrar receitas e alimentos saudáveis de forma prática, e se sente perdido em meio a tantas informações na internet e gostaria de substituir ocasionalmente a carne por proteínas vegetais em sua alimentação. Tem como motivações: quer aprender a cozinhar para que a sua alimentação e das filhas seja mais saudável; gostaria de envolver as filhas e a esposa para que cozinhar se torne uma atividade divertida em família e precisa mudar seus hábitos alimentares por indicação médica.|
+|2| | |
+|3| | |
+|4| | |
+|5| | |
+|6| | |
   
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros. 
 
@@ -28,13 +33,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Miguel Torres       | Localizar mercados com variedade de produtos saudáveis                | Pesquisar receitas que são preparadas com esses ingredientes. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
