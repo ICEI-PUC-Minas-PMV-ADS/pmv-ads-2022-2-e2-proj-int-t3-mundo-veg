@@ -6,7 +6,7 @@
 
 `2022/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste projeto é a criação de uma aplicação interativa de fácil acesso que permita praticidade na localização de produtos considerando as restrições diárias dos usuários vegetarianos e veganos, e pessoas interessadas neste tipo de dieta e estilo de vida.
 
 ## Integrantes
 
