@@ -1,14 +1,14 @@
 # Referências
 
-FREEPIK. <b>Pai feliz</b>. c2010-2022. 1 fotografia. Disponível em: https://br.freepik.com/fotos-gratis/retrato-de-homem-negro-sorridente_15738512.htm#query=homem%20negro&position=8&from_view=search. Acesso em: 19 ago. 2022.
-
 BOIRA, Joan. <b>[Fotografia]</b>. c2022. Disponível em:
 https://joanboira.com/fotografo-de-retrato-para-perfil-profesional-y-linkedin/. Acesso em: 19 ago. 2022.
+
+FREEPIK. <b>Pai feliz</b>. c2010-2022. 1 fotografia. Disponível em: https://br.freepik.com/fotos-gratis/retrato-de-homem-negro-sorridente_15738512.htm#query=homem%20negro&position=8&from_view=search. Acesso em: 19 ago. 2022.
+
+G1 RN. <b>[Cadeirante]</b>. 2020. Disponivel em https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2020/noticia/2020/11/16/natal-tem-primeiro-vereador-cadeirante-eleito-teremos-um-representante-legitimo.ghtml. Acesso em: 20 ago. 2022.
 
 SOCIEDADE VEGETARIANA BRASILEIRA. <b>Mercado vegano</b>. São Paulo, [202-]. Disponível em: https://www.svb.org.br/vegetarianismo1/mercado-vegetariano. Acesso em: 9 ago. 2022.
 
 TRIGUEIRO, R. Consumo, ética e natureza: o veganismo e as interfaces de uma política de vida. <b>INTERthesis: Revista Internacional Interdisciplinar</b>, Florianópolis, v. 10, n. 1, p. 237-260, jan./jun. 2013. Disponível em: https://dialnet.unirioja.es/servlet/articulo?codigo=5175588. Acesso em: 9 ago. 2022.
 
 WITIDIOMAS. <b>Aluno.png</b>. [<i>s. d.</i>]. Disponível em: https://static.wixstatic.com/media/0d85fa_7cd6697221874e31a919a85091d1c44f~mv2.png/v1/fill/w_375,h_491,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aluno.png. Acesso em: 19 ago. 2022.
-
-G1 RN. <b>[Cadeirante]</b>. 2020. Disponivel em https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2020/noticia/2020/11/16/natal-tem-primeiro-vereador-cadeirante-eleito-teremos-um-representante-legitimo.ghtml. Acesso em: 20 ago. 2022.
