@@ -9,7 +9,7 @@ A descrição do problema e os pontos mais relevantes a serem tratados neste pro
 |Nº                  | FOTO                               |DESCRIÇÃO                               |
 |--------------------|------------------------------------|----------------------------------------|
 |1| ![image](https://user-images.githubusercontent.com/100447878/187459339-7b28e19b-fca7-4ba2-885f-82f305445730.png)| Miguel Torres tem 41 anos, é escritor e sócio de uma editora de livros infantis. Utiliza os aplicativos Instagram, Twitter e Facebook. Mora em Nova Lima (MG). É casado com Giovanna Souza, médica, e pai de duas filhas, Ana e Nina, de 5 e 7 anos. Gosta de ouvir músicas, viajar com a família e fazer passeios gastronômicos com a esposa. Miguel se sente frustrado por não sabe cozinhar; por causa da rotina corrida, ainda não conseguiu se organizar para dedicar um tempo à atividade física; não consegue encontrar receitas e alimentos saudáveis de forma prática, e se sente perdido em meio a tantas informações na internet e gostaria de substituir ocasionalmente a carne por proteínas vegetais em sua alimentação. Tem como motivações: quer aprender a cozinhar para que a sua alimentação e das filhas seja mais saudável; gostaria de envolver as filhas e a esposa para que cozinhar se torne uma atividade divertida em família e precisa mudar seus hábitos alimentares por indicação médica.|
-|2| | |
+|2|![luana](https://user-images.githubusercontent.com/81182674/187477869-3cf0e06b-5b75-491f-872a-bc9afa002302.jpg) | Luana Almeida tem 35 anos e é dona de um restaurante vegano. Utiliza aplicativos como Instagram e Facebook. Mora em Belo Horizonte, tem uma filha de 5 anos, adora viajar e conhecer novas culturas. Se sente frustrada por não estar conseguindo atrair novos clientes para seu restaurante, e com a dificuldade em torná-lo mais conhecido. Tem como motivações, poder anunciar as refeições de seu restaurante em um local onde refeições veganas tenham maior visibilidade, e torná-lo um dos melhores de Belo Horizonte.|
 |3| | |
 |4| | |
 |5| | |
@@ -31,6 +31,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Miguel Torres       | Localizar receitas saudáveis       | Cozinhar e melhorar a minha alimentação e da minha família. |
 |Miguel Torres       | Localizar mercados com variedade de produtos saudáveis                | Pesquisar receitas que são preparadas com esses ingredientes. |
+|Luana Almeida       |anunciar as refeições de seu restaurante         | para aumentar sua clientela              |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
