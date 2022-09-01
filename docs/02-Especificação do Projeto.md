@@ -21,8 +21,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Miguel Torres       | Localizar receitas saudáveis       | Cozinhar e melhorar a minha alimentação e da minha família. |
 |Miguel Torres       | Localizar mercados com variedade de produtos saudáveis                | Pesquisar receitas que são preparadas com esses ingredientes. |
 |Luana Almeida       |anunciar as refeições de seu restaurante         | para aumentar sua clientela              |
