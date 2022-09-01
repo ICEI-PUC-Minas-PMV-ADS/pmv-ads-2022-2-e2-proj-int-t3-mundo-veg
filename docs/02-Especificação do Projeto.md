@@ -14,12 +14,6 @@ A descrição do problema e os pontos mais relevantes a serem tratados neste pro
 |4| | |
 |5| | |
 |6| | |
-  
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros. 
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -35,9 +29,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Júlia Araújo        | localizar receitas veganas          | para facilitar na introdução ao estilo vegano ao cozinhar minhas próprias refeições           |
 |Júlia Araújo        | localizar restaurantes veganos e/ou com opções veganas | para facilitar quando estiver viajando        |
 |Júlia Araújo        | localizar mercados com produtos 100% veganos | para o preparo de minhas refeições    |
-
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 ## Requisitos
 
