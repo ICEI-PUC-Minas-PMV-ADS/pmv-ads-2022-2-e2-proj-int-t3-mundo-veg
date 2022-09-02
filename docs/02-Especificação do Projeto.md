@@ -79,6 +79,6 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
- O diagrama contempla as principais ligações previstas entre casos de uso e atores. Detalhando os Requisitos Funcionais da aplicação interativa.
+ O diagrama contempla as principais ligações previstas entre casos de uso e atores, detalhando os Requisitos Funcionais da aplicação interativa.
 ![image](https://user-images.githubusercontent.com/100734910/188205446-324b17c9-2ce6-40da-933e-1f4c6b3a71b3.png)
 
