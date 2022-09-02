@@ -82,9 +82,3 @@ As questões que limitam a execução desse projeto e que se configuram como obr
  O diagrama contempla as principais ligações previstas entre casos de uso e atores. Detalhando os Requisitos Funcionais da aplicação interativa.
 ![image](https://user-images.githubusercontent.com/100734910/188205446-324b17c9-2ce6-40da-933e-1f4c6b3a71b3.png)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
