@@ -30,7 +30,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Augusto Morais      | localizar receitas vegetarianas e veganas | para apresentar opções vegetarianas e veganas em seus planos alimentares    |
 |Augusto Morais      | localizar restaurantes com opções veg |para incentivar seus clientes a diminuir o consumo de carne    |
 |Augusto Morais      | encontrar receitas variadas | para diversificar as opções    |
-
+|Maria Fernandes     | localizar restaurantes que realizam entrega de comida vegetariana | praticidade para se alimentar no trabalho. |
+|Maria Fernandes     | localizar restaurantes que tenham um cardápio com variedades de ingredientes| para se alimentar melhor e com qualidade no trabalho.|
 
 
 
