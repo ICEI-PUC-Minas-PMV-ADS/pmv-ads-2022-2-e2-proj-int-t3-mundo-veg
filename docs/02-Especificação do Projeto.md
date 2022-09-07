@@ -21,19 +21,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Miguel Torres       | Localizar receitas saudáveis       | Cozinhar e melhorar a minha alimentação e da minha família. |
-|Miguel Torres       | Localizar mercados com variedade de produtos saudáveis                | Pesquisar receitas que são preparadas com esses ingredientes. |
-|Luana Almeida       |anunciar as refeições de seu restaurante         | para aumentar sua clientela              |
-|Júlia Araújo        | localizar receitas veganas          | para facilitar na introdução ao estilo vegano ao cozinhar minhas próprias refeições           |
-|Júlia Araújo        | localizar restaurantes veganos e/ou com opções veganas | para facilitar quando estiver viajando        |
-|Júlia Araújo        | localizar mercados com produtos 100% veganos | para o preparo de minhas refeições    |
-|Augusto Morais      | localizar receitas vegetarianas e veganas | para apresentar opções vegetarianas e veganas em seus planos alimentares    |
-|Augusto Morais      | localizar restaurantes com opções veg |para incentivar seus clientes a diminuir o consumo de carne    |
-|Augusto Morais      | encontrar receitas variadas | para diversificar as opções    |
+|Miguel Torres       | localizar receitas saudáveis       | cozinhar e melhorar a minha alimentação e da minha família. |
+|Miguel Torres       | localizar mercados com variedade de produtos saudáveis                | pesquisar receitas que são preparadas com esses ingredientes. |
+|Luana Almeida       |anunciar as refeições de seu restaurante         | aumentar sua clientela.              |
+|Júlia Araújo        | localizar receitas veganas          | facilitar na introdução ao estilo vegano ao cozinhar minhas próprias refeições.           |
+|Júlia Araújo        | localizar restaurantes veganos e/ou com opções veganas | facilitar quando estiver viajando.        |
+|Júlia Araújo        | localizar mercados com produtos 100% veganos | o preparo de minhas refeições.    |
+|Augusto Morais      | localizar receitas vegetarianas e veganas | apresentar opções vegetarianas e veganas em seus planos alimentares.    |
+|Augusto Morais      | localizar restaurantes com opções veg |incentivar seus clientes a diminuir o consumo de carne.    |
+|Augusto Morais      | encontrar receitas variadas | diversificar as opções.    |
 |Maria Fernandes     | localizar restaurantes que realizam entrega de comida vegetariana | praticidade para se alimentar no trabalho. |
-|Maria Fernandes     | localizar restaurantes que tenham um cardápio com variedades de ingredientes| para se alimentar melhor e com qualidade no trabalho.|
-|Robinson Silva | encontrar restaurantes e mercados com opções vegs com acessibilidade para deficientes para | facilitar a rotina de cadeirantes e deficientes vegetarianos
-|Robinson Silva | adquirir via delivery condimentos e ingredientes vegs para incrementar suas receitas |  para permitir que as pessoas possam cozinhar alimentos vegs sem sair de casa
+|Maria Fernandes     | localizar restaurantes que tenham um cardápio com variedades de ingredientes| se alimentar melhor e com qualidade no trabalho.|
+|Robinson Silva | encontrar restaurantes e mercados com opções vegs com acessibilidade para deficientes para | facilitar a rotina de cadeirantes e deficientes vegetarianos.
+|Robinson Silva | adquirir via delivery condimentos e ingredientes vegs para incrementar suas receitas | permitir que as pessoas possam cozinhar alimentos vegs sem sair de casa.
 
 
 ## Requisitos
