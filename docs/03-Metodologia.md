@@ -58,7 +58,7 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
   <li>Bug (Erro no código)</li>
   <li>Documentation (Atualização da documentação)</li>
   <li>Enhancement (Novo recurso ou aprimoramento)</li>
-  <li>Hel wanted (Atenção necessária)</li>
+  <li>Help wanted (Atenção necessária)</li>
   <li>Test (Testes)</li>
 </ul>
 
