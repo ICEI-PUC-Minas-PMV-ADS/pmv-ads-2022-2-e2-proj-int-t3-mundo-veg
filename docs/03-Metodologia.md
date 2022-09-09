@@ -72,14 +72,10 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
 As ferramentas empregadas no projeto são:
 
 - Editor de código
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Ferramenta de comunicação
+- Ferramenta de desenho de tela (_wireframing_)
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de comunicação utilizada possui integração semelhante e por isso foi selecionada. Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
 <b>Relação de ambientes de trabalho</b>
 <p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e MarvelApp, apresentadas com seu propósito na tabela que se segue.<p/>
