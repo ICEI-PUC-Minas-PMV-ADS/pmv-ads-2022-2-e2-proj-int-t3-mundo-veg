@@ -56,15 +56,14 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
 
 <ul>
   <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
+  <li>Documentation (Atualização da documentação)</li>
+  <li>Enhancement (Novo recurso ou aprimoramento)</li>
+  <li>Hel wanted (Atenção necessária)</li>
+  <li>Test (Testes)</li>
 </ul>
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+  <img src="https://user-images.githubusercontent.com/100447878/189422827-c05db656-719e-41bc-9107-c8d110bab108.png"
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure>   
   
