@@ -2,7 +2,7 @@
 
 AMARAL, Vanessa de Araújo; OLIVEIRA, Angela Maria Fleury de; ISONI, Taciana Maria. Inovação social e metodologias ágeis: uma história de sucesso. <b>DOM</b>: a revista da Fundação Dom Cabral, Nova Lima, v. 12, n. 38, p. 66-71, maio/ago. 2019.
 
-ATLASSIAN BITBUCKET. Fluxo de trabalho de Gitflow. [<i>s. d.</i>]. Disponível em: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow. Acesso em: 09 set. 2022.
+ATLASSIAN BITBUCKET. <b>Fluxo de trabalho de Gitflow</b>. [<i>s. d.</i>]. Disponível em: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow. Acesso em: 09 set. 2022.
 
 BOIRA, Joan. <b>[Fotografia]</b>. c2022. Disponível em:
 https://joanboira.com/fotografo-de-retrato-para-perfil-profesional-y-linkedin/. Acesso em: 19 ago. 2022.
