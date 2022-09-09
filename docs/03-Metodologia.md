@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Documentação de Especificação</a></span>
 
-Esta seção descreve as ferramentas utilizadas pela equipe para a manutenção dos códigos e demais artefatos e sua organização para a execução das tarefas do projeto.
+Esta seção descreve as ferramentas utilizadas pela equipe para a manutenção dos códigos e demais artefatos, e sua organização para a execução das tarefas do projeto.
 
 ## Controle de Versão
 
