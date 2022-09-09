@@ -35,14 +35,39 @@ Desta forma, a equipe está organizada da seguinte maneira:
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub, estruturado com as seguintes listas: 
 
+<ul>
+  <li>Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer do projeto são incorporadas a esta lista.</li>
+  <li>To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.</li>
+  <li>In progress: lista das tarefas iniciadas.</li>
+  <li>Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.</li>
+ </ul>
+
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/59/views/1 e é apresentado, no estado atual, na figura abaixo:
+
+<figure> 
+  <img src="https://user-images.githubusercontent.com/100447878/189419961-e6bf3c6c-e17f-47c2-83f5-106972109a48.png">
+    <figcaption>Figura 2 - Tela do kanban no GitHub utilizada pelo grupo</figcaption>
+</figure> 
+
+<h3>Etiquetas</h3>
+<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+
+<ul>
+  <li>Bug (Erro no código)</li>
+  <li>Desenvolvimento (Development)</li>
+  <li>Documentação (Documentation)</li>
+  <li>Gerência de Projetos (Project Management)</li>
+  <li>Infraestrutura (Infrastructure)</li>
+  <li>Testes (Tests)</li>
+</ul>
+
+<figure> 
+  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+</figure>   
+  
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
@@ -57,8 +82,12 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+<b>Relação de ambientes de trabalho</b>
+<p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e MarvelApp, apresentadas com seu propósito na tabela que se segue.<p/>
+
+| AMBIENTE | PLATAFORMA |LINK DE ACESSO                 |
+|--------------------|--------------------------------------------------------------------------------|----------------------------------------|
+|Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/blob/main/src/README.md  |
+|Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante#vida-de-estudante  |
+|Projeto de interface e wireframes | MarvelApp | https://marvelapp.com/prototype/i39bj37/screen/86143037 |
+|Gerenciamento do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2 |
