@@ -75,7 +75,7 @@ As ferramentas empregadas no projeto são:
 - Ferramenta de gerenciamento: Github
 - Ferramenta de desenho de tela (_wireframing_): Marvel App
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de comunicação utilizada possui integração semelhante e por isso foi selecionada. Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento utilizada possui integração semelhante e por isso foi selecionada. Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
 <b>Relação de ambientes de trabalho</b>
 <p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e MarvelApp, apresentadas com seu propósito na tabela que se segue.<p/>
