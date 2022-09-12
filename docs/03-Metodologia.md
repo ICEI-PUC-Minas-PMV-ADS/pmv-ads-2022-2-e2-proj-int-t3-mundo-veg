@@ -84,5 +84,5 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/blob/main/src/README.md |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg  |
-|Projeto de interface e wireframes | MarvelApp | https://marvelapp.com |
+|Projeto de interface e wireframes | Marvel | https://marvelapp.com |
 |Gerenciamento do projeto  | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/59 |
