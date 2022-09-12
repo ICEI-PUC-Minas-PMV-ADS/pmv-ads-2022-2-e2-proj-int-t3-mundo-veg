@@ -14,7 +14,7 @@ O objetivo geral deste projeto é a criação de uma aplicação interativa de f
 * Daiane Campos Procópio
 * Fernanda Augusta de Barcelos Coura
 * Guilherme Faustini de Azevedo
-* Juliana Calazans Rodrigues de Magalhaes
+* Juliana Calazans Rodrigues de Magalhães
 * Rúbia Karina Prado Costa
 
 ## Orientador
