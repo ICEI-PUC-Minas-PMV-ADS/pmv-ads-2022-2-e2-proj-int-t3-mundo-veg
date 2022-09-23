@@ -73,9 +73,10 @@ As ferramentas empregadas no projeto são:
 
 - Editor de código: Visual Studio Code
 - Ferramenta de gerenciamento: Github
+- Ferramenta de comunicação: Microsoft Teams
 - Ferramenta de desenho de tela (_wireframing_): Marvel
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento utilizada possui integração semelhante e por isso foi selecionada. Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento utilizada possui integração semelhante e por isso foi selecionada. A ferramenta de comunicação foi selecionada por ser a mesma utilizada nos encontros com o professor orientador e Product Owner do projeto. Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
 <b>Relação de ambientes de trabalho</b>
 <p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Marvel, apresentadas com seu propósito na tabela que se segue.<p/>
@@ -84,5 +85,5 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/blob/main/src/README.md |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg  |
-|Projeto de interface e wireframes | Marvel | https://marvelapp.com |
+|Projeto de interface e wireframes | Marvel | https://marvelapp.com/prototype/1825b469/screen/88432745 |
 |Gerenciamento do projeto  | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/59 |
