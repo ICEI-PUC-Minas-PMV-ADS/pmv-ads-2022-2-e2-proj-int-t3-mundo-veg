@@ -13,7 +13,7 @@ Para a gestão do código fonte do software desenvolvido pela equipe será utili
 
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/164069517-f747ce40-3bef-4ac5-9585-9d6259848bb4.png"
-  <figcaption>Figura 1 - Fluxo de controle do código fonte no repositório Git</figcaption>
+  <figcaption>Figura 2 - Fluxo de controle do código fonte no repositório Git</figcaption>
 <figure>
 
 ## Gerenciamento de Projeto
@@ -48,7 +48,7 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
 
 <figure> 
   <img src="https://user-images.githubusercontent.com/100447878/189419961-e6bf3c6c-e17f-47c2-83f5-106972109a48.png">
-    <figcaption>Figura 2 - Tela do kanban no GitHub utilizada pelo grupo</figcaption>
+    <figcaption>Figura 3 - Tela do kanban no GitHub utilizada pelo grupo</figcaption>
 </figure> 
 
 <h3>Etiquetas</h3>
