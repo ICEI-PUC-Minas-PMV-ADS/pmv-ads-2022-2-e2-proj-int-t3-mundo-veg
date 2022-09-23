@@ -12,7 +12,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação interativa deve permitir ao usuário cadastrar uma conta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Cadastro" na página inicial <br> - Preencher os campos obrigatórios (nome completo, e-mail, telefone, endereço, senha, confirmação de senha) <br> - Clicar em "Registrar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Cadastro" na página inicial <br> - Clicar em “Cliente” na página de cadastro <br> - Preencher os campos obrigatórios (nome completo, e-mail, telefone, endereço, senha, confirmação de senha) <br> - Clicar em "Registrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Cadastrar mercado/restaurante**	|
