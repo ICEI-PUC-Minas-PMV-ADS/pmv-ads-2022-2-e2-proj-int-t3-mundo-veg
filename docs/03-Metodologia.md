@@ -76,7 +76,7 @@ As ferramentas empregadas no projeto são:
 - Ferramenta de comunicação: Microsoft Teams
 - Ferramenta de desenho de tela (_wireframing_): Marvel
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento utilizada possui integração semelhante e por isso foi selecionada. A ferramenta de comunicação foi selecionada por ser a mesma utilizada nos encontros com o professor orientador e Product Owner do projeto. Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento utilizada possui integração semelhante e por isso foi selecionada. A ferramenta de comunicação foi selecionada por ser a mesma utilizada nas reuniões com o professor orientador e Product Owner do projeto. Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
 <b>Relação de ambientes de trabalho</b>
 <p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Marvel, apresentadas com seu propósito na tabela que se segue.<p/>
