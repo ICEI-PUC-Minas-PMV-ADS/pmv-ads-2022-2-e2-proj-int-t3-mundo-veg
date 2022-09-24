@@ -34,16 +34,171 @@
 * Forneceremos acesso ao ambiente de demonstração.
 
 
+## Consentimento do Usuário
+Os testes de usabilidade serão em ambiente **remoto** e os resultados apresentados deverão ser preenchidos através de um relatório disponibilizado no final do teste. Os usuários precisam assinar o termo de consentimento.
+
+
+## Fase 1- [Planejamento de Atividades]
+Encontrar os principais atritos e usabilidade para contas **Físicas**.
+
+#### **10** Participantes no total
+
+### 1.1 Persona - Usuários interessados em: Cadastro de Conta Física
+
+#### Atividades :
+
+Você se encontra na página de Cadastro de conta Física. Simule o cadastro com suas informações pessoais, completando todos os campos obrigatórios e salve as informações no final.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para cadastrar;
+* Poucos campos para preencher;
+* Muitos campos para preencher;
+* Tempo de permanência na página;
+* Quantidades de cliques;
+* Erro ao salvar;
+* Nível de interesse em se cadastrar na plataforma.
+
+
+
+### 2.1 Persona - Usuários interessados em: Login
+
+#### Atividades :
+
+Você se encontra na página de Login. Simule preenchendo os campos de E-mail e Senha, após clique no botão de logar.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para realizar o Login;
+* Tempo de permanência na página;
+* Quantidades de cliques;
+* Erro ao logar;
+* Nível de interação com a página.
+
+
+
+### 3.1 Persona - Usuários interessados em: Gerenciamento de Conta
+
+#### Atividades :
+
+Você se encontra na página de Gerenciamento de Conta. Simule a atualização de cadastro com as suas informações pessoais, completando todos os campos desejados e lembre-se de salvar no final.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para realizar a atualização de cadastro;
+* Tempo de permanência na página;
+* Quantidades de cliques;
+* Erro ao salvar;
+* Nível de interação com a página;
+
+
+
+### 4.2 Persona - Usuários interessados em: Cadastro de Receitas
+
+#### Atividades :
+
+Você se encontra na página de cadastro de receitas. Simule o cadastro completando todos os campos solicitados e no final salve as informações. 
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para cadastrar;
+* Poucos campos para preencher;
+* Erro no momento de salvar as informações;
+* Tempo de permanência na página;
+* Quantidades de cliques;
+* Nível de satisfação e interesse de contribuição na plataforma.
+
+
+
+### 5.2 Persona - Usuários interessados em: Localizar ingredientes, receitas e produtos.
+
+#### Atividades :
+
+Você se encontra na página de pesquisas de ingredientes, receitas e produtos simule a pesquisa e utilize o filtro para encontrar o que deseja. 
+
+#### Possíveis Atritos e Usabilidades :
+
+* Não conseguiu utilizar o filtro de pesquisa;
+* Poucas opções no filtro de ingredientes;
+* Poucas opções de receitas e produtos;
+* Quantidades de cliques;
+* Tempo de permanência na página;
+* Erros no momento de solicitar a pesquisa;
+* Nível de satisfação da pesquisa.
+
+ 
+
+### 5.3 Persona - Localizar Mercados e Restaurantes
+
+#### Atividades :
+
+Você se encontra na página de pesquisas de mercados e restaurantes, simule a pesquisa e utilize o filtro para encontrar o estabelecimento desejado. No final, clique na opção de entrar em contato com o estabelecimento. Você será direcionado para o link do WhatsApp.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Não conseguiu utilizar o filtro de pesquisa;
+* Poucas informações sobre os pratos e produtos dos estabelecimentos;
+* Erros no momento de solicitar a pesquisa;
+* Poucas opções de mercados e restaurantes;
+* Dificuldade em entrar em contato pelo WhatsApp;
+* Nível de satisfação da pesquisa.
 
 
 
 
+## Fase 2- [Planejamento de Atividades]
+Encontrar os principais atritos e usabilidade para contas **Jurídicas**.
+
+#### **5** Participantes no total
+
+### 1.2 Persona - Usuários interessados em: Cadastro de Mercado ou Restaurante
+
+#### Atividades :
+
+Você se encontra na página de Cadastro de estabelecimento. Simule o cadastro com informações, completando todos os campos obrigatórios e salve as informações no final.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para cadastrar;
+* Poucos campos para preencher;
+* Muitos campos para preencher;
+* Tempo de permanência na página;
+* Quantidades de cliques;
+* Erro ao salvar;
+* Nível de interesse em participar da plataforma.
 
 
 
+### 2.1 Persona - Usuários interessados em: Login
+
+#### Atividades :
+
+Você se encontra na página de Login. Simule preenchendo os campos de E-mail e Senha, após clique no botão de logar.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para realizar o Login
+* Tempo de permanência na página
+* Quantidades de cliques
+* Erro ao logar.
+* Nível de interação com a página.
 
 
 
+### 3.1 Persona - Usuários interessados em: Gerenciamento de Conta
+
+#### Atividades :
+
+Você se encontra na página de Gerenciamento de Conta. Simule a atualização de cadastro com as informações do estabelecimento, completando todos os campos desejados e 
+lembre-se de salvar no final.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para realizar a atualização de cadastro;
+* Tempo de permanência na página;
+* Quantidades de cliques;
+* Erro ao salvar;
+* Nível de interação com a página.
 
 
 
