@@ -42,31 +42,31 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 | **Caso de Teste** 	| **CT-06 – Filtro/pesquisa de receitas através de ingredientes**	|
 |Requisito Associado | RF-006 - A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário pesquisar receitas através de ingredientes específicos. |
 | Objetivo do Teste 	| Verificar se a funcionalidade de filtrar/pesquisar é feita corretamente. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em “Ingrediente” <br> - Preencher o campo "Filtrar" |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação <br> - Clicar em “Ingrediente” <br> - Preencher o campo "Filtrar" |
 |Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente as receitas filtradas que contém o ingrediente pesquisado. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Visualizar informações contato de restaurantes e mercados**	|
 |Requisito Associado |RF-007	A aplicação interativa deve permitir ao usuário visualizar as informações de contato dos restaurantes e mercados. |
 | Objetivo do Teste 	| Verificar se usuário tem acesso as informações de contato dos restaurantes e mercados. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado |<br> - Clicar no icone do "Restaurante/Mercado" exibido para visualizar informações de contato |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação <br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado |<br> - Clicar no icone do "Restaurante/Mercado" exibido para visualizar informações de contato |
 |Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente os restaurantes/mercados filtrados e suas respectivas informações de contato. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-08 – Contactar os restaurantes e mercados através do WhatsApp**	|
 |Requisito Associado | RF-008	A aplicação interativa deve permitir ao usuário entrar em contato com os restaurantes e mercados através do WhatsApp, para que ele faça o pedido da compra diretamente com os estabelecimentos. |
 | Objetivo do Teste 	| Verificar se a funcionalidade de contactar os restaurantes e mercados através do WhatsApp funciona corretamente. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado |<br> - Clicar no icone do "Restaurante/Mercado" exibido para visualizar informações de contato |<br> - Clicar em "número de telefone X" ou no ícone "WhatsApp" |<br> - Redirecionamento para "WhatsApp" |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação <br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado |<br> - Clicar no icone do "Restaurante/Mercado" exibido para visualizar informações de contato |<br> - Clicar em "número de telefone X" ou no ícone "WhatsApp" |<br> - Redirecionamento para "WhatsApp" |
 |Critério de Êxito | - O usuário consegue contactar o restaurante/ mercado por "WhatsApp" através da aplicação interativa. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-09 – Cadastrar receitas**	|
 |Requisito Associado | RF-009	A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma. |
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar receitas na plataforma. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Receitas" na página inicial <br> - Clicar em “Cadastrar” na página de receitas  <br> - Preencher os campos obrigatórios  de "Login" <br> - Preencher os campos obrigatórios na área de cadastro de receitas <br> - Clicar em "Cadastrar receita" |
+| Passos 	| - Acessar o navegador <br> -Acessar a aplicação <br> - Clicar em "Receitas" na página inicial <br> - Clicar em “Cadastrar” na página de receitas  <br> - Preencher os campos obrigatórios  de "Login" <br> - Preencher os campos obrigatórios na área de cadastro de receitas <br> - Clicar em "Cadastrar receita" |
 |Critério de Êxito | - O cadastro de receita foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-10 – Gerenciar conta**	|
 |Requisito Associado | RF-010	A aplicação interativa deve permitir ao usuário gerenciar a sua conta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue gerenciar sua conta. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Login" na página inicial <br> - Acessar/gerenciar dados cadastrados em "Conta" |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação <br> - Clicar em "Login" na página inicial <br> - Acessar/gerenciar dados cadastrados em "Conta" |
 |Critério de Êxito | - O usuário consegue gerenciar sua conta |
  
 > **Links Úteis**:
