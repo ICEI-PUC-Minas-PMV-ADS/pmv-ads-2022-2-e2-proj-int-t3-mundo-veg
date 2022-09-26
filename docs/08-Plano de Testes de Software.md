@@ -38,6 +38,13 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 | Objetivo do Teste 	| Verificar se a funcionalidade de filtrar/pesquisar é feita corretamente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" |
 |Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente os restaurantes/mercados filtrados. |
+|   |   |
+| **Caso de Teste** 	| **CT-06 – Filtro/pesquisa de receitas através de ingredientes**	|
+|Requisito Associado | RF-006 - A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário pesquisar receitas através de ingredientes específicos. |
+| Objetivo do Teste 	| Verificar se a funcionalidade de filtrar/pesquisar é feita corretamente. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em “Ingrediente” <br> - Preencher o campo "Filtrar" |
+|Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente as receitas filtradas que contém aquele ingrediente. |
+
 
 
  
