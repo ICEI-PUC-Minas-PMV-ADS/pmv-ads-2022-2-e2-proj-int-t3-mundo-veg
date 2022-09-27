@@ -18,6 +18,136 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
+  
+
+### Tela de HomePage
+  
+  
+  A Tela de HomePage apresenta banners que redirecionam o usuário para as telas de restaurantes, mercado e receitas.
+  
+  
+![2022-09-26 (12)](https://user-images.githubusercontent.com/81182674/192572630-e3b7c210-63be-41bd-9e28-0ed0ba5dde04.png)
+
+  <hr>
+  
+ ### Tela de Restaurantes
+  
+  
+ A Tela de Restaurantes apresenta as refeições disponíveis,suas descrições e informações dos estabelecimentos anunciantes. Apresenta também, um filtro para que o usuário consiga localizar as refeições de acordo com suas necessidades.
+  
+ ![2022-09-26 (13)](https://user-images.githubusercontent.com/81182674/192576722-f03de8d2-261a-421f-84d3-62571655a06d.png)
+
+
+  <hr>
+  
+ ### Tela de Mercado
+  
+  
+ A Tela de Mercado apresenta os produtos disponíveis, suas descrições e informações dos estabelecimentos anunciantes. Apresenta também, um filtro para que o usuário consiga localizar os itens de acordo com suas necessidades.
+  
+  
+![2022-09-26 (14)](https://user-images.githubusercontent.com/81182674/192576677-f38b550f-49ad-4ff7-bf0d-b2962b20488c.png)
+
+  <hr>
+  
+### Tela de Receitas
+  
+  
+ A Tela de Receitas apresenta as receitas disponíveis e as informações destas. Apresenta também, um filtro para que o usuário consiga localizá-las de acordo com suas necessidades.
+  
+  
+
+![2022-09-26 (15)](https://user-images.githubusercontent.com/81182674/192577388-5b897beb-325f-4c0b-aa45-42e80d6fbc1b.png)
+
+  <hr>
+ 
+  
+### Tela de Cadastro
+  
+  
+ A Tela de Cadastro apresenta duas opções, sendo uma para clientes e outra para estabelecimentos. De acordo com a opção que o usuário escolher, ele será redirecionado para o formulário correspondente.
+  
+  
+![2022-09-26 (16)](https://user-images.githubusercontent.com/81182674/192578133-d1534d6e-0285-49c7-ad65-8ccc835a2e35.png)
+
+
+
+  <hr>
+  
+  
+### Tela de Cadastro de Clientes
+  
+  
+ A Tela de Cadastro de Clientes apresenta um formulário para que o cliente cadastre seus dados e crie uma senha.
+  
+  
+
+
+![2022-09-26 (18)](https://user-images.githubusercontent.com/81182674/192579267-2abbf91c-f74c-444a-8f19-7f5344aa8efb.png)
+
+
+  <hr> 
+  
+  
+  ### Tela de Cadastro de Estabelecimentos
+  
+  
+ A Tela de Cadastro de Estabelecimentos apresenta um formulário para que o usuário cadastre as informações de seu estabelecimento e crie uma senha.
+  
+  
+
+![2022-09-26 (19)](https://user-images.githubusercontent.com/81182674/192585374-c52b8c62-beb6-401f-bf15-7c01948e012c.png)
+
+
+
+  <hr> 
+  
+  
+### Tela de Login
+  
+  
+ A Tela de Login apresenta campos para inserção de email e senha.
+  
+  
+
+
+![2022-09-26 (17)](https://user-images.githubusercontent.com/81182674/192580231-2299057b-d1b7-43d5-bf29-88d34a52cdf1.png)
+
+
+  <hr> 
+
+
+  ### Tela de Perfil de Clientes
+  
+  
+  A Tela de Perfil de Clientes apresenta um menu lateral, que permite ter acesso às informações do cliente(que foram inseridas na Página de Cadastro), ao formulário de Cadastro de Receitas,ao gerenciamento de receitas cadastradas e à opção de "Logout".
+  
+ 
+  
+![2022-09-26 (20)](https://user-images.githubusercontent.com/81182674/192584974-eee66ba8-9b2f-4852-8811-8852bd3da9ac.png)
+
+
+
+  <hr> 
+
+  
+ ### Tela de Perfil de Estabelecimentos
+  
+  
+  A Tela de Perfil de Estabelecimento apresenta um menu lateral, que permite ter acesso às informações do estabelecimento(que foram inseridas na Página de Cadastro), aos formulários de cadastro de refeições e de itens de mercado , ao gerenciamento do que foi cadastrado,  e à opção de "Logout".
+  
+  
+
+
+![2022-09-26 (21)](https://user-images.githubusercontent.com/81182674/192582720-3c113adb-ccc7-41c0-be2a-9a1e50141ebb.png)
+
+
+
+  <hr> 
+
+  
+
+  
+  
