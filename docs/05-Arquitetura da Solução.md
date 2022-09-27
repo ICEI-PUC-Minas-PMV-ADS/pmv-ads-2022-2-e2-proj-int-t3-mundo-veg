@@ -9,7 +9,7 @@ A arquitetura da solução apresenta como o software é estruturado em termos do
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 <figure>
   <img src="https://user-images.githubusercontent.com/100734910/191252412-18dcc9ab-b8ff-4846-b29f-17a2d4e677de.png"
-  <figcaption>Figura 6 - Diagrama de classes</figcaption>
+  <figcaption>Figura 16 - Diagrama de classes</figcaption>
 <figure>
 
 ## Modelo ER (Projeto Conceitual)
@@ -18,7 +18,7 @@ O Modelo ER representa através de um diagrama como as entidades se relacionam e
 
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/192556578-65b8169a-e00c-4dd7-baf0-573df8d1e5c6.png"
-  <figcaption>Figura 7 - Modelo Entidade Relacionamento</figcaption>
+  <figcaption>Figura 17 - Modelo Entidade Relacionamento</figcaption>
 <figure>
 
 ## Projeto da Base de Dados
@@ -27,7 +27,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
   
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/192556960-36833518-9bbe-4a8d-a304-20bb8c143b35.png"
-  <figcaption>Figura 8 - Projeto da Base de Dados</figcaption>
+  <figcaption>Figura 18 - Projeto da Base de Dados</figcaption>
 <figure>
 
 ## Tecnologias Utilizadas
