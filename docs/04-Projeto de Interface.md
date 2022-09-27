@@ -31,53 +31,51 @@ A Tela de Home Page apresenta banners que redirecionam o usuário para as telas 
   
  ### Tela de Restaurantes
   
-  
- A Tela de Restaurantes apresenta as refeições disponíveis,suas descrições e informações dos estabelecimentos anunciantes. Apresenta também, um filtro para que o usuário consiga localizar as refeições de acordo com suas necessidades.
-  
- ![2022-09-26 (13)](https://user-images.githubusercontent.com/81182674/192576722-f03de8d2-261a-421f-84d3-62571655a06d.png)
+A Tela de Restaurantes apresenta as refeições disponíveis, suas descrições e informações dos estabelecimentos anunciantes. Apresenta também um filtro para que o usuário consiga localizar as refeições de acordo com suas necessidades.
 
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192576722-f03de8d2-261a-421f-84d3-62571655a06d.png"
+  <figcaption>Figura 7 - Tela de restaurantes</figcaption>
+<figure> 
 
-  <hr>
+<hr>
   
  ### Tela de Mercado
   
+A Tela de Mercado apresenta os produtos disponíveis, suas descrições e informações dos estabelecimentos anunciantes. Apresenta também um filtro para que o usuário consiga localizar os itens de acordo com suas necessidades.
   
- A Tela de Mercado apresenta os produtos disponíveis, suas descrições e informações dos estabelecimentos anunciantes. Apresenta também, um filtro para que o usuário consiga localizar os itens de acordo com suas necessidades.
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192576677-f38b550f-49ad-4ff7-bf0d-b2962b20488c.png"
+  <figcaption>Figura 8 - Tela de mercado</figcaption>
+<figure>  
   
-  
-![2022-09-26 (14)](https://user-images.githubusercontent.com/81182674/192576677-f38b550f-49ad-4ff7-bf0d-b2962b20488c.png)
-
-  <hr>
+<hr>
   
 ### Tela de Receitas
   
+A Tela de Receitas apresenta as receitas disponíveis e as informações destas. Apresenta também um filtro para que o usuário consiga localizá-las de acordo com suas necessidades.
   
- A Tela de Receitas apresenta as receitas disponíveis e as informações destas. Apresenta também, um filtro para que o usuário consiga localizá-las de acordo com suas necessidades.
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192577388-5b897beb-325f-4c0b-aa45-42e80d6fbc1b.png"
+  <figcaption>Figura 9 - Tela de receitas</figcaption>
+<figure>  
   
-  
-
-![2022-09-26 (15)](https://user-images.githubusercontent.com/81182674/192577388-5b897beb-325f-4c0b-aa45-42e80d6fbc1b.png)
-
-  <hr>
+<hr>
  
-  
 ### Tela de Cadastro
   
-  
- A Tela de Cadastro apresenta duas opções, sendo uma para clientes e outra para estabelecimentos. De acordo com a opção que o usuário escolher, ele será redirecionado para o formulário correspondente.
-  
-  
-![2022-09-26 (16)](https://user-images.githubusercontent.com/81182674/192578133-d1534d6e-0285-49c7-ad65-8ccc835a2e35.png)
+A Tela de Cadastro apresenta duas opções, sendo uma para clientes e outra para estabelecimentos. De acordo com a opção que o usuário escolher, ele será redirecionado para o formulário correspondente.
 
-
-
-  <hr>
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192578133-d1534d6e-0285-49c7-ad65-8ccc835a2e35.png"
+  <figcaption>Figura 10 - Tela de cadastro</figcaption>
+<figure>  
   
+<hr>
   
 ### Tela de Cadastro de Clientes
   
-  
- A Tela de Cadastro de Clientes apresenta um formulário para que o cliente cadastre seus dados e crie uma senha.
+A Tela de Cadastro de Clientes apresenta um formulário para que o cliente cadastre seus dados e crie uma senha.
   
   
 
@@ -139,12 +137,4 @@ A Tela de Home Page apresenta banners que redirecionam o usuário para as telas 
 
 
 ![2022-09-26 (21)](https://user-images.githubusercontent.com/81182674/192582720-3c113adb-ccc7-41c0-be2a-9a1e50141ebb.png)
-
-
-
-  <hr> 
-
-  
-
-  
   
