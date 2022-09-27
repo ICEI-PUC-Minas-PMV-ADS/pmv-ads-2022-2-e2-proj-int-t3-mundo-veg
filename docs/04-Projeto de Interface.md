@@ -108,7 +108,7 @@ A Tela de Login apresenta campos para inserção de email e senha.
 
 ### Tela de Perfil de Clientes
   
-A Tela de Perfil de Clientes apresenta um menu lateral, que permite ter acesso às informações do cliente(que foram inseridas na Página de Cadastro), ao formulário de Cadastro de Receitas,ao gerenciamento de receitas cadastradas e à opção de "Logout".
+A Tela de Perfil de Clientes apresenta um menu lateral que permite ter acesso às informações do cliente inseridas na Página de Cadastro, ao formulário de Cadastro de Receitas, ao gerenciamento de receitas cadastradas e à opção de "Logout".
   
 <figure>
   <img src="https://user-images.githubusercontent.com/81182674/192584974-eee66ba8-9b2f-4852-8811-8852bd3da9ac.png"
@@ -119,7 +119,7 @@ A Tela de Perfil de Clientes apresenta um menu lateral, que permite ter acesso �
 
  ### Tela de Perfil de Estabelecimentos
   
-A Tela de Perfil de Estabelecimento apresenta um menu lateral, que permite ter acesso às informações do estabelecimento(que foram inseridas na Página de Cadastro), aos formulários de cadastro de refeições e de itens de mercado, ao gerenciamento do que foi cadastrado, e à opção de "Logout".
+A Tela de Perfil de Estabelecimentos apresenta um menu lateral que permite ter acesso às informações do estabelecimento inseridas na Página de Cadastro, aos formulários de cadastro de refeições e de itens de mercado, ao gerenciamento do que foi cadastrado e à opção de "Logout".
   
 <figure>
   <img src="https://user-images.githubusercontent.com/81182674/192582720-3c113adb-ccc7-41c0-be2a-9a1e50141ebb.png"
