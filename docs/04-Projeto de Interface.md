@@ -77,64 +77,51 @@ A Tela de Cadastro apresenta duas opções, sendo uma para clientes e outra para
   
 A Tela de Cadastro de Clientes apresenta um formulário para que o cliente cadastre seus dados e crie uma senha.
   
-  
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192579267-2abbf91c-f74c-444a-8f19-7f5344aa8efb.png"
+  <figcaption>Figura 11 - Tela de cadastro de clientes</figcaption>
+<figure>  
 
-
-![2022-09-26 (18)](https://user-images.githubusercontent.com/81182674/192579267-2abbf91c-f74c-444a-8f19-7f5344aa8efb.png)
-
-
-  <hr> 
+<hr> 
   
+### Tela de Cadastro de Estabelecimentos
   
-  ### Tela de Cadastro de Estabelecimentos
+A Tela de Cadastro de Estabelecimentos apresenta um formulário para que o usuário cadastre as informações de seu estabelecimento e crie uma senha.
   
+ <figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192585374-c52b8c62-beb6-401f-bf15-7c01948e012c.png"
+  <figcaption>Figura 12 - Tela de cadastro de estabelecimentos</figcaption>
+<figure>   
   
- A Tela de Cadastro de Estabelecimentos apresenta um formulário para que o usuário cadastre as informações de seu estabelecimento e crie uma senha.
-  
-  
-
-![2022-09-26 (19)](https://user-images.githubusercontent.com/81182674/192585374-c52b8c62-beb6-401f-bf15-7c01948e012c.png)
-
-
-
-  <hr> 
-  
-  
+<hr> 
+    
 ### Tela de Login
   
+A Tela de Login apresenta campos para inserção de email e senha.
   
- A Tela de Login apresenta campos para inserção de email e senha.
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192580231-2299057b-d1b7-43d5-bf29-88d34a52cdf1.png"
+  <figcaption>Figura 13 - Tela de login</figcaption>
+<figure>     
   
+<hr> 
+
+### Tela de Perfil de Clientes
   
-
-
-![2022-09-26 (17)](https://user-images.githubusercontent.com/81182674/192580231-2299057b-d1b7-43d5-bf29-88d34a52cdf1.png)
-
-
-  <hr> 
-
-
-  ### Tela de Perfil de Clientes
+A Tela de Perfil de Clientes apresenta um menu lateral, que permite ter acesso às informações do cliente(que foram inseridas na Página de Cadastro), ao formulário de Cadastro de Receitas,ao gerenciamento de receitas cadastradas e à opção de "Logout".
   
-  
-  A Tela de Perfil de Clientes apresenta um menu lateral, que permite ter acesso às informações do cliente(que foram inseridas na Página de Cadastro), ao formulário de Cadastro de Receitas,ao gerenciamento de receitas cadastradas e à opção de "Logout".
-  
- 
-  
-![2022-09-26 (20)](https://user-images.githubusercontent.com/81182674/192584974-eee66ba8-9b2f-4852-8811-8852bd3da9ac.png)
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192584974-eee66ba8-9b2f-4852-8811-8852bd3da9ac.png"
+  <figcaption>Figura 14 - Tela de perfil de clientes</figcaption>
+<figure> 
 
+<hr> 
 
-
-  <hr> 
-
-  
  ### Tela de Perfil de Estabelecimentos
   
+A Tela de Perfil de Estabelecimento apresenta um menu lateral, que permite ter acesso às informações do estabelecimento(que foram inseridas na Página de Cadastro), aos formulários de cadastro de refeições e de itens de mercado, ao gerenciamento do que foi cadastrado, e à opção de "Logout".
   
-  A Tela de Perfil de Estabelecimento apresenta um menu lateral, que permite ter acesso às informações do estabelecimento(que foram inseridas na Página de Cadastro), aos formulários de cadastro de refeições e de itens de mercado , ao gerenciamento do que foi cadastrado,  e à opção de "Logout".
-  
-  
-
-
-![2022-09-26 (21)](https://user-images.githubusercontent.com/81182674/192582720-3c113adb-ccc7-41c0-be2a-9a1e50141ebb.png)
-  
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192582720-3c113adb-ccc7-41c0-be2a-9a1e50141ebb.png"
+  <figcaption>Figura 15 - Tela de perfil de estabelecimentos</figcaption>
+<figure>  
