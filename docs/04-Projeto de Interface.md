@@ -16,7 +16,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
-Apresentamos abaixo o protótipo usado para demonstrar a estrutura da aplicação web e seu relacionamentos entre suas páginas. Para consultar o wireframe interativo, clique <a href="https://marvelapp.com/prototype/1825b469/screen/88432745">aqui</a>.
+Apresentamos abaixo o protótipo usado para demonstrar a estrutura da aplicação web e o relacionamento entre suas páginas. Para consultar o wireframe interativo, clique <a href="https://marvelapp.com/prototype/1825b469/screen/88432745">aqui</a>.
   
 ### Tela de Home Page
   
