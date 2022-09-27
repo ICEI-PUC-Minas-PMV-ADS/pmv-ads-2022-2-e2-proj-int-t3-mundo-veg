@@ -16,21 +16,18 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+Apresentamos abaixo o protótipo usado para demonstrar a estrutura da aplicação web e seu relacionamentos entre suas páginas. Para consultar o wireframe interativo, clique <a href="https://marvelapp.com/prototype/1825b469/screen/88432745">aqui</a>.
+  
+### Tela de Home Page
+  
+A Tela de Home Page apresenta banners que redirecionam o usuário para as telas de restaurantes, mercado e receitas. 
 
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/192572630-e3b7c210-63be-41bd-9e28-0ed0ba5dde04.png"
+  <figcaption>Figura 6 - Tela home page</figcaption>
+<figure>  
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-  
-
-### Tela de HomePage
-  
-  
-  A Tela de HomePage apresenta banners que redirecionam o usuário para as telas de restaurantes, mercado e receitas.
-  
-  
-![2022-09-26 (12)](https://user-images.githubusercontent.com/81182674/192572630-e3b7c210-63be-41bd-9e28-0ed0ba5dde04.png)
-
-  <hr>
+<hr>
   
  ### Tela de Restaurantes
   
