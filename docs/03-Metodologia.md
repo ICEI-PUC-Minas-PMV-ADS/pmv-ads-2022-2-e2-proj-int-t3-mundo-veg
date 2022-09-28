@@ -76,7 +76,7 @@ As ferramentas empregadas no projeto são:
 - Ferramenta de comunicação: Microsoft Teams
 - Ferramenta de desenho de tela (_wireframing_): Marvel
 
-O editor de código, Visual Studio Code, foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento do Github foi selecionada por permitir organizar e priorizar o trabalho desenvolvido pelo grupo, e pela flexibilidade para criar fluxos de trabalho personalizados que atendam às nossas necessidades. A ferramenta de comunicação, Microsoft Teams, foi selecionada por ser a mesma utilizada nas reuniões com o professor orientador e product owner. Por fim, para criar os desenhos de tela, utilizamos a ferramenta Marvel por melhor captar as necessidades da nossa solução.
+O editor de código, Visual Studio Code, foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento do Github foi selecionada pela flexibilidade para criar fluxos de trabalho personalizados que atendam às necessidades do grupo. A ferramenta de comunicação, Microsoft Teams, foi selecionada por ser a mesma utilizada nas reuniões com o professor orientador e product owner. Por fim, para criar os desenhos de tela, utilizamos a ferramenta Marvel por melhor captar as necessidades da nossa solução.
 
 <b>Relação de ambientes de trabalho</b>
 <p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Marvel, apresentadas com seu propósito na tabela que se segue.<p/>
