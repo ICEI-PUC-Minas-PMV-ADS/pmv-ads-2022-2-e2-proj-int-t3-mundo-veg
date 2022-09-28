@@ -50,7 +50,7 @@ Apresentamos abaixo os cenários de testes elaborados para a realização dos te
 | **Caso de Teste** 	| **CT-08 – Contactar os restaurantes e mercados através do WhatsApp**	|
 |Requisito Associado | RF-008	A aplicação interativa deve permitir ao usuário entrar em contato com os restaurantes e mercados através do WhatsApp, para que ele faça o pedido da compra diretamente com os estabelecimentos. |
 | Objetivo do Teste 	| Verificar se a funcionalidade de contactar os restaurantes e mercados através do WhatsApp funciona corretamente. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa<br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado <br> - Clicar no icone do "Restaurante/Mercado" exibido para visualizar informações de contato <br> - Clicar em "número de telefone X" ou no ícone "WhatsApp" <br> - Redirecionamento para "WhatsApp" |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa<br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado <br> - Clicar no ícone do "Restaurante/Mercado" exibido para visualizar informações de contato <br> - Clicar em "número de telefone X" ou no ícone "WhatsApp" <br> - Redirecionamento para "WhatsApp" |
 |Critério de Êxito | - O usuário consegue contactar o restaurante/ mercado por "WhatsApp" através da aplicação interativa. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-09 – Cadastrar receitas**	|
