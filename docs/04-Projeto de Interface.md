@@ -7,7 +7,7 @@ O projeto de interface apresenta uma visão geral da interação do usuário pel
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo.
+O diagrama abaixo apresenta o estudo do fluxo de interação do usuário com o sistema interativo.
 
 <figure>
   <img src="https://user-images.githubusercontent.com/81182674/191141101-ab7b87c0-cb8c-4c57-aa9b-ed05c5ca42db.png"
