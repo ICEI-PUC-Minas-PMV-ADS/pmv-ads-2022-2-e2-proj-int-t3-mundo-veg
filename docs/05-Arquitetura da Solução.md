@@ -6,7 +6,7 @@ A arquitetura da solução apresenta como o software é estruturado em termos do
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
 <figure>
   <img src="https://user-images.githubusercontent.com/100734910/191252412-18dcc9ab-b8ff-4846-b29f-17a2d4e677de.png"
   <figcaption>Figura 16 - Diagrama de classes</figcaption>
