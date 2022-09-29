@@ -151,7 +151,7 @@ Você se encontra na página de pesquisas de mercados e restaurantes, simule a p
 
 ### Relatório
 
-*Formulário* (  )
+*Formulário* (https://forms.gle/bbEJyYHntUrKQe8u5)
 
 ## Fase 2- [Planejamento de Atividades]
 Encontrar os principais atritos e usabilidade para contas **Jurídicas**.
