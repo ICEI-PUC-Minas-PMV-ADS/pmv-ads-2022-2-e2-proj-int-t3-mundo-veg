@@ -4,9 +4,6 @@ AMARAL, Vanessa de Araújo; OLIVEIRA, Angela Maria Fleury de; ISONI, Taciana Mar
 
 ATLASSIAN BITBUCKET. <b>Fluxo de trabalho de Gitflow</b>. [<i>s. d.</i>]. Disponível em: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow. Acesso em: 09 set. 2022.
 
-BERNARDES, André. <b>Template de relatório de testes</b>. 2021. Disponível em:
-https://brasil.uxdesign.cc/teste-de-usabilidade-r%C3%A1pido-barato-e-remoto-tem-como-14839332c994. Acesso em: 26 set. 2022.
-
 BOIRA, Joan. <b>[Fotografia]</b>. c2022. Disponível em:
 https://joanboira.com/fotografo-de-retrato-para-perfil-profesional-y-linkedin/. Acesso em: 19 ago. 2022.
 
