@@ -55,6 +55,10 @@ Você se encontra na página de Cadastro de conta Física. Simule o cadastro com
 * Erro ao salvar;
 * Nível de interesse em se cadastrar na plataforma.
 
+### Relatório
+
+*Formulário* (  )
+
 ### 2.1 Persona - Usuários interessados em: Login
 
 #### Atividades :
@@ -68,6 +72,10 @@ Você se encontra na página de Login. Simule preenchendo os campos de E-mail e 
 * Quantidades de cliques;
 * Erro ao logar;
 * Nível de interação com a página.
+
+### Relatório
+
+*Formulário* (  )
 
 ### 3.1 Persona - Usuários interessados em: Gerenciamento de Conta
 
@@ -83,6 +91,10 @@ Você se encontra na página de Gerenciamento de Conta. Simule a atualização d
 * Erro ao salvar;
 * Nível de interação com a página;
 
+### Relatório
+
+*Formulário* (  )
+
 ### 4.2 Persona - Usuários interessados em: Cadastro de Receitas
 
 #### Atividades :
@@ -97,6 +109,10 @@ Você se encontra na página de cadastro de receitas. Simule o cadastro completa
 * Tempo de permanência na página;
 * Quantidades de cliques;
 * Nível de satisfação e interesse de contribuição na plataforma.
+
+### Relatório
+
+*Formulário* (  )
 
 ### 5.2 Persona - Usuários interessados em: Localizar ingredientes, receitas e produtos.
 
@@ -114,6 +130,10 @@ Você se encontra na página de pesquisas de ingredientes, receitas e produtos s
 * Erros no momento de solicitar a pesquisa;
 * Nível de satisfação da pesquisa.
 
+### Relatório
+
+*Formulário* (  )
+
 ### 6.3 Persona - Localizar Mercados e Restaurantes
 
 #### Atividades :
@@ -128,6 +148,10 @@ Você se encontra na página de pesquisas de mercados e restaurantes, simule a p
 * Poucas opções de mercados e restaurantes;
 * Dificuldade em entrar em contato pelo WhatsApp;
 * Nível de satisfação da pesquisa.
+
+### Relatório
+
+*Formulário* (  )
 
 ## Fase 2- [Planejamento de Atividades]
 Encontrar os principais atritos e usabilidade para contas **Jurídicas**.
