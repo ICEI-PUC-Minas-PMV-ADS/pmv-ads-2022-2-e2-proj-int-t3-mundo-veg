@@ -4,9 +4,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 ## Termo de Consentimento
 
-Clique no link abaixo para assinar o tempo de consentimento:
-
-(https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1382262_sga_pucminas_br/EQqlJGBVguZLt4x-3kPsTJYBZ6vkWc-XVczZ7R9XjAqTAw?e=s5vXkV)
+Clique <a href="https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1382262_sga_pucminas_br/EQqlJGBVguZLt4x-3kPsTJYBZ6vkWc-XVczZ7R9XjAqTAw?e=s5vXkV">aqui</a> para assinar o tempo de consentimento:
 
 ## Objetivo Principal
 
