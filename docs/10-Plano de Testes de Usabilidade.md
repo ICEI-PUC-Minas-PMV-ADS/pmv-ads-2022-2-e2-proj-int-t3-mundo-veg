@@ -150,6 +150,10 @@ Você se encontra na página de Cadastro de estabelecimento. Simule o cadastro c
 * Erro ao salvar;
 * Nível de interesse em participar da plataforma.
 
+### Relatório
+
+*Formulário* (https://forms.gle/pK694T9YGSkB6hDH9)
+
 ### 2.1 Persona - Usuários interessados em: Login
 
 #### Atividades :
@@ -163,6 +167,10 @@ Você se encontra na página de Login. Simule preenchendo os campos de E-mail e 
 * Quantidades de cliques
 * Erro ao logar.
 * Nível de interação com a página.
+
+### Relatório
+
+*Formulário* (https://forms.gle/dLSyXa78pp9dryGY8)
 
 ### 3.1 Persona - Usuários interessados em: Gerenciamento de Conta
 
