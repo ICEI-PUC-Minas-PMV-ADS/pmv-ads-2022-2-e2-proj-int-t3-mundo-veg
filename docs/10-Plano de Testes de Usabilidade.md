@@ -43,7 +43,7 @@ Encontrar os principais atritos e usabilidade para contas **Físicas**.
 
 #### **10** Participantes no total
 
-### 1.1 Persona - Usuários interessados em: Cadastro de Conta Física
+### 1. Usuários interessados em: Cadastro de Conta Física (1 persona)   
 
 #### Atividades :
 
@@ -59,7 +59,7 @@ Você se encontra na página de Cadastro de conta Física. Simule o cadastro com
 * Erro ao salvar;
 * Nível de interesse em se cadastrar na plataforma.
 
-### 2.1 Persona - Usuários interessados em: Login
+### 2. Usuários interessados em: Login (1 persona)
 
 #### Atividades :
 
@@ -73,7 +73,7 @@ Você se encontra na página de Login. Simule preenchendo os campos de E-mail e 
 * Erro ao logar;
 * Nível de interação com a página.
 
-### 3.1 Persona - Usuários interessados em: Gerenciamento de Conta
+### 3. Usuários interessados em: Gerenciamento de Conta (1 persona)
 
 #### Atividades :
 
@@ -87,7 +87,7 @@ Você se encontra na página de Gerenciamento de Conta. Simule a atualização d
 * Erro ao salvar;
 * Nível de interação com a página;
 
-### 4.2 Persona - Usuários interessados em: Cadastro de Receitas
+### 4. Usuários interessados em: Cadastro de Receitas (2 persona)
 
 #### Atividades :
 
@@ -102,7 +102,7 @@ Você se encontra na página de cadastro de receitas. Simule o cadastro completa
 * Quantidades de cliques;
 * Nível de satisfação e interesse de contribuição na plataforma.
 
-### 5.2 Persona - Usuários interessados em: Localizar ingredientes, receitas e produtos.
+### 5. Usuários interessados em: Localizar ingredientes, receitas e produtos (2 persona)
 
 #### Atividades :
 
@@ -118,7 +118,7 @@ Você se encontra na página de pesquisas de ingredientes, receitas e produtos s
 * Erros no momento de solicitar a pesquisa;
 * Nível de satisfação da pesquisa.
 
-### 6.3 Persona - Localizar Mercados e Restaurantes
+### 6. Localizar Mercados e Restaurantes (3 persona)
 
 #### Atividades :
 
@@ -138,7 +138,7 @@ Encontrar os principais atritos e usabilidade para contas **Jurídicas**.
 
 #### **5** Participantes no total
 
-### 1.2 Persona - Usuários interessados em: Cadastro de Mercado ou Restaurante
+### 1. Usuários interessados em: Cadastro de Mercado ou Restaurante (2 persona)
 
 #### Atividades :
 
@@ -154,7 +154,7 @@ Você se encontra na página de Cadastro de estabelecimento. Simule o cadastro c
 * Erro ao salvar;
 * Nível de interesse em participar da plataforma.
 
-### 2.1 Persona - Usuários interessados em: Login
+### 2. Usuários interessados em: Login (1 persona)
 
 #### Atividades :
 
@@ -168,7 +168,7 @@ Você se encontra na página de Login. Simule preenchendo os campos de E-mail e 
 * Erro ao logar.
 * Nível de interação com a página.
 
-### 3.1 Persona - Usuários interessados em: Gerenciamento de Conta
+### 3. Usuários interessados em: Gerenciamento de Conta (2 persona)
 
 #### Atividades :
 
