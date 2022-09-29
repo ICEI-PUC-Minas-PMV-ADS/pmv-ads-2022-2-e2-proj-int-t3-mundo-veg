@@ -2,6 +2,12 @@
 
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
+## Termo de Consentimento
+
+Clique no link abaixo para assinar o tempo de consentimento:
+
+(https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1382262_sga_pucminas_br/EQqlJGBVguZLt4x-3kPsTJYBZ6vkWc-XVczZ7R9XjAqTAw?e=s5vXkV)
+
 ## Objetivo Principal
 
 |ID    | Objetivo | 
