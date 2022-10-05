@@ -37,7 +37,7 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
 <h3>Interação do usuário com o sistema</h3>
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/100447878/194065121-69ed7566-f690-4a9a-a913-6d2231d0aaed.gif" style="width:80%";
+  <img src="https://user-images.githubusercontent.com/100447878/194180197-7481ae69-650a-40c2-9e47-e9c12e9debec.gif" style="width:80%";
   <figcaption>Figura 19 - Interação do usuário com o sistema</figcaption>
 <figure>
 <br>
