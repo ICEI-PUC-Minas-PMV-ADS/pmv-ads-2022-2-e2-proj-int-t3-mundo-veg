@@ -36,6 +36,14 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
+<figure>
+  <img src="https://user-images.githubusercontent.com/100447878/194065121-69ed7566-f690-4a9a-a913-6d2231d0aaed.gif" style="width:80%";
+  <figcaption>Figura 19 - Interação do usuário com o sistema</figcaption>
+<figure>
+<br>
+<br>
+<p>Fonte: INTRODUCTION to the server side. <b>MDN web docs</b>, 9 set. 2022. Disponível em: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction. Acesso em: 04 out. 2022.
+  
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
