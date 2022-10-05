@@ -11,6 +11,8 @@ FREEPIK. <b>Pai feliz</b>. c2010-2022. 1 fotografia. Disponível em: https://br.
 
 G1 RN. <b>[Cadeirante]</b>. 2020. Disponivel em https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2020/noticia/2020/11/16/natal-tem-primeiro-vereador-cadeirante-eleito-teremos-um-representante-legitimo.ghtml. Acesso em: 20 ago. 2022.
 
+INTRODUCTION to the server side. <b>MDN web docs</b>, 9 set. 2022. Disponível em: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction. Acesso em: 04 out. 2022.
+
 SOCIEDADE VEGETARIANA BRASILEIRA. <b>Mercado vegano</b>. São Paulo, [202-]. Disponível em: https://www.svb.org.br/vegetarianismo1/mercado-vegetariano. Acesso em: 9 ago. 2022.
 
 TRIGUEIRO, R. Consumo, ética e natureza: o veganismo e as interfaces de uma política de vida. <b>INTERthesis: Revista Internacional Interdisciplinar</b>, Florianópolis, v. 10, n. 1, p. 237-260, jan./jun. 2013. Disponível em: https://dialnet.unirioja.es/servlet/articulo?codigo=5175588. Acesso em: 9 ago. 2022.
