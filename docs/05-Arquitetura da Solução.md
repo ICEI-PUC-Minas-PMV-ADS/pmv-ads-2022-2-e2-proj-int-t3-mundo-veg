@@ -34,7 +34,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+<h3>Interação do usuário com o sistema</h3>
 
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/194065121-69ed7566-f690-4a9a-a913-6d2231d0aaed.gif" style="width:80%";
