@@ -71,12 +71,12 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: Visual Studio Code
+- Editor de código: Visual Studio
 - Ferramenta de gerenciamento: Github
 - Ferramenta de comunicação: Microsoft Teams
 - Ferramenta de desenho de tela (_wireframing_): Marvel
 
-O editor de código, Visual Studio Code, foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento do Github foi selecionada pela flexibilidade para criar fluxos de trabalho personalizados que atendam às necessidades da equipe. A ferramenta de comunicação, Microsoft Teams, foi selecionada por ser a mesma utilizada nas reuniões com o professor orientador e product owner do projeto. Por fim, para criar os desenhos de tela, utilizamos a ferramenta Marvel por melhor captar as necessidades da nossa solução.
+O editor de código, Visual Studio, foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de gerenciamento do Github foi selecionada pela flexibilidade para criar fluxos de trabalho personalizados que atendam às necessidades da equipe. A ferramenta de comunicação, Microsoft Teams, foi selecionada por ser a mesma utilizada nas reuniões com o professor orientador e product owner do projeto. Por fim, para criar os desenhos de tela, utilizamos a ferramenta Marvel por melhor captar as necessidades da nossa solução.
 
 <b>Relação de ambientes de trabalho</b>
 <p>Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Marvel, apresentadas com seu propósito na tabela que se segue.<p/>
