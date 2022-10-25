@@ -4,8 +4,8 @@
 |------|-----------------------------------------|----|
 |RF-001| A aplicação interativa deve permitir ao usuário cadastrar uma conta. | Create.cshtml / UsuarioPf.cs / UsuarioPfsController.cs | 
 |RF-003| A aplicação interativa deve permitir ao usuário cadastrado fazer o login da sua conta.  | Login.cshtml / Login.cs / LoginController.cs |
-|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta. | Details.cshtml / Edit.cshtml / UsuarioPf.cs / UsuarioPfsController.cs |
-|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta. | Details.cshtml / Edit.cshtml / UsuarioPj.cs / UsuarioPjsController.cs |
+|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa física). | Details.cshtml / Edit.cshtml / UsuarioPf.cs / UsuarioPfsController.cs |
+|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa jurídica). | details.cshtml / Edit.cshtml / UsuarioPj.cs / UsuarioPjsController.cs |
 
 # Instruções de acesso
 
