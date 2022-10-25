@@ -15,7 +15,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |  	|  	|
 | **Caso de Teste** 	| **CT-10 – Gerenciar conta**	|
 |	Requisito Associado 	| RF-010 A aplicação interativa deve permitir ao usuário gerenciar a sua conta. |
-| Registro de teste 	| <a href="">Clique aqui para ver o vídeo</a> 
+| Registro de teste 	| <a href="https://user-images.githubusercontent.com/100447878/197843977-2136c15b-62f1-4b77-9d6c-9c225d0f59d7.mp4">Clique aqui para ver o vídeo</a> 
 |  	|  	|
 
 ## Avaliação
