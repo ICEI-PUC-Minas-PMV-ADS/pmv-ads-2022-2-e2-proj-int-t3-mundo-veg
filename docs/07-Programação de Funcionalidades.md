@@ -1,15 +1,11 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/blob/main/docs/03-Metodologia.md"> Metodologia</a>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/blob/main/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md"> Arquitetura da Solução</a>
-
-Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
-
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-001| A aplicação interativa deve permitir ao usuário cadastrar uma conta. | Create.cshtml / UsuarioPf.cs / UsuarioPfsController.cs | 
+|RF-003| A aplicação interativa deve permitir ao usuário cadastrado fazer o login da sua conta.  | Login.cshtml / Login.cs / LoginController.cs |
+|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta. | Details.cshtml / Edit.cshtml / UsuarioPf.cs / UsuarioPfsController.cs |
+|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta. | Details.cshtml / Edit.cshtml / UsuarioPj.cs / UsuarioPjsController.cs |
 
 # Instruções de acesso
 
