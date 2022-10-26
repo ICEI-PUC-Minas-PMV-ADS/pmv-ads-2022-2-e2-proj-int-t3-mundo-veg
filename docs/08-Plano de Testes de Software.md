@@ -41,17 +41,17 @@ Apresentamos abaixo os cenários de testes elaborados para a realização dos te
 | Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa<br> - Clicar em “Receitas” <br> - Preencher o campo "Filtrar" |
 |Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente as receitas filtradas que contém o ingrediente pesquisado. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-07 – Visualizar informações de contato de restaurantes e mercados**	|
-|Requisito Associado |RF-007	A aplicação interativa deve permitir ao usuário visualizar as informações de contato dos restaurantes e mercados. |
-| Objetivo do Teste 	| Verificar se usuário tem acesso as informações de contato dos restaurantes e mercados. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa<br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado <br> - Clicar no icone do "Restaurante/Mercado" exibido para visualizar informações de contato |
-|Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente os restaurantes/mercados filtrados e suas respectivas informações de contato. |
+| **Caso de Teste** 	| **CT-07 – Visualizar informações dos estabelecimentos**	|
+|Requisito Associado |RF-007	A aplicação interativa deve permitir ao usuário visualizar as informações de contato dos estabelecimentos. |
+| Objetivo do Teste 	| Verificar se usuário tem acesso as informações de contato dos estabelecimentos. |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa<br> - Clicar em “Estabelecimentos” <br> - Preencher o campo "Filtrar" com o estabelecimento desejado <br> - Clicar no icone do "Estabelecimento" exibido para visualizar informações de contato |
+|Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente os estabelecimentos filtrados e suas respectivas informações de contato. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-08 – Contactar os restaurantes e mercados através do WhatsApp**	|
-|Requisito Associado | RF-008	A aplicação interativa deve permitir ao usuário entrar em contato com os restaurantes e mercados através do WhatsApp, para que ele faça o pedido da compra diretamente com os estabelecimentos. |
-| Objetivo do Teste 	| Verificar se a funcionalidade de contactar os restaurantes e mercados através do WhatsApp funciona corretamente. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa<br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" com o restaurante/mercado desejado <br> - Clicar no ícone do "Restaurante/Mercado" exibido para visualizar informações de contato <br> - Clicar em "número de telefone X" ou no ícone "WhatsApp" <br> - Redirecionamento para "WhatsApp" |
-|Critério de Êxito | - O usuário consegue contactar o restaurante/ mercado por "WhatsApp" através da aplicação interativa. |
+| **Caso de Teste** 	| **CT-08 – Contactar os estabelecimentos através do WhatsApp**	|
+|Requisito Associado | RF-008	A aplicação interativa deve permitir ao usuário entrar em contato com os estabelecimentos. |
+| Objetivo do Teste 	| Verificar se a funcionalidade de contactar os estabelecimentos através do WhatsApp funciona corretamente. |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa<br> - Clicar em “Estabelecimentos” <br> - Preencher o campo "Filtrar" com o estabelecimento desejado <br> - Clicar no ícone do "Estabelecimento" exibido para visualizar informações de contato <br> - Clicar em "número de telefone X" ou no ícone "WhatsApp" <br> - Redirecionamento para "WhatsApp" |
+|Critério de Êxito | - O usuário consegue contactar o estabelecimento por "WhatsApp" através da aplicação interativa. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-09 – Cadastrar receitas**	|
 |Requisito Associado | RF-009	A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma. |
