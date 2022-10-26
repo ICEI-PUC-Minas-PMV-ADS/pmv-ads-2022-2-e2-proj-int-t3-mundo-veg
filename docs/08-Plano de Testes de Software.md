@@ -64,3 +64,9 @@ Apresentamos abaixo os cenários de testes elaborados para a realização dos te
 | Objetivo do Teste 	| Verificar se o usuário consegue gerenciar sua conta. |
 | Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Login" na página inicial <br> - Acessar/gerenciar dados cadastrados em "Perfil" - Clicar no botão "Editar" - Salvar as alterações realizadas clicando no botão "Salvar" |
 |Critério de Êxito | - O usuário consegue gerenciar sua conta. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-11 – Cadastrar produtos**	|
+|Requisito Associado | RF-011	A aplicação interativa deve permitir o cadastro de produtos pelos estabelecimentos logados na plataforma. |
+| Objetivo do Teste 	| Verificar se o mercado consegue cadastrar produtos na plataforma. |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Efetuar o Login <br> - Clicar em "Cadastrar" na página inicial <br> - Selecionar a opção "Produtos" <br> - Preencher os campos obrigatórios na área de cadastro de produtos <br> - Clicar em "Cadastrar" |
+|Critério de Êxito | - O cadastro de produtos foi realizado com sucesso. |
