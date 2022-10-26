@@ -5,9 +5,12 @@
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação interativa deve permitir ao usuário cadastrar uma conta. | Create.cshtml / UsuarioPf.cs / UsuarioPfsController.cs | 
+|RF-002| A aplicação interativa deve permitir aos donos de restaurantes e mercados cadastrar uma conta com informações sobre o estabelecimento. | Create.cshtml / UsuarioPj.cs / UsuarioPjsController.cs | 
 |RF-003| A aplicação interativa deve permitir ao usuário cadastrado fazer o login da sua conta.  | Login.cshtml / Login.cs / LoginController.cs |
+|RF-009| A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma. | Create.cshtml / Receita.cs / ReceitasController.cs | 
 |RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa física). | Details.cshtml / Edit.cshtml / UsuarioPf.cs / UsuarioPfsController.cs |
-|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa jurídica). | details.cshtml / Edit.cshtml / UsuarioPj.cs / UsuarioPjsController.cs |
+|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa jurídica). | details.cshtml / Edit.cshtml / UsuarioPj.cs / UsuarioPjsController.cs 
+|RF-011|  A aplicação interativa deve permitir o cadastro de produtos pelos estabelecimentos logados na plataforma. | Create.cshtml / Produto.cs / ProdutosController.cs | 
 
 # Instruções de acesso
 
