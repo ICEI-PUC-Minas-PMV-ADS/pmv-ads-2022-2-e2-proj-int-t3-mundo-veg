@@ -8,32 +8,32 @@ Apresentamos abaixo os cenários de testes elaborados para a realização dos te
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação interativa deve permitir ao usuário cadastrar uma conta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Cadastro" na página inicial <br> - Clicar em “Cliente” no menu de cadastro <br> - Preencher os campos obrigatórios (CPF, nome, e-mail, telefone, rua, número, bairro, cidade, estado, CEP, categoria) <br> - Clicar em "Registrar" |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Cadastro" na página inicial <br> - Clicar em “Cliente” no menu de cadastro <br> - Preencher os campos obrigatórios (CPF, nome, e-mail, telefone, rua, número, bairro, cidade, estado, CEP, categoria) <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-02 – Cadastrar mercado/restaurante**	|
-|Requisito Associado | RF-002 - A aplicação interativa deve permitir aos donos de restaurantes e mercados cadastrar uma conta com informações sobre o estabelecimento e produtos. |
+| **Caso de Teste** 	| **CT-02 – Cadastrar estabelecimentos**	|
+|Requisito Associado | RF-002 - A aplicação interativa deve permitir aos donos de restaurantes e mercados cadastrar uma conta com informações sobre o estabelecimento. |
 | Objetivo do Teste 	| Verificar se o estabelecimento consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Cadastro" na página inicial <br> - Clicar em “Estabelecimento” na página de cadastro  <br> - Preencher os campos obrigatórios <br> - Clicar em "Registrar" |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Cadastro" na página inicial <br> - Clicar em “Estabelecimento” nas opções  <br> - Preencher os campos obrigatórios <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 – Efetuar login**	|
 |Requisito Associado | RF-003 - A aplicação interativa deve permitir ao usuário cadastrado fazer o login da sua conta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Entrar" na página inicial <br> - Preencher os campos obrigatórios <br> - Clicar em "Login" |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Login" na página inicial <br> - Preencher os campos obrigatórios <br> - Clicar em "Entrar" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-04 – Filtro/pesquisa de alimentos, produtos e receitas**	|
-|Requisito Associado | RF-004 - A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar alimentos, produtos e receitas. |
+| **Caso de Teste** 	| **CT-04 – Filtro/pesquisa de produtos e receitas**	|
+|Requisito Associado | RF-004 - A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar produtos e receitas. |
 | Objetivo do Teste 	| Verificar se a funcionalidade de filtrar/pesquisar é feita corretamente. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Preencher o campo "Filtrar" |
-|Critério de Êxito | - Os dados inseridos no filtro de pesquisa devem mostrar os alimentos, produtos e receitas onde há o dado informado. |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em "Produtos" ou "Receitas" <br> - Preencher o campo "Filtrar" |
+|Critério de Êxito | - Os dados inseridos no filtro de pesquisa devem mostrar os produtos e receitas onde há o dado informado. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-05 – Filtro/pesquisa de restaurantes e mercados**	|
+| **Caso de Teste** 	| **CT-05 – Filtro/pesquisa de estabelecimentos**	|
 |Requisito Associado | RF-005 - A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar restaurantes e mercados vegetarianos e veganos. |
 | Objetivo do Teste 	| Verificar se a funcionalidade de filtrar/pesquisar é feita corretamente. |
-| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em “Mercado” e/ou “Restaurante” <br> - Preencher o campo "Filtrar" |
-|Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente os restaurantes/mercados filtrados. |
+| Passos 	| - Acessar o navegador <br> - Acessar a aplicação interativa <br> - Clicar em “Estabelecimentos” <br> - Preencher o campo "Filtrar" |
+|Critério de Êxito | - Os dados inseridos do filtro de pesquisa devem mostrar corretamente os estabelecimentos filtrados. |
 |   |   |
 | **Caso de Teste** 	| **CT-06 – Filtro/pesquisa de receitas através de ingredientes**	|
 |Requisito Associado | RF-006 - A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário pesquisar receitas através de ingredientes específicos. |
@@ -56,7 +56,7 @@ Apresentamos abaixo os cenários de testes elaborados para a realização dos te
 | **Caso de Teste** 	| **CT-09 – Cadastrar receitas**	|
 |Requisito Associado | RF-009	A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma. |
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar receitas na plataforma. |
-| Passos 	| - Acessar o navegador <br> -Acessar a aplicação interativa<br> - Clicar em "Receitas" na página inicial <br> - Clicar em “Cadastrar” na página de receitas  <br> - Preencher os campos obrigatórios  de "Login" <br> - Preencher os campos obrigatórios na área de cadastro de receitas <br> - Clicar em "Cadastrar receita" |
+| Passos 	| - Acessar o navegador <br> -Acessar a aplicação interativa<br> - Efetuar o Login <br> - Clicar em "Cadastrar" na página inicial <br> - Selecionar a opção "Receitas" <br> - Preencher os campos obrigatórios na área de cadastro de receitas <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro de receita foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-10 – Gerenciar conta**	|
