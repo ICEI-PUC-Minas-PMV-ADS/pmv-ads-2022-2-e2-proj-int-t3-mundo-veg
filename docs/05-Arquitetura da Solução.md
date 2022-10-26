@@ -33,8 +33,12 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Tecnologias Utilizadas
 
-Microsoft Visual Studio 2022                                                                                       
-
+* Microsoft Visual Studio 2022
+- Microsoft Visual Studio Code                                                                                                                  
+* ASPNET Core 6.0                                                                                                               
+- Database MSSQL
+* Figma
+                                                                                                     
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
 <h3>Interação do usuário com o sistema</h3>
@@ -49,7 +53,7 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
   
 ## Hospedagem
 Site hospedado em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022
-                                                                                                                                     ![image](https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png)
+![image](https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png)
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
 
