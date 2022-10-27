@@ -2,10 +2,15 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+Para ter acesso a aplicação interativa, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui</a>.
+
+Para fazer o login no sistema, utilize os dados abaixo:
+
+Email: admin@teste.br
+Senha: 12345
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [0.1.0] - 30/10/2022
 #### Adicionado
-- Adicionado ...
+- Páginas de cadastro de usuários, estabelecimentos, receitas, produtos e o filtro de pesquisa.
