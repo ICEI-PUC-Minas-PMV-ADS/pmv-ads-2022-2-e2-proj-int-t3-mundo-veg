@@ -7,6 +7,7 @@ Para ter acesso a aplicação interativa, <a href="http://gfaustini-001-site1.at
 Para fazer o login no sistema, utilize os dados abaixo:
 
 Email: admin@teste.br
+<br>
 Senha: 12345
 
 ## Histórico de versões
