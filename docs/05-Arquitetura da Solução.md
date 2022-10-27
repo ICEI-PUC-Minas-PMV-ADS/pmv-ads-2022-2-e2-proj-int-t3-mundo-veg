@@ -37,6 +37,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 * ASPNET Core 6.0                                                                                                               
 - Database MSSQL
 * Figma
+- Lucid App
                                                                                                    
 <h3>Interação do usuário com o sistema</h3>
 
