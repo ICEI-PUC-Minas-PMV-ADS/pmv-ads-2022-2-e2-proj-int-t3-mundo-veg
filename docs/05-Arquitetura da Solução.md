@@ -18,7 +18,6 @@ O Modelo ER representa através de um diagrama como as entidades se relacionam e
 
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/197857395-25e439fe-5ab9-4dcc-a52f-ff8fc7767ff2.png"
-"
   <figcaption>Figura 17 - Modelo Entidade Relacionamento</figcaption>
 <figure>
 
@@ -38,9 +37,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 * ASPNET Core 6.0                                                                                                               
 - Database MSSQL
 * Figma
-                                                                                                     
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
+                                                                                                   
 <h3>Interação do usuário com o sistema</h3>
 
 <figure>
@@ -53,13 +50,7 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
   
 ## Hospedagem
 Site hospedado em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022
-![image](https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png)
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+  <figure>
+    <img src="https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png";
+    <figcaption>Figura 20 - Hospedagem da aplicação</figcaption>
+<figure>
