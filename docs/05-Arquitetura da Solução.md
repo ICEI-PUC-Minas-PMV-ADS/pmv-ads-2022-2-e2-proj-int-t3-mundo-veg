@@ -49,7 +49,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 <p>Fonte: INTRODUCTION to the server side. <b>MDN web docs</b>, 9 set. 2022. Disponível em: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction. Acesso em: 04 out. 2022.
   
 ## Hospedagem
-Aplicação interativa hospedada em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022. Para ter acesso a aplicação, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui.</a>
+A aplicação interativa foi hospedada em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022. Para ter acesso a aplicação, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui.</a>
   <figure>
     <img src="https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png";
     <figcaption>Figura 20 - Hospedagem da aplicação</figcaption>
