@@ -1,0 +1,42 @@
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 750px) {
+  .servicos-lista {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .servicos-lista li {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  .servicos-lista img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .main {
+    height: 400px;
+  }
+
+  .servicos-lista {
+    padding: 0px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .servicos-lista li {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+    body {
+        overflow-x: hidden;
+    }
+}
