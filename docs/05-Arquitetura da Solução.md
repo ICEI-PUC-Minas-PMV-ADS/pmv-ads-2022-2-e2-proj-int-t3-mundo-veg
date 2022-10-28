@@ -31,6 +31,8 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 <figure>
 
 ## Tecnologias Utilizadas
+  
+As tecnologias listadas abaixo serão utilizadas para a implementação da solução.
 
 * Microsoft Visual Studio 2022
 - Microsoft Visual Studio Code                                                                                                                  
@@ -40,6 +42,8 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 - Lucid App
                                                                                                    
 <h3>Interação do usuário com o sistema</h3>
+
+A figura abaixo exemplifica como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/194180197-7481ae69-650a-40c2-9e47-e9c12e9debec.gif" style="width:80%";
