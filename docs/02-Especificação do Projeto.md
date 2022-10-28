@@ -56,6 +56,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-008| A aplicação interativa deve permitir ao usuário entrar em contato com os restaurantes e mercados através do WhatsApp, para que ele faça o pedido da compra diretamente com os estabelecimentos.   | ALTA |
 |RF-009| A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma.   | ALTA |
 |RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta.   | ALTA |
+|RF-011| A aplicação interativa deve permitir o cadastro de produtos pelos estabelecimentos logados na plataforma.  | ALTA |
 
 ### Requisitos não Funcionais
 
