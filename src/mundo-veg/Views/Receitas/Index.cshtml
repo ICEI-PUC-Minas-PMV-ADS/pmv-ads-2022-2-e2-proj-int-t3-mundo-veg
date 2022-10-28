@@ -1,0 +1,82 @@
+﻿@model IEnumerable<mundo_veg.Models.Receita>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>Receitas</h3>
+
+<div class="table-responsive">
+<table id="myTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ingredientes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modo_Preparo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rendimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dificuldade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tempo_Preparo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+           
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ingredientes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modo_Preparo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rendimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dificuldade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tempo_Preparo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+
+            $('#myTable').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
+                }
+
+            });
+
+        });
+
+    </script>
+          }

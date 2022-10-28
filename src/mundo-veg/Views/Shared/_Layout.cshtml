@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mundo Veg</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="~/mundo_veg.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #456b29">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index"><img style="width: 30px" src="~/lib/logo.png" /></a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Receitas" asp-action="Index">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="UsuarioPjs" asp-action="Index">Estabelecimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Produtos" asp-action="Index">Mercado</a>
+                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Login" asp-action="Perfil">Perfil</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle form-control-color: text-white" href="#" id="navbarWhiteDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Cadastrar
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarWhiteDropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Receitas" asp-action="Create">Receitas</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Produtos" asp-action="Create">Produtos</a></li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle form-control-color: text-white" href="#" id="navbarWhiteDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Cadastro
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarWhiteDropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="UsuarioPfs" asp-action="Create">Clientes </a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="UsuarioPjs" asp-action="Create">Estabelecimentos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    }
+
+                    <ul class="navbar-nav align-items-center">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item text-white">
+                                Olá, @User.Identity.Name!
+                            </li>
+                            <li>
+                                <a class="nav-link text-white btn btn-success" asp-area="" asp-controller="Login" asp-action="Logout">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="text-center p-3 fixed-bottom text-white" style="background-color: #456b29">
+        <div class="container">
+            &copy; 2022 Mundo Veg | Todos os direitos reservados.
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
