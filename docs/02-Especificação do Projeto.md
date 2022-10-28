@@ -47,7 +47,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação interativa deve permitir ao usuário cadastrar uma conta. | ALTA | 
-|RF-002| A aplicação interativa deve permitir aos donos de restaurantes e mercados cadastrar uma conta com informações sobre o estabelecimento e produtos.   | ALTA |
+|RF-002| A aplicação interativa deve permitir aos donos de restaurantes e mercados cadastrar uma conta com informações sobre o estabelecimento.   | ALTA |
 |RF-003| A aplicação interativa deve permitir ao usuário cadastrado fazer o login da sua conta.   | ALTA |
 |RF-004| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar alimentos, produtos e receitas.   | ALTA |
 |RF-005| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar restaurantes e mercados vegetarianos e veganos. | ALTA |
