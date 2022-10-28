@@ -75,7 +75,7 @@ A Tela de Cadastro de Clientes apresenta um formulário para que o cliente cadas
 <figure>
   <img src="https://user-images.githubusercontent.com/81182674/198157436-05da0de5-d466-4a91-aa64-b89bc7a7c447.png"
 
-  <figcaption>Figura 11 - Tela de cadastro de clientes</figcaption>
+  <figcaption>Figura 10 - Tela de cadastro de clientes</figcaption>
 <figure>  
 
 <hr> 
@@ -87,7 +87,7 @@ A Tela de Cadastro de Estabelecimentos apresenta um formulário para que o usuá
  <figure>
   <img src="https://user-images.githubusercontent.com/81182674/198157694-41860f6d-6175-4ab0-97a7-c097bac822b5.png"
 
-  <figcaption>Figura 12 - Tela de cadastro de estabelecimentos</figcaption>
+  <figcaption>Figura 11 - Tela de cadastro de estabelecimentos</figcaption>
 <figure>   
   
 <hr> 
@@ -99,7 +99,7 @@ A Tela de Login apresenta campos para inserção de email e senha.
 <figure>
   <img src="https://user-images.githubusercontent.com/81182674/198157771-cf97bfc7-8daf-4f46-9615-7c8625681030.png"
 
-  <figcaption>Figura 13 - Tela de login</figcaption>
+  <figcaption>Figura 12 - Tela de login</figcaption>
 <figure>     
   
 <hr> 
@@ -111,7 +111,7 @@ A Tela de Perfil de Clientes apresenta as informações cadastradas na tela de C
 <figure>
   <img src="https://user-images.githubusercontent.com/81182674/198157964-bf5dae2b-74c3-46ab-93d3-de278731a2c2.png"
 
-  <figcaption>Figura 14 - Tela de perfil de clientes</figcaption>
+  <figcaption>Figura 13 - Tela de perfil de clientes</figcaption>
 <figure> 
 
 <hr> 
@@ -124,5 +124,5 @@ A Tela de Perfil de Estabelecimentos apresenta as informações cadastradas na t
   <img src="https://user-images.githubusercontent.com/81182674/198159065-1fba8b97-c290-48b8-8d02-1f4845ec62ca.png"
 
 
-  <figcaption>Figura 15 - Tela de perfil de estabelecimentos</figcaption>
+  <figcaption>Figura 14 - Tela de perfil de estabelecimentos</figcaption>
 <figure>  
