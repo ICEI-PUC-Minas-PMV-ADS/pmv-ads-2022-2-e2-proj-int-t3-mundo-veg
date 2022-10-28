@@ -55,33 +55,6 @@ Para o teste de usabilidade participaram: Veganos, vegetarianos e usuários alea
 * Quantidades de cliques;
 * Nível de satisfação e interesse de contribuição na plataforma.
 
-### 5. Usuários interessados em: Localizar ingredientes, receitas e produtos 
-
-#### Possíveis Atritos e Usabilidades :
-
-* Não conseguiu utilizar o filtro de pesquisa;
-* Poucas opções no filtro de ingredientes;
-* Poucas opções de receitas e produtos;
-* Quantidades de cliques;
-* Tempo de permanência na página;
-* Erros no momento de solicitar a pesquisa;
-* Nível de satisfação da pesquisa.
-
-### 6. Localizar Estabelecimentos 
-
-#### Possíveis Atritos e Usabilidades :
-
-* Não conseguiu utilizar o filtro de pesquisa;
-* Poucas informações sobre os pratos e produtos dos estabelecimentos;
-* Erros no momento de solicitar a pesquisa;
-* Poucas opções de mercados e restaurantes;
-* Dificuldade em entrar em contato pelo WhatsApp;
-* Nível de satisfação da pesquisa.
-
-
-
-
-
 
 
 ## Resultado da Pesquisa
