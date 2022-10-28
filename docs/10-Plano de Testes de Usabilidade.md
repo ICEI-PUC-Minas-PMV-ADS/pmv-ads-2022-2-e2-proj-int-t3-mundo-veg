@@ -14,10 +14,10 @@ Clique <a href="https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1382262_s
 |RF-002| Entender os principais atritos quando donos de restaurantes e mercados tentam cadastrar as informações sobre os estabelecimentos e produtos. |
 |RF-003| Verificar o nível de satisfação no cadastro de receitas. |
 |RF-004| Verificar a eficácia ao realizar o login na conta cadastrada. |
-|RF-005| Demonstrar o nível de domínio na utilização do filtro de pesquisa de alimentos, produtos e receitas. |
-|RF-006| Demonstrar o nível de domínio na utilização do filtro de pesquisa de restaurantes e mercados vegetarianos e veganos.  |
+|RF-005| Demonstrar o nível de domínio na utilização do filtro de pesquisa de produtos e receitas. |
+|RF-006| Demonstrar o nível de domínio na utilização do filtro de pesquisa de estabelecimentos vegetarianos e veganos.  |
 |RF-007| Demonstrar o nível de domínio na usabilidade do filtro de pesquisa de ingredientes específicos para receitas.  |
-|RF-008| Eficiência dos usuários em visualizar as informações de contato dos restaurantes e mercados.  |
+|RF-008| Eficiência dos usuários em visualizar as informações de contato dos estabelecimentos.  |
 |RF-009| Entender as dificuldades dos usuários ao entrar em contato pelo WhatsApp com os estabelecimentos cadastrados na plataforma.  |
 |RF-010| Entender os principais atritos quando os usuários querem gerenciar sua conta. |
 
@@ -43,7 +43,7 @@ Encontrar os principais atritos e usabilidade para contas **Físicas**.
 
 #### **10** Participantes no total
 
-### 1. Usuários interessados em: Cadastro de Conta Física (1 persona)   
+### 1. Usuários interessados em: Cadastro de Conta Física   
 
 #### Atividades :
 
@@ -59,7 +59,7 @@ Você se encontra na página de Cadastro de conta Física. Simule o cadastro com
 * Erro ao salvar;
 * Nível de interesse em se cadastrar na plataforma.
 
-### 2. Usuários interessados em: Login (1 persona)
+### 2. Usuários interessados em: Login 
 
 #### Atividades :
 
@@ -73,7 +73,7 @@ Você se encontra na página de Login. Simule preenchendo os campos de E-mail e 
 * Erro ao logar;
 * Nível de interação com a página.
 
-### 3. Usuários interessados em: Gerenciamento de Conta (1 persona)
+### 3. Usuários interessados em: Gerenciamento de Conta 
 
 #### Atividades :
 
@@ -87,7 +87,7 @@ Você se encontra na página de Gerenciamento de Conta. Simule a atualização d
 * Erro ao salvar;
 * Nível de interação com a página;
 
-### 4. Usuários interessados em: Cadastro de Receitas (2 persona)
+### 4. Usuários interessados em: Cadastro de Receitas 
 
 #### Atividades :
 
@@ -102,7 +102,7 @@ Você se encontra na página de cadastro de receitas. Simule o cadastro completa
 * Quantidades de cliques;
 * Nível de satisfação e interesse de contribuição na plataforma.
 
-### 5. Usuários interessados em: Localizar ingredientes, receitas e produtos (2 persona)
+### 5. Usuários interessados em: Localizar ingredientes, receitas e produtos 
 
 #### Atividades :
 
@@ -118,7 +118,7 @@ Você se encontra na página de pesquisas de ingredientes, receitas e produtos s
 * Erros no momento de solicitar a pesquisa;
 * Nível de satisfação da pesquisa.
 
-### 6. Localizar Mercados e Restaurantes (3 persona)
+### 6. Localizar Estabelecimentos 
 
 #### Atividades :
 
@@ -138,11 +138,11 @@ Encontrar os principais atritos e usabilidade para contas **Jurídicas**.
 
 #### **5** Participantes no total
 
-### 1. Usuários interessados em: Cadastro de Mercado ou Restaurante (2 persona)
+### 1. Usuários interessados em: Cadastro de Estabelecimentos e Produtos 
 
 #### Atividades :
 
-Você se encontra na página de Cadastro de estabelecimento. Simule o cadastro com informações, completando todos os campos obrigatórios e salve as informações no final.
+Você se encontra na página de Cadastro de estabelecimento e produtos. Simule o cadastro com informações, completando todos os campos obrigatórios e salve as informações no final.
 
 #### Possíveis Atritos e Usabilidades :
 
@@ -154,7 +154,7 @@ Você se encontra na página de Cadastro de estabelecimento. Simule o cadastro c
 * Erro ao salvar;
 * Nível de interesse em participar da plataforma.
 
-### 2. Usuários interessados em: Login (1 persona)
+### 2. Usuários interessados em: Login 
 
 #### Atividades :
 
@@ -168,7 +168,7 @@ Você se encontra na página de Login. Simule preenchendo os campos de E-mail e 
 * Erro ao logar.
 * Nível de interação com a página.
 
-### 3. Usuários interessados em: Gerenciamento de Conta (2 persona)
+### 3. Usuários interessados em: Gerenciamento de Conta 
 
 #### Atividades :
 
