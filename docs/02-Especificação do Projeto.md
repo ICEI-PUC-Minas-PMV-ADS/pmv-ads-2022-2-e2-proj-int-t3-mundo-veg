@@ -63,7 +63,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação interativa deve ser publicada em um ambiente acessível publicamente na Internet (GitHub Pages). | ALTA | 
+|RNF-001| A aplicação interativa deve ser publicada em um ambiente acessível publicamente na Internet (SmarterASP.net). | ALTA | 
 |RNF-002| A aplicação interativa deverá ser responsiva permitindo a visualização em um celular de forma adequada. |  ALTA | 
 |RNF-003| A aplicação interativa deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA | 
 |RNF-004| A aplicação interativa deve ter bom nível de contraste entre os elementos da tela em conformidade. |  MÉDIA | 
