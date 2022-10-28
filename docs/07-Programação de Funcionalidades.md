@@ -10,7 +10,8 @@
 |RF-009| A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma. | Create.cshtml / Receita.cs / ReceitasController.cs | 
 |RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa física). | Details.cshtml / Edit.cshtml / UsuarioPf.cs / UsuarioPfsController.cs |
 |RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa jurídica). | details.cshtml / Edit.cshtml / UsuarioPj.cs / UsuarioPjsController.cs 
-|RF-011|  A aplicação interativa deve permitir o cadastro de produtos pelos estabelecimentos logados na plataforma. | Create.cshtml / Produto.cs / ProdutosController.cs | 
+|RF-011|  A aplicação interativa deve permitir o cadastro de produtos pelos estabelecimentos logados na plataforma. | Create.cshtml / Produto.cs / ProdutosController.cs 
+
 
 # Instruções de acesso
 
