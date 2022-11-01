@@ -11,7 +11,8 @@ namespace mundo_veg.Models
 
         [Required(ErrorMessage = "É necessário informar o nome!")]
         public string? Nome { get; set; }
-
+    
+        [Display(Name = "Quantidade (unidades)")]
         [Required(ErrorMessage = "É necessário informar a quantidade!")]
         public int Quantidade { get; set; }
 
@@ -19,7 +20,7 @@ namespace mundo_veg.Models
         public string? Ingredientes { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o preço!")]
-        [Display(Name = "Preço")]
+        [Display(Name = "Preço (R$)")]
         public string? Preco { get; set; }
 
         [Required(ErrorMessage = "É necessário informar a categoria!")]
