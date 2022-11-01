@@ -92,6 +92,33 @@ A Tela de Cadastro de Estabelecimentos apresenta um formulário para que o usuá
 <figure>   
   
 <hr> 
+  
+### Tela de Cadastro de Receitas
+  
+A Tela de Cadastro de Receitas apresenta um formulário para que o usuário insira as informações da receita culinária que este deseja cadastrar.
+  
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/199359201-1a910f76-b0b2-477c-8502-651606b460d9.png"
+
+
+
+  <figcaption>Figura 12 - Tela de Cadastro de Receitas</figcaption>
+<figure>     
+  
+<hr> 
+  
+### Tela de Cadastro de Produtos
+  
+A Tela de Cadastro de Produtos apresenta um formulário para que o usuário insira as informações do produto que este deseja cadastrar.
+  
+<figure>
+  <img src="https://user-images.githubusercontent.com/81182674/199358999-314721a9-bae3-4563-9207-3b91b42f7bc7.png"
+
+
+  <figcaption>Figura 12 - Tela de Cadastro de Produtos</figcaption>
+<figure>     
+  
+<hr> 
     
 ### Tela de Login
   
