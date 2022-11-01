@@ -67,6 +67,10 @@ namespace mundo_veg.Migrations
                     b.Property<int>("Dificuldade")
                         .HasColumnType("int");
 
+                    b.Property<string>("Imagem")
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
                     b.Property<string>("Ingredientes")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
