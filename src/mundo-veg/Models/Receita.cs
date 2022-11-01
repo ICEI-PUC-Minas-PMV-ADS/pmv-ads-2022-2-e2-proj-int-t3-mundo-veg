@@ -20,6 +20,7 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o modo de preparo!")]
         public string? Modo_Preparo { get; set; }
 
+        [Display(Name = "Rendimento (porções)")]
         [Required(ErrorMessage = "É necessário informar o rendimento!")]
         public int Rendimento { get; set; }
 
@@ -27,7 +28,7 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a dificuldade!")]
         public Dificuldade Dificuldade { get; set; }
 
-        [Display(Name = "Tempo de preparo")]
+        [Display(Name = "Tempo de preparo (minutos)")]
         [Required(ErrorMessage = "É necessário informar o tempo de preparo!")]
         public int Tempo_Preparo { get; set; }
 
