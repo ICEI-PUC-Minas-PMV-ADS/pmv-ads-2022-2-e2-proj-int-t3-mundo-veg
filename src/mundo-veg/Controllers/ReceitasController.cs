@@ -123,6 +123,8 @@ namespace mundo_veg.Controllers
             }
             return View(receita);
         }
+        
+              
 
         // POST: Receitas/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -182,15 +184,15 @@ namespace mundo_veg.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Receitas == null)
-            {
-                return Problem("Entity set 'ApplicationDbContext.Receitas'  is null.");
-            }
+           
             var receita = await _context.Receitas.FindAsync(id);
-            if (receita != null)
-            {
-                _context.Receitas.Remove(receita);
-            }
+            string filePathName = _filePath + "\\imagens\\" + receita.Imagem;
+
+          
+            if (System.IO.File.Exists(filePathName))
+                System.IO.File.Delete(filePathName);  
+
+               _context.Receitas.Remove(receita);
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
