@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -37,16 +38,17 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" asp-area="" asp-controller="Login" asp-action="Perfil">Perfil</a>
                             </li>
+                            @if (User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role).Value =="pj"){
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Produtos" asp-action="Create">Cadastro de Produtos</a>
+                                </li>
+                            }else{
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Receitas" asp-action="Create">Cadastro de Receitas</a>
+                                </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle form-control-color: text-white" href="#" id="navbarWhiteDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Cadastrar
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarWhiteDropdownMenuLink">
-                                    <li><a class="dropdown-item" asp-area="" asp-controller="Receitas" asp-action="Create">Receitas</a></li>
-                                    <li><a class="dropdown-item" asp-area="" asp-controller="Produtos" asp-action="Create">Produtos</a></li>
-                                </ul>
-                            </li>
+                            }
+                          
                         }
                     </ul>
                     @if (!User.Identity.IsAuthenticated)

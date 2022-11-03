@@ -69,8 +69,11 @@
                 <span asp-validation-for="Horario_funcionamento" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Faz_entrega" class="control-label"></label>
-                <input asp-for="Faz_entrega" class="form-control" />
+                <label asp-for="Faz_entrega" class="control-label"> Faz entrega?</label>
+                <select asp-for="Faz_entrega" class="form-select">
+                    <option value="true">Sim</option>
+                    <option value="false">Não</option>
+                </select>
                 <span asp-validation-for="Faz_entrega" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -97,9 +100,6 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Voltar</a>
-</div>
 
 @section Scripts {
     @{

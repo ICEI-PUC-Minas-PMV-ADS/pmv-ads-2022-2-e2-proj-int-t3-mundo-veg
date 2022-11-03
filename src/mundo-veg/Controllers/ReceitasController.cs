@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -48,7 +49,17 @@ namespace mundo_veg.Controllers
         [Authorize]
         public IActionResult Create()
         {
-            return View();
+            var user = HttpContext.User;
+            var userRole = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role).Value;
+            if (userRole == "pf")
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+          
         }
 
         // POST: Receitas/Create
