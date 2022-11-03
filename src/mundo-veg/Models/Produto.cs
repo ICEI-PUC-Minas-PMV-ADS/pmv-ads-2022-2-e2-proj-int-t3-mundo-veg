@@ -25,5 +25,8 @@ namespace mundo_veg.Models
 
         [Required(ErrorMessage = "É necessário informar a categoria!")]
         public Categoria Categoria { get; set; }
+
+        [MaxLength(300)]
+        public string? Imagem { get; set; }
     }
 }

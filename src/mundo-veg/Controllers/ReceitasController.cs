@@ -82,7 +82,7 @@ namespace mundo_veg.Controllers
                     return true;
                 case "image/bmp":
                     return true;
-                case "imagei/png":
+                case "image/png":
                     return true;
                 default:
                     return false;
