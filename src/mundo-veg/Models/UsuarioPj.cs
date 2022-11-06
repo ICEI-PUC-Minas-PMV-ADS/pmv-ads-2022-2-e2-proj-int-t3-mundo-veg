@@ -48,16 +48,20 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o horário de funcionamento do estabelecimento!")]
         public string? Horario_funcionamento { get; set; }
 
-        [Display(Name = "Delivery")]
+        [Display(Name = "Faz entrega")]
         [Required(ErrorMessage = "É necessário informar se faz entrega!")]
         public bool? Faz_entrega { get; set; }
 
-        [Display(Name = "Tempo de entrega")]
+        [Display(Name = "Tempo de entrega (minutos)")]
         public string? Tempo_entrega { get; set; }
 
         [Display(Name = "Descrição")]
         [Required(ErrorMessage = "É necessário informar a descrição!")]
         public string? Descricao { get; set; }
+
+        [Display(Name = "Contato (WhatsApp)")]
+        [Required(ErrorMessage = "É necessário informar o número do Whatsapp!")]
+        public string? Contato { get; set; }
 
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [DataType(DataType.Password)]

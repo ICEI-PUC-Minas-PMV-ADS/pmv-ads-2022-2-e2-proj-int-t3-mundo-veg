@@ -48,6 +48,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Descricao)
             </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contato)
+                </th>
             <th></th>
         </tr>
     </thead>
@@ -88,8 +91,14 @@
                     @Html.DisplayFor(modelItem => item.Tempo_entrega)
                 </td>
                 <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
+                    @Html.DisplayFor(modelItem => item.Descricao)
                 </td>
+                    <th>
+                        @if (!string.IsNullOrEmpty(item.Contato))
+                        {
+                            <a href="@{@item.Contato}"><img src="/lib/zap.png" width="30" /></a>
+                        }
+                </th>
             </tr>
         }
     </tbody>
