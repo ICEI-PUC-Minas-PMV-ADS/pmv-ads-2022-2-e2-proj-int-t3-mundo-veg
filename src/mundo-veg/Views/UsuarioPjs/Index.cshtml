@@ -4,94 +4,61 @@
 @{
     ViewData["Title"] = "Index";
 }
+<main>
+    <div class="corpo">
+        <h3>Estabelecimentos</h3>
+    </div>
+</main>
 
-<h3>Estabelecimentos</h3>
+<section class="conteudo">
 
-<div class="table-responsive">
+    <div class="lista-estabelecimentos">
 
-<table class="table">
-    <thead>
-        <tr>
-           
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rua)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Numero)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Bairro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Estado)
-            </th>
-            
-            <th>
-                @Html.DisplayNameFor(model => model.Horario_funcionamento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Faz_entrega)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tempo_entrega)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
- @foreach (var item in Model)
+
+
+        @foreach (var item in Model)
         {
-            <tr>
+            <div class="Lista-Estabelecimentos">
 
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                
-                <td>
-                    @Html.DisplayFor(modelItem => item.Telefone)
-                </td>
-                <td>
+                <div>Nome:
+                   @Html.DisplayFor(modelItem => item.Nome)
+                </div>
+                <div>Rua:
                     @Html.DisplayFor(modelItem => item.Rua)
-                </td>
-                <td>
+                </div>
+                <div>Número:
                     @Html.DisplayFor(modelItem => item.Numero)
-                </td>
-                <td>
+                </div>
+                <div>Bairro:
                     @Html.DisplayFor(modelItem => item.Bairro)
-                </td>
-                <td>
+                </div>
+                <div>Cidade:
                     @Html.DisplayFor(modelItem => item.Cidade)
-                </td>
-                <td>
+                </div>
+                <div>Estado:
                     @Html.DisplayFor(modelItem => item.Estado)
-                </td>
-                <td>
+                </div>
+                <div>Horário de Funcionamento:
                     @Html.DisplayFor(modelItem => item.Horario_funcionamento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Faz_entrega)
-                </td>
-                <td>
+                </div>
+                <div>Tem delivery?
+                    @if (item.Faz_entrega == true)
+                    {
+                        <span>Sim</span>
+                    }else
+                    {
+                        <span>Não</span>
+                    }
+                </div>
+                <div>Tempo de entrega:
                     @Html.DisplayFor(modelItem => item.Tempo_entrega)
-                </td>
-                <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-                </td>
-            </tr>
+                </div>
+                <div>Descrição:
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </div>
+            </div>
         }
-    </tbody>
-</table>
-</div>
+        </div>
+ </section>
+        
+<link href="/css/estabelecimentos.css" rel="stylesheet" />
