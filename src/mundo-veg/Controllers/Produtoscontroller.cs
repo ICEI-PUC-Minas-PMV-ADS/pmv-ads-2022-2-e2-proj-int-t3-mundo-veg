@@ -13,9 +13,11 @@ namespace mundo_veg.Controllers
     public class ProdutosController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private string _filePath;
 
-        public ProdutosController(ApplicationDbContext context)
+        public ProdutosController(ApplicationDbContext context, IWebHostEnvironment env)
         {
+            _filePath = env.WebRootPath;
             _context = context;
         }
 
@@ -70,15 +72,56 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Quantidade,Ingredientes,Preco,Categoria")] Produto produto)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Quantidade,Ingredientes,Preco,Categoria, Imagem")] Produto produto, IFormFile anexo)
         {
             if (ModelState.IsValid)
             {
+                if (!ValidaImagem(anexo))
+                    return View(produto);
+                var nomeImg = SalvarArquivo(anexo);
+                produto.Imagem = nomeImg;
+
                 _context.Add(produto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(produto);
+        }
+        public bool ValidaImagem(IFormFile anexo)
+        {
+            switch (anexo.ContentType)
+            {
+                case "image/jpg":
+                    return true;
+                case "image/jpeg":
+                    return true;
+                case "image/bmp":
+                    return true;
+                case "image/png":
+                    return true;
+                default:
+                    return false;
+                    break;
+
+            }
+        }
+        public string SalvarArquivo(IFormFile anexo)
+        {
+            var nome = Guid.NewGuid().ToString() + anexo.FileName;
+
+            var filePath = _filePath + "\\imagens";
+
+            if (!Directory.Exists(filePath)) ;
+            {
+                Directory.CreateDirectory(filePath);
+            }
+
+            using (var stream = System.IO.File.Create(filePath + "\\" + nome))
+            {
+                anexo.CopyToAsync(stream);
+            }
+            return nome;
+
         }
 
         // GET: Produtos/Edit/5
@@ -102,7 +145,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Quantidade,Ingredientes,Preco,Categoria")] Produto produto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Quantidade,Ingredientes,Preco,Categoria, imagem")] Produto produto)
         {
             if (id != produto.Id)
             {
@@ -155,15 +198,14 @@ namespace mundo_veg.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Produtos == null)
-            {
-                return Problem("Entity set 'ApplicationDbContext.Produtos'  is null.");
-            }
             var produto = await _context.Produtos.FindAsync(id);
-            if (produto != null)
-            {
-                _context.Produtos.Remove(produto);
-            }
+            string filePathName = _filePath + "\\imagens\\" + produto.Imagem;
+
+
+            if (System.IO.File.Exists(filePathName))
+                System.IO.File.Delete(filePathName);
+            _context.Produtos.Remove(produto);
+            
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
