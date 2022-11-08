@@ -15,7 +15,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\imagens\0319101f-5ffc-44fc-a69f-a7283013cbaedownload.jpg" />
+    <Content Remove="wwwroot\imagens\04ac61ba-a8f1-4a2e-a15b-cabdba919c90images.jpg" />
+    <Content Remove="wwwroot\imagens\0dbc8462-9906-4404-a127-df481bd34b2fdownload.jpg" />
+    <Content Remove="wwwroot\imagens\0f7ecf92-e4c7-45c2-a4a6-4a1525100f5ddownload.jpg" />
+    <Content Remove="wwwroot\imagens\23645da1-a0e6-4ef4-8743-017f8e753c3fimages.jpg" />
+    <Content Remove="wwwroot\imagens\2b6b552d-d5c1-41d9-8455-dd605998c821images.jpg" />
     <Content Remove="wwwroot\imagens\37464ee9-787b-40f6-91d1-83fcac2b2caadownload %282%29.jpg" />
+    <Content Remove="wwwroot\imagens\5e5e1cfb-695c-46f2-9203-d721e6f55efbimages.jpg" />
+    <Content Remove="wwwroot\imagens\7e31c67c-5414-4639-91e3-e7983abdbb10images.jpg" />
+    <Content Remove="wwwroot\imagens\c60b9aa5-9c38-41bb-a44b-859293fbded4images.jpg" />
+    <Content Remove="wwwroot\imagens\eae78b35-0e3f-438e-bd05-4a121c27dcc5download.jpg" />
+    <Content Remove="wwwroot\imagens\eda5dbd8-ba8c-4e03-8e85-edc9a113529cimages.jpg" />
+    <Content Remove="wwwroot\imagens\f535fbba-40e3-44d6-9b68-8a8ad88716e0download %281%29.jpg" />
   </ItemGroup>
 
   <ItemGroup>
