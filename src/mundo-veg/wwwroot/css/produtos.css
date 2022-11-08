@@ -1,5 +1,4 @@
-﻿
-body {
+﻿body {
     font-family: Arial, Helvetica, sans-serif;
     background: whitesmoke;
     color: #006400;
@@ -10,7 +9,7 @@ p {
     line-height: 1.5;
 }
 
-.lista-receitas {
+.lista-produtos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -38,7 +37,7 @@ h3 {
     padding-right: 1rem;
 }
 
-.receitas-item {
+.produtos-item {
     width: 80%;
     float: left;
     padding: 30px;
@@ -47,7 +46,7 @@ h3 {
 }
 
 @media only screen and (max-width: 750px) {
-    .lista-receitas {
+    .lista-produtos {
         grid-template-columns: 1fr;
         justify-items: center;
     }
@@ -61,7 +60,7 @@ h3 {
             font-size: 1.5rem;
         }
 
-        .lista-receitas {
+        .lista-produtos {
             grid-template-columns: 1fr;
             justify-items: center;
             text-align: center;

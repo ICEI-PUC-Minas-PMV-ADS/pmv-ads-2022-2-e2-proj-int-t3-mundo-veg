@@ -20,28 +20,35 @@
         {
             <div class="Lista">
 
-                <div>Nome:
+                <div>
+                    <b>Nome:</b>
                    @Html.DisplayFor(modelItem => item.Nome)
                 </div>
-                <div>Rua:
+                <div>
+                    <b>Rua:</b>
                     @Html.DisplayFor(modelItem => item.Rua)
                 </div>
-                <div>Número:
+                <div>
+                    <b>Número:</b>
                     @Html.DisplayFor(modelItem => item.Numero)
                 </div>
-                <div>Bairro:
+                <div>
+                    <b>Bairro:</b>
                     @Html.DisplayFor(modelItem => item.Bairro)
                 </div>
-                <div>Cidade:
+                <div>
+                    <b>Cidade:</b>
                     @Html.DisplayFor(modelItem => item.Cidade)
                 </div>
-                <div>Estado:
+                <div
+                    ><b>Estado:</b>
                     @Html.DisplayFor(modelItem => item.Estado)
                 </div>
-                <div>Horário de Funcionamento:
+                <div>
+                    <b>Horário de Funcionamento:</b>
                     @Html.DisplayFor(modelItem => item.Horario_funcionamento)
                 </div>
-                <div>Tem delivery?
+                <div><b>Tem delivery?</b>
                     @if (item.Faz_entrega == true)
                     {
                         <span>Sim</span>
@@ -50,10 +57,10 @@
                         <span>Não</span>
                     }
                 </div>
-                <div>Tempo de entrega:
+                <div><b>Tempo de entrega:</b>
                     @Html.DisplayFor(modelItem => item.Tempo_entrega)
                 </div>
-                <div>Descrição:
+                <div><b>Descrição:</b>
                     @Html.DisplayFor(modelItem => item.Descricao)
                 </div>
             </div>

@@ -23,28 +23,34 @@
                     @if (!string.IsNullOrEmpty(item.Imagem))
                     {
                         <img src=".\imagens\@{
-                            @item.Imagem}" width="250" />
+                                @item.Imagem}" width="250" />
                     }
                 </div>
-            <div>Nome da receita:
+            <div
+                ><b>Nome:</b>
                 @Html.DisplayFor(modelItem => item.Nome)
             </div>
-            <div>Ingredientes:
+            <div>
+                <b>Ingredientes:</b>
                 @Html.DisplayFor(modelItem => item.Ingredientes)
             </div>
-            <div>Modo de preparo:
+            <div>
+                <b>Modo de Preparo:</b>
                 @Html.DisplayFor(modelItem => item.Modo_Preparo)
             </div>
-            <div>Rendimento:
+            <div>
+                <b>Rendimento:</b>
                 @Html.DisplayFor(modelItem => item.Rendimento)
             </div>
-            <div>Nível de dificuldade:
+            <div><b>Dificuldade:</b>
                 @Html.DisplayFor(modelItem => item.Dificuldade)
             </div>
-            <div>Tempo de preparo:
+            <div>
+                <b>Tempo de Preparo:</b>
                 @Html.DisplayFor(modelItem => item.Tempo_Preparo)
             </div>
-            <div>Categoria:
+            <div>
+                <b>Categoria:</b>
                 @Html.DisplayFor(modelItem => item.Categoria)
             </div>
                 
