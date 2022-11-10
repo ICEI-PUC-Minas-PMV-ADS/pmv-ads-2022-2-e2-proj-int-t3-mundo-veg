@@ -9,7 +9,7 @@ A arquitetura da solução apresenta como o software é estruturado em termos do
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
 <figure>
   <img src="https://user-images.githubusercontent.com/100734910/198690265-f21485fb-0eaf-41f6-a23f-f839788e7595.png"
-  <figcaption>Figura 15 - Diagrama de classes</figcaption>
+  <figcaption>Figura 17 - Diagrama de classes</figcaption>
 <figure>
 
 ## Modelo ER (Projeto Conceitual)
@@ -18,7 +18,7 @@ O Modelo ER representa através de um diagrama como as entidades se relacionam e
 
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/200184445-9a2656a4-07eb-46b1-9302-0bb4a797a5da.png"
-  <figcaption>Figura 16 - Modelo Entidade Relacionamento</figcaption>
+  <figcaption>Figura 18 - Modelo Entidade Relacionamento</figcaption>
 <figure>
 
 ## Projeto da Base de Dados
@@ -27,7 +27,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
   
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/200185486-3a4b693f-41f1-42ca-a467-8adc648185d9.png"
-  <figcaption>Figura 17 - Projeto da Base de Dados</figcaption>
+  <figcaption>Figura 19 - Projeto da Base de Dados</figcaption>
 <figure>
 
 ## Tecnologias Utilizadas
@@ -47,7 +47,7 @@ A figura abaixo exemplifica como uma interação do usuário com o sistema vai s
 
 <figure>
   <img src="https://user-images.githubusercontent.com/100447878/194180197-7481ae69-650a-40c2-9e47-e9c12e9debec.gif" style="width:80%";
-  <figcaption>Figura 18 - Interação do usuário com o sistema</figcaption>
+  <figcaption>Figura 20 - Interação do usuário com o sistema</figcaption>
 <figure>
 <br>
 <br>
@@ -57,5 +57,5 @@ A figura abaixo exemplifica como uma interação do usuário com o sistema vai s
 A aplicação interativa foi hospedada em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022. Para ter acesso a aplicação, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui.</a>
   <figure>
     <img src="https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png";
-    <figcaption>Figura 19 - Hospedagem da aplicação</figcaption>
+    <figcaption>Figura 21 - Hospedagem da aplicação</figcaption>
 <figure>
