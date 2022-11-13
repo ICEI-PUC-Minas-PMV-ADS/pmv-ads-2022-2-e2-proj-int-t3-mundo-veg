@@ -48,14 +48,12 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o estado da sua residência!")]
         public Estado Estado { get; set; }
 
-        [MaxLength(8), MinLength(8, ErrorMessage = "Este campo precisa ter 8 caracteres!")]
         [Required(ErrorMessage = "É necessário informar o CEP da sua residência!")]
         public int? CEP { get; set; }
 
         [Required(ErrorMessage = "É necessário informar a categoria!")]
         public Categoria Categoria { get; set; }
 
-        [StringLength(8, MinimumLength = 8, ErrorMessage = "Este campo precisa ter 8 caracteres!")]
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [DataType(DataType.Password)]
         public string? Senha { get; set; }

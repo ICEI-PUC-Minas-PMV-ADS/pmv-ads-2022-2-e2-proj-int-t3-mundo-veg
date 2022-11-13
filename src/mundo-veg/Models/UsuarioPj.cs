@@ -51,12 +51,11 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o estado do estabelecimento!")]
         public Estado Estado { get; set; }
 
-        [MaxLength(8), MinLength(8, ErrorMessage = "Este campo precisa ter 8 caracteres!")]
         [Required(ErrorMessage = "É necessário informar o CEP do estabelecimento!")]
         public string? CEP { get; set; }
 
         [Display(Name = "Horário de funcionamento")]
-        [StringLength(20, MinimumLength = 8, ErrorMessage = "Este campo precisa ter entre 8 e 20 caracteres!")]
+        [StringLength(20, MinimumLength = 7, ErrorMessage = "Este campo precisa ter entre 7 e 20 caracteres!")]
         [Required(ErrorMessage = "É necessário informar o horário de funcionamento do estabelecimento!")]
         public string? Horario_funcionamento { get; set; }
 
@@ -65,7 +64,7 @@ namespace mundo_veg.Models
         public bool? Faz_entrega { get; set; }
 
         [Display(Name = "Tempo de entrega (minutos)")]
-        [MaxLength(2), MinLength(2, ErrorMessage = "Este campo precisa ter 2 caracteres!")]
+        [MaxLength(2), MinLength(1, ErrorMessage = "Este campo precisa ter entre 1 ou 2 caracteres!")]
         public string? Tempo_entrega { get; set; }
 
         [Display(Name = "Descrição")]
@@ -80,7 +79,6 @@ namespace mundo_veg.Models
 
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [DataType(DataType.Password)]
-        [StringLength(8, MinimumLength = 8, ErrorMessage = "Este campo precisa ter 8 caracteres!")]
         public string? Senha { get; set; }
     }
 }
