@@ -18,13 +18,13 @@ namespace mundo_veg.Models
         public string? Nome { get; set; }
 
         [Display(Name = "E-mail")]
-        [StringLength(40, MinimumLength = 4, ErrorMessage = "Este campo precisa ter entre 8 e 40 caracteres!")]
+        [StringLength(30, MinimumLength = 8, ErrorMessage = "Este campo precisa ter entre 8 e 30 caracteres!")]
         [EmailAddress(ErrorMessage = "Este não é um formato válido de e-mail!")]
         [Required(ErrorMessage = "É necessário informar o e-mail!")]
         public string? Email { get; set; }
 
         [DataType(DataType.PhoneNumber)]
-        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3,4})[-. ]?([0-9]{4})$", ErrorMessage = "Este não é um número válido de telefone")]
+        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3,4})[-. ]?([0-9]{4})$", ErrorMessage = "Este não é um número válido de telefone!")]
         [Required(ErrorMessage = "É necessário informar o telefone!")]
         public string? Telefone { get; set; }
 
