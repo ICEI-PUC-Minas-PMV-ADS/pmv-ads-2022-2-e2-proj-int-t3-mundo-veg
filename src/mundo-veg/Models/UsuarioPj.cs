@@ -59,6 +59,11 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a descrição!")]
         public string? Descricao { get; set; }
 
+        [Display(Name = "Contato (WhatsApp)")]
+        [StringLength(25, MinimumLength = 25, ErrorMessage = "Este campo precisa ter 25 caracteres!")]
+        [Required(ErrorMessage = "É necessário informar o número do Whatsapp!")]
+        public string? Contato { get; set; }
+
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [DataType(DataType.Password)]
         public string? Senha { get; set; }

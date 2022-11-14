@@ -8,10 +8,6 @@ namespace mundo_veg.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "Contato",
-                table: "usuarios_pessoa_juridica");
-
             migrationBuilder.AddColumn<int>(
                 name: "EstabelecimentoId",
                 table: "Produtos",
@@ -46,13 +42,6 @@ namespace mundo_veg.Migrations
             migrationBuilder.DropColumn(
                 name: "EstabelecimentoId",
                 table: "Produtos");
-
-            migrationBuilder.AddColumn<string>(
-                name: "Contato",
-                table: "usuarios_pessoa_juridica",
-                type: "nvarchar(max)",
-                nullable: false,
-                defaultValue: "");
         }
     }
 }
