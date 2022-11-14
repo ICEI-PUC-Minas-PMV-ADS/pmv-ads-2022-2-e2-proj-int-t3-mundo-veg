@@ -62,6 +62,9 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [DataType(DataType.Password)]
         public string? Senha { get; set; }
+
+        [MaxLength(300)]
+        public string? Imagem { get; set; }
     }
 }
 
