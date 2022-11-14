@@ -22,9 +22,14 @@ namespace mundo_veg.Controllers
         }
 
         // GET: Produtos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-              return View(await _context.Produtos.ToListAsync());
+            var produtos = await _context.Produtos.Include(a => a.Estabelecimento).ToListAsync();
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                produtos = produtos.Where(s=>s.Nome.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)||s.Descricao.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)).ToList();
+            }
+              return View(produtos);
         }
 
         // GET: Produtos/Details/5
@@ -72,8 +77,11 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Quantidade,Ingredientes,Preco,Categoria, Imagem")] Produto produto, IFormFile anexo)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Quantidade,Descricao,Preco,Categoria, Imagem")] Produto produto, IFormFile anexo)
         {
+            var user = HttpContext.User;
+            var userId = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Sid).Value;
+            produto.EstabelecimentoId = int.Parse(userId);
             if (ModelState.IsValid)
             {
                 if (!ValidaImagem(anexo))
@@ -84,6 +92,9 @@ namespace mundo_veg.Controllers
                 _context.Add(produto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+            }else
+            {
+                ViewBag.Message = "Erro ao cadastrar produto!";
             }
             return View(produto);
         }

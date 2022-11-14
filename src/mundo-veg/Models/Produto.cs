@@ -12,12 +12,12 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o nome!")]
         public string? Nome { get; set; }
     
-        [Display(Name = "Quantidade (unidades)")]
+        [Display(Name = "Quantidade")]
         [Required(ErrorMessage = "É necessário informar a quantidade!")]
         public int Quantidade { get; set; }
 
-        [Required(ErrorMessage = "É necessário informar os ingredientes!")]
-        public string? Ingredientes { get; set; }
+        [Required(ErrorMessage = "É necessário informar a descrição do produto!")]
+        public string? Descricao { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o preço!")]
         [Display(Name = "Preço (R$)")]
@@ -28,5 +28,9 @@ namespace mundo_veg.Models
 
         [MaxLength(300)]
         public string? Imagem { get; set; }
+
+        [ForeignKey("UsuarioPj")]
+        public int EstabelecimentoId { get; set; }
+        public UsuarioPj? Estabelecimento { get; set; }
     }
 }

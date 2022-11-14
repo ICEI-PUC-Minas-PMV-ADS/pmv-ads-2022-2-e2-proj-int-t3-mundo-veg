@@ -37,6 +37,12 @@ namespace mundo_veg.Models
 
         [MaxLength(300)]
         public string? Imagem { get; set; }
+
+        [ForeignKey("UsuarioPf")]
+        public int ClienteId { get; set; }
+
+        public UsuarioPf? Cliente { get; set; }
+
     }
 
     public enum Dificuldade

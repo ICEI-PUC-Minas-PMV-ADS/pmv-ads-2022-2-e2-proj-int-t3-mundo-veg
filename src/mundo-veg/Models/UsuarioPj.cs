@@ -62,6 +62,8 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [DataType(DataType.Password)]
         public string? Senha { get; set; }
+
+        public List<Produto>? Produtos { get; set; }
     }
 }
 

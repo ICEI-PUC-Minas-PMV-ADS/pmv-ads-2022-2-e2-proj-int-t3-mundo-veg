@@ -84,9 +84,18 @@ namespace mundo_veg.Controllers
 
 
         // GET: UsuarioPjs
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.UsuarioPjs.ToListAsync());
+            var estabelecimentos = await _context.UsuarioPjs.ToListAsync();
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                estabelecimentos = estabelecimentos.Where(s => s.Nome.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)
+                                       || s.Bairro.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)
+                                       || s.Rua.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)
+                                       || s.Cidade.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)).ToList();
+            }
+            return View(estabelecimentos);
         }
 
         // GET: UsuarioPjs/Details/5

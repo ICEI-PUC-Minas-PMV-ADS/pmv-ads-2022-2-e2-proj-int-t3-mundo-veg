@@ -13,7 +13,13 @@
 </main>
 
 <section class="conteudo">
-
+    @using (Html.BeginForm())
+    {
+        <p>
+            @Html.TextBox("SearchString")
+            <input type="submit" value="buscar" />
+        </p>
+    }
     <div class="lista-receitas">
 
 @foreach (var item in Model) {
@@ -26,8 +32,8 @@
                                 @item.Imagem}" width="250" />
                     }
                 </div>
-            <div
-                ><b>Nome:</b>
+            <div>
+                <b>Nome:</b>
                 @Html.DisplayFor(modelItem => item.Nome)
             </div>
             <div>

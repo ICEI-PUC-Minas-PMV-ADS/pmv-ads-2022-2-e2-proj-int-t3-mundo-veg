@@ -10,7 +10,13 @@
 </main>
 
 <section class="conteudo">
-
+    @using (Html.BeginForm())
+    {
+        <p>
+            @Html.TextBox("SearchString")
+            <input type="submit" value="buscar" />
+        </p>
+    }
     <div class="lista-produtos">
 
 @foreach (var item in Model) {
@@ -31,8 +37,8 @@
                 @Html.DisplayFor(modelItem => item.Quantidade)
             </div>
                 <div>
-                    <b>Ingredientes:</b>
-                @Html.DisplayFor(modelItem => item.Ingredientes)
+                    <b>Descrição do produto:</b>
+                @Html.DisplayFor(modelItem => item.Descricao)
             </div>
                 <div>
                     <b>Preço:</b>
@@ -42,6 +48,10 @@
                     <b>Categoria:</b>
                 @Html.DisplayFor(modelItem => item.Categoria)
             </div>
+                <div>
+                    <b>Estabelecimento:</b>
+                    @Html.DisplayFor(modelItem => item.Estabelecimento.Nome)
+                </div>
                    
         </div>                
 }
@@ -50,19 +60,15 @@
 </section>
 <link href="../css/produtos.css" rel="stylesheet" />
 
-@section Scripts {
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-
-            $('#myTable').DataTable({
-                "language": {
-                    "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
-                }
-
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#Lista").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
             });
-
         });
-
     </script>
-          }

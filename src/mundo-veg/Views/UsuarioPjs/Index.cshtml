@@ -4,6 +4,7 @@
 @{
     ViewData["Title"] = "Index";
 }
+
 <main>
     <div class="corpo">
         <h3>Estabelecimentos</h3>
@@ -11,41 +12,41 @@
 </main>
 
 <section class="conteudo">
-
+    @using (Html.BeginForm())
+    {
+        <p>
+             @Html.TextBox("SearchString")
+            <input type="submit" value="buscar" />
+        </p>
+    }
     <div class="lista-estabelecimentos">
 
 
 
         @foreach (var item in Model)
         {
-            <div class="Lista">
+            <div id ="Lista">
 
-                <div>
-                    <b>Nome:</b>
+                <div> <b>Nome:</b>
                    @Html.DisplayFor(modelItem => item.Nome)
                 </div>
-                <div>
-                    <b>Rua:</b>
+                <div><b>Rua:</b>
                     @Html.DisplayFor(modelItem => item.Rua)
                 </div>
-                <div>
-                    <b>Número:</b>
+                <div><b>Número:</b>
                     @Html.DisplayFor(modelItem => item.Numero)
                 </div>
-                <div>
-                    <b>Bairro:</b>
+                <div><b>Bairro:</b>
                     @Html.DisplayFor(modelItem => item.Bairro)
                 </div>
-                <div>
-                    <b>Cidade:</b>
+                <div><b>Cidade:</b>
                     @Html.DisplayFor(modelItem => item.Cidade)
                 </div>
                 <div
                     ><b>Estado:</b>
                     @Html.DisplayFor(modelItem => item.Estado)
                 </div>
-                <div>
-                    <b>Horário de Funcionamento:</b>
+                <div><b>Horário de Funcionamento:</b>
                     @Html.DisplayFor(modelItem => item.Horario_funcionamento)
                 </div>
                 <div><b>Tem delivery?</b>

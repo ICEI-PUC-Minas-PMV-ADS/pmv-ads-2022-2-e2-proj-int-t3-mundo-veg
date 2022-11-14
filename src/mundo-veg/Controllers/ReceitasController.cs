@@ -22,9 +22,15 @@ namespace mundo_veg.Controllers
         }
 
         // GET: Receitas
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
+
         {
-            return View(await _context.Receitas.ToListAsync());
+            var receitas = await _context.Receitas.ToListAsync();
+            if(!String.IsNullOrEmpty(searchString))
+            {
+                receitas = receitas.Where(s=>s.Nome.Contains(searchString, StringComparison.CurrentCultureIgnoreCase) || s.Ingredientes.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)).ToList();
+            }
+            return View(receitas);
         }
 
         // GET: Receitas/Details/5
@@ -68,6 +74,9 @@ namespace mundo_veg.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Ingredientes,Modo_Preparo,Rendimento,Dificuldade,Tempo_Preparo,Categoria,Imagem")] Receita receita, IFormFile anexo)
         {
+            var user = HttpContext.User;
+            var userId = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Sid).Value;
+            receita.ClienteId = int.Parse(userId);
             if (ModelState.IsValid)
             {
 
@@ -79,6 +88,9 @@ namespace mundo_veg.Controllers
                 _context.Add(receita);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+            }else
+            {
+                ViewBag.Message = "Erro ao cadastrar produto!";
             }
             return View(receita);
 
