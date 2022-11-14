@@ -8,9 +8,12 @@ A arquitetura da solução apresenta como o software é estruturado em termos do
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
 <figure>
-  <img src="https://user-images.githubusercontent.com/100734910/198690265-f21485fb-0eaf-41f6-a23f-f839788e7595.png"
-  <figcaption>Figura 17 - Diagrama de classes</figcaption>
+  <img src="https://user-images.githubusercontent.com/100734910/201674961-c8115062-df43-4ca0-a6ad-acc7000bd67c.png"
+          <figcaption>Figura 17 - Diagrama de classes</figcaption>
 <figure>
+  
+  
+
 
 ## Modelo ER (Projeto Conceitual)
 
