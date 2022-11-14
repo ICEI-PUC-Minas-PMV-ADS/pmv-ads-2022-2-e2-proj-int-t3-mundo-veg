@@ -3,66 +3,72 @@
 @{
     ViewData["Title"] = "Index";
 }
+<main>
+    <div class="corpo">
+        <h3>Produtos</h3>
+    </div>
+</main>
 
-<h3>Produtos</h3>
-<div class="table-responsive">
-<table id="myTable" class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Quantidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Ingredientes)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Preco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Categoria)
-            </th>
-        </tr>
-    </thead>
-    <tbody>
+<section class="conteudo">
+    @using (Html.BeginForm())
+    {
+        <p>
+            @Html.TextBox("SearchString")
+            <input type="submit" value="buscar" />
+        </p>
+    }
+    <div class="lista-produtos">
+
 @foreach (var item in Model) {
-        <tr>
-            <td>
+        <div id="lista">
+                <div>
+                    @if (!string.IsNullOrEmpty(item.Imagem))
+                    {
+                        <img src=".\imagens\@{
+                                @item.Imagem}" width="250" />
+                    }
+                </div>
+                <div>
+                    <b>Nome do Produto:</b>
                 @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
+            </div>
+                <div>
+                    <b>Quantidade:</b>
                 @Html.DisplayFor(modelItem => item.Quantidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Ingredientes)
-            </td>
-            <td>
+            </div>
+                <div>
+                    <b>Descrição do produto:</b>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </div>
+                <div>
+                    <b>Preço:</b>
                 @Html.DisplayFor(modelItem => item.Preco)
-            </td>
-            <td>
+            </div>
+                <div>
+                    <b>Categoria:</b>
                 @Html.DisplayFor(modelItem => item.Categoria)
-            </td>
-        </tr>
+            </div>
+                <div>
+                    <b>Estabelecimento:</b>
+                    @Html.DisplayFor(modelItem => item.Estabelecimento.Nome)
+                </div>
+                   
+        </div>                
 }
-    </tbody>
-</table>
+    
 </div>
+</section>
+<link href="../css/produtos.css" rel="stylesheet" />
 
-@section Scripts {
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-
-            $('#myTable').DataTable({
-                "language": {
-                    "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
-                }
-
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#Lista").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
             });
-
         });
-
     </script>
-          }

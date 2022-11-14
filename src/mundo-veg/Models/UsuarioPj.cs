@@ -59,7 +59,7 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o horário de funcionamento do estabelecimento!")]
         public string? Horario_funcionamento { get; set; }
 
-        [Display(Name = "Faz entrega")]
+        [Display(Name = "Delivery")]
         [Required(ErrorMessage = "É necessário informar se faz entrega!")]
         public bool? Faz_entrega { get; set; }
 
@@ -80,6 +80,8 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [DataType(DataType.Password)]
         public string? Senha { get; set; }
+
+        public List<Produto>? Produtos { get; set; }
     }
 }
 

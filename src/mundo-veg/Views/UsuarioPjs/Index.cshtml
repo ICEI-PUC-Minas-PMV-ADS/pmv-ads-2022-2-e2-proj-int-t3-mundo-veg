@@ -5,101 +5,68 @@
     ViewData["Title"] = "Index";
 }
 
-<h3>Estabelecimentos</h3>
+<main>
+    <div class="corpo">
+        <h3>Estabelecimentos</h3>
+    </div>
+</main>
 
-<div class="table-responsive">
+<section class="conteudo">
+    @using (Html.BeginForm())
+    {
+        <p>
+             @Html.TextBox("SearchString")
+            <input type="submit" value="buscar" />
+        </p>
+    }
+    <div class="lista-estabelecimentos">
 
-<table class="table">
-    <thead>
-        <tr>
-           
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rua)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Numero)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Bairro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Estado)
-            </th>
-            
-            <th>
-                @Html.DisplayNameFor(model => model.Horario_funcionamento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Faz_entrega)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tempo_entrega)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Contato)
-                </th>
-        </tr>
-    </thead>
-    <tbody>
- @foreach (var item in Model)
+
+
+        @foreach (var item in Model)
         {
-            <tr>
+            <div id ="Lista">
 
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                
-                <td>
-                    @Html.DisplayFor(modelItem => item.Telefone)
-                </td>
-                <td>
+                <div> <b>Nome:</b>
+                   @Html.DisplayFor(modelItem => item.Nome)
+                </div>
+                <div><b>Rua:</b>
                     @Html.DisplayFor(modelItem => item.Rua)
-                </td>
-                <td>
+                </div>
+                <div><b>Número:</b>
                     @Html.DisplayFor(modelItem => item.Numero)
-                </td>
-                <td>
+                </div>
+                <div><b>Bairro:</b>
                     @Html.DisplayFor(modelItem => item.Bairro)
-                </td>
-                <td>
+                </div>
+                <div><b>Cidade:</b>
                     @Html.DisplayFor(modelItem => item.Cidade)
-                </td>
-                <td>
+                </div>
+                <div
+                    ><b>Estado:</b>
                     @Html.DisplayFor(modelItem => item.Estado)
-                </td>
-                <td>
+                </div>
+                <div><b>Horário de Funcionamento:</b>
                     @Html.DisplayFor(modelItem => item.Horario_funcionamento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Faz_entrega)
-                </td>
-                <td>
+                </div>
+                <div><b>Tem delivery?</b>
+                    @if (item.Faz_entrega == true)
+                    {
+                        <span>Sim</span>
+                    }else
+                    {
+                        <span>Não</span>
+                    }
+                </div>
+                <div><b>Tempo de entrega:</b>
                     @Html.DisplayFor(modelItem => item.Tempo_entrega)
-                </td>
-                <td>
+                </div>
+                <div><b>Descrição:</b>
                     @Html.DisplayFor(modelItem => item.Descricao)
-                </td>
-                    <th>
-                        @if (!string.IsNullOrEmpty(item.Contato))
-                        {
-                            <a href="@{@item.Contato}"><img src="/lib/zap.png" width="30" /></a>
-                        }
-                </th>
-            </tr>
+                </div>
+            </div>
         }
-    </tbody>
-</table>
-</div>
+        </div>
+ </section>
+        
+<link href="/css/estabelecimentos.css" rel="stylesheet" />

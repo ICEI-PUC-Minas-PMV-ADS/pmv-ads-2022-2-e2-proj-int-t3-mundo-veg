@@ -17,9 +17,8 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a quantidade!")]
         public int? Quantidade { get; set; }
 
-        [StringLength(500, MinimumLength = 10, ErrorMessage = "Este campo precisa ter entre 10 e 500 caracteres!")]
-        [Required(ErrorMessage = "É necessário informar os ingredientes!")]
-        public string? Ingredientes { get; set; }
+        [Required(ErrorMessage = "É necessário informar a descrição do produto!")]
+        public string? Descricao { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o preço!")]
         [Display(Name = "Preço (R$)")]
@@ -28,5 +27,12 @@ namespace mundo_veg.Models
 
         [Required(ErrorMessage = "É necessário informar a categoria!")]
         public Categoria Categoria { get; set; }
+
+        [MaxLength(300)]
+        public string? Imagem { get; set; }
+
+        [ForeignKey("UsuarioPj")]
+        public int EstabelecimentoId { get; set; }
+        public UsuarioPj? Estabelecimento { get; set; }
     }
 }

@@ -33,10 +33,17 @@ namespace mundo_veg.Migrations
                     b.Property<int>("Categoria")
                         .HasColumnType("int");
 
-                    b.Property<string>("Ingredientes")
+                    b.Property<string>("Descricao")
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("EstabelecimentoId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Imagem")
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -54,6 +61,8 @@ namespace mundo_veg.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("EstabelecimentoId");
+
                     b.ToTable("Produtos");
                 });
 
@@ -68,8 +77,15 @@ namespace mundo_veg.Migrations
                     b.Property<int>("Categoria")
                         .HasColumnType("int");
 
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Dificuldade")
                         .HasColumnType("int");
+
+                    b.Property<string>("Imagem")
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("Ingredientes")
                         .IsRequired()
@@ -93,6 +109,8 @@ namespace mundo_veg.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
 
                     b.ToTable("Receitas");
                 });
@@ -247,6 +265,38 @@ namespace mundo_veg.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("usuarios_pessoa_juridica");
+                });
+
+            modelBuilder.Entity("mundo_veg.Models.Produto", b =>
+                {
+                    b.HasOne("mundo_veg.Models.UsuarioPj", "Estabelecimento")
+                        .WithMany("Produtos")
+                        .HasForeignKey("EstabelecimentoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Estabelecimento");
+                });
+
+            modelBuilder.Entity("mundo_veg.Models.Receita", b =>
+                {
+                    b.HasOne("mundo_veg.Models.UsuarioPf", "Cliente")
+                        .WithMany("Receitas")
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("mundo_veg.Models.UsuarioPf", b =>
+                {
+                    b.Navigation("Receitas");
+                });
+
+            modelBuilder.Entity("mundo_veg.Models.UsuarioPj", b =>
+                {
+                    b.Navigation("Produtos");
                 });
 #pragma warning restore 612, 618
         }

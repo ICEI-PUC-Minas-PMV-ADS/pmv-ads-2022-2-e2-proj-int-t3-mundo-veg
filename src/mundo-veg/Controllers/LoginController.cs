@@ -106,7 +106,7 @@ namespace mundo_veg.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("Login", "Login");
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Perfil()

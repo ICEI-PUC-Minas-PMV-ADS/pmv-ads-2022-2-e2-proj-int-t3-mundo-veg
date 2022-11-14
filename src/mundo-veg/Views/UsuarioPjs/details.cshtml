@@ -94,15 +94,11 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Descricao)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contato)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contato)
-        </dd>
     </dl>
 </div>
 <div>
-    <a class="btn btn-success btn-rounded" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
-    <a class="btn btn-warning btn-rounded" asp-controller="Home" asp-action="Index">Voltar</a>
+    <a class="btn btn-success btn-rounded" asp-controller="Home" asp-action="Index">Voltar</a>
+    <a class="btn btn-warning btn-rounded" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+    <a class="btn btn-danger btn-rounded" asp-action="Delete" asp-route-id="@Model.Id">Excluir</a>
+  
 </div>

@@ -4,79 +4,66 @@
     ViewData["Title"] = "Index";
 }
 
-<h3>Receitas</h3>
 
-<div class="table-responsive">
-<table id="myTable" class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Ingredientes)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Modo_Preparo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rendimento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Dificuldade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tempo_Preparo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Categoria)
-            </th>
-           
-        </tr>
-    </thead>
-    <tbody>
+
+<main>
+    <div class="corpo">
+        <h3>Receitas</h3>
+    </div>
+</main>
+
+<section class="conteudo">
+    @using (Html.BeginForm())
+    {
+        <p>
+            @Html.TextBox("SearchString")
+            <input type="submit" value="buscar" />
+        </p>
+    }
+    <div class="lista-receitas">
+
 @foreach (var item in Model) {
-        <tr>
-            <td>
+        <div class="Lista">
+
+                <div>
+                    @if (!string.IsNullOrEmpty(item.Imagem))
+                    {
+                        <img src=".\imagens\@{
+                                @item.Imagem}" width="250" />
+                    }
+                </div>
+            <div>
+                <b>Nome:</b>
                 @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
+            </div>
+            <div>
+                <b>Ingredientes:</b>
                 @Html.DisplayFor(modelItem => item.Ingredientes)
-            </td>
-            <td>
+            </div>
+            <div>
+                <b>Modo de Preparo:</b>
                 @Html.DisplayFor(modelItem => item.Modo_Preparo)
-            </td>
-            <td>
+            </div>
+            <div>
+                <b>Rendimento:</b>
                 @Html.DisplayFor(modelItem => item.Rendimento)
-            </td>
-            <td>
+            </div>
+            <div><b>Dificuldade:</b>
                 @Html.DisplayFor(modelItem => item.Dificuldade)
-            </td>
-            <td>
+            </div>
+            <div>
+                <b>Tempo de Preparo:</b>
                 @Html.DisplayFor(modelItem => item.Tempo_Preparo)
-            </td>
-            <td>
+            </div>
+            <div>
+                <b>Categoria:</b>
                 @Html.DisplayFor(modelItem => item.Categoria)
-            </td>
-        </tr>
+            </div>
+                
+        </div>
 }
-    </tbody>
-</table>
+
 </div>
+</section>
 
-@section Scripts {
-
-    <script>
-        $(document).ready(function () {
-
-            $('#myTable').DataTable({
-                "language": {
-                    "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
-                }
-
-            });
-
-        });
-
-    </script>
-          }
+<link href="/css/receitas.css" rel="stylesheet" />
