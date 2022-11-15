@@ -128,7 +128,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha, Imagem")] UsuarioPj usuarioPj, IFormFile anexo)
+        public async Task<IActionResult> Create([Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha,Imagem")] UsuarioPj usuarioPj, IFormFile anexo)
         {
             if (ModelState.IsValid)
             {
@@ -201,7 +201,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-         public async Task<IActionResult> Edit(int id, [Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha, Imagem")] UsuarioPj usuarioPj, IFormFile anexo)
+         public async Task<IActionResult> Edit(int id, [Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha,Imagem")] UsuarioPj usuarioPj, IFormFile anexo)
         {
             if (id != usuarioPj.Id)
             {
