@@ -60,6 +60,23 @@
                 </div>
                 <div><b>Tempo de entrega:</b>
                     @Html.DisplayFor(modelItem => item.Tempo_entrega)
+              
+                <div>
+                @Html.DisplayFor(modelItem => item.Descricao)
+                </div>
+                    <div>
+                        @if (!string.IsNullOrEmpty(item.Imagem))
+                        {
+                            <img src=".\imagens\@{
+                            @item.Imagem}" width="250" />
+                        }
+                    </div>
+                         <div>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                            </div>
+           
                 </div>
                 <div><b>Descrição:</b>
                     @Html.DisplayFor(modelItem => item.Descricao)

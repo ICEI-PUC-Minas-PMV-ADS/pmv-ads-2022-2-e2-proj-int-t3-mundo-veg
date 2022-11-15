@@ -81,6 +81,9 @@ namespace mundo_veg.Models
         [DataType(DataType.Password)]
         public string? Senha { get; set; }
 
+        [MaxLength(300)]
+        public string? Imagem { get; set; }
+
         public List<Produto>? Produtos { get; set; }
     }
 }
