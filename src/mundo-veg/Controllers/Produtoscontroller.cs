@@ -77,7 +77,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Quantidade,Descricao,Preco,Categoria, Imagem")] Produto produto, IFormFile anexo)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Quantidade,Descricao,Preco,Categoria,Imagem")] Produto produto, IFormFile anexo)
         {
             var user = HttpContext.User;
             var userId = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Sid).Value;
@@ -156,7 +156,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Quantidade,Ingredientes,Preco,Categoria, imagem")] Produto produto, IFormFile anexo)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Quantidade,Ingredientes,Preco,Categoria,Imagem")] Produto produto, IFormFile anexo)
         {
             if (id != produto.Id)
             {
