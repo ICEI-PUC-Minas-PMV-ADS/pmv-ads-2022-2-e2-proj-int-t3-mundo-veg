@@ -56,7 +56,7 @@
                     @Html.DisplayFor(modelItem => item.Estado)
                 </div>
                 <div>
-                    <b>Horário de Funcionamento:</b>
+                    <b>Horário de funcionamento:</b>
                     @Html.DisplayFor(modelItem => item.Horario_funcionamento)
                 </div>
                 <div>
@@ -70,7 +70,7 @@
                     }
                 </div>
                 <div>
-                    <b>Tempo de entrega:</b>
+                    <b>Tempo de entrega (minutos):</b>
                     @Html.DisplayFor(modelItem => item.Tempo_entrega)
                 </div>
                 <div>
@@ -79,7 +79,10 @@
                 </div>
                 <div>
                     <b>Contato:</b>
-                    @Html.DisplayFor(modelItem => item.Contato)
+                    @if (!string.IsNullOrEmpty(item.Contato))
+                    {
+                        <a href="@{@item.Contato}"><img src="/lib/zap.png" width="30" /></a>
+                    }
                 </div>
             </div>
         }
