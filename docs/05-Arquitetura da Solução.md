@@ -19,7 +19,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.
 
 <figure>
-  <img src=""
+  <img src="https://user-images.githubusercontent.com/100447878/202818985-b27ab427-2a24-47f5-b25f-a91c1f8a8d6e.png"
   <figcaption>Figura 18 - Modelo Entidade Relacionamento</figcaption>
 <figure>
 
@@ -28,7 +28,7 @@ O Modelo ER representa através de um diagrama como as entidades se relacionam e
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
   
 <figure>
-  <img src=""
+  <img src="https://user-images.githubusercontent.com/100447878/202819008-87f4cacb-0cc5-422a-b16d-d5041948bb6c.png"
   <figcaption>Figura 19 - Projeto da Base de Dados</figcaption>
 <figure>
 
