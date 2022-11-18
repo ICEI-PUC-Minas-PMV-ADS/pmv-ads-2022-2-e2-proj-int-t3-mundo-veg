@@ -15,3 +15,9 @@ Senha: 12345
 ### [0.1.0] - 30/10/2022
 #### Adicionado
 - Páginas de cadastro de usuários, estabelecimentos, receitas e produtos; login e o filtro de pesquisa.
+
+### [0.1.1] - 27/11/2022
+#### Adicionado
+- Atualização das páginas de cadastro de usuários, cadastro de estabelecimentos, estabelecimentos, receitas, produtos e o filtro de pesquisa;
+- Validação de campos dos formulários de cadastro;
+- Atualização do CSS das páginas.
