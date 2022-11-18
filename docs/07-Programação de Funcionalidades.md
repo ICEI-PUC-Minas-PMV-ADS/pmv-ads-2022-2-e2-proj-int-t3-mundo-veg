@@ -7,14 +7,14 @@
 |RF-001| A aplicação interativa deve permitir ao usuário cadastrar uma conta. | Create.cshtml / UsuarioPf.cs / UsuarioPfsController.cs | 
 |RF-002| A aplicação interativa deve permitir aos donos de restaurantes e mercados cadastrar uma conta com informações sobre o estabelecimento. | Create.cshtml / UsuarioPj.cs / UsuarioPjsController.cs | 
 |RF-003| A aplicação interativa deve permitir ao usuário cadastrado fazer o login da sua conta.  | Login.cshtml / Login.cs / LoginController.cs |
-|RF-004| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar alimentos, produtos e receitas.   | Index.cshtml |
-|RF-005| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar restaurantes e mercados vegetarianos e veganos. | Index.cshtml |
-|RF-006| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário pesquisar receitas através de ingredientes específicos.    | Index.cshtml |
+|RF-004| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar alimentos, produtos e receitas.   | ProdutosController.cs / ReceitasController.cs |
+|RF-005| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar restaurantes e mercados vegetarianos e veganos. | UsuarioPjsController.cs |
+|RF-006| A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário pesquisar receitas através de ingredientes específicos.    | ReceitasController.cs |
 |RF-007| A aplicação interativa deve permitir ao usuário visualizar as informações de contato dos restaurantes e mercados.   | Index.cshtml |
-|RF-008| A aplicação interativa deve permitir ao usuário entrar em contato com os restaurantes e mercados através do WhatsApp, para que ele faça o pedido da compra diretamente com os estabelecimentos.   | Index.cshtml / UsuarioPjsController.cs / UsuarioPj.cs |
+|RF-008| A aplicação interativa deve permitir ao usuário entrar em contato com os restaurantes e mercados através do WhatsApp, para que ele faça o pedido da compra diretamente com os estabelecimentos.   | Index.cshtml |
 |RF-009| A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma. | Create.cshtml / Receita.cs / ReceitasController.cs | 
-|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa física). | Details.cshtml / Edit.cshtml / UsuarioPf.cs / UsuarioPfsController.cs |
-|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa jurídica). | details.cshtml / Edit.cshtml / UsuarioPj.cs / UsuarioPjsController.cs 
+|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa física). | Details.cshtml / Edit.cshtml / Delete.cshtml / UsuarioPf.cs / UsuarioPfsController.cs |
+|RF-010| A aplicação interativa deve permitir ao usuário gerenciar a sua conta (pessoa jurídica). | details.cshtml / Edit.cshtml / Delete.cshtml / UsuarioPj.cs / UsuarioPjsController.cs 
 |RF-011|  A aplicação interativa deve permitir o cadastro de produtos pelos estabelecimentos logados na plataforma. | Create.cshtml / Produto.cs / ProdutosController.cs 
 
 
