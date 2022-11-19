@@ -11,7 +11,7 @@ Clique <a href="https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1382262_s
 |ID    | Objetivo | 
 |------|-----------------------------------------|
 |RF-001| Entender os principais atritos quando os usuários tentam cadastrar uma conta. |
-|RF-002| Entender os principais atritos quando donos de restaurantes e mercados tentam cadastrar as informações sobre os estabelecimentos e produtos. |
+|RF-002| Entender os principais atritos quando donos de restaurantes e mercados tentam cadastrar as informações sobre os estabelecimentos. |
 |RF-003| Verificar o nível de satisfação no cadastro de receitas. |
 |RF-004| Verificar a eficácia ao realizar o login na conta cadastrada. |
 |RF-005| Demonstrar o nível de domínio na utilização do filtro de pesquisa de produtos e receitas. |
@@ -20,6 +20,7 @@ Clique <a href="https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1382262_s
 |RF-008| Eficiência dos usuários em visualizar as informações de contato dos estabelecimentos.  |
 |RF-009| Entender as dificuldades dos usuários ao entrar em contato pelo WhatsApp com os estabelecimentos cadastrados na plataforma.  |
 |RF-010| Entender os principais atritos quando os usuários querem gerenciar sua conta. |
+|RF-011| Entender os principais atritos quando donos de estabelecimentos tentam cadastrar as informações sobre os produtos. |
 
 ## Formato da Pesquisa
 
@@ -122,7 +123,7 @@ Você se encontra na página de pesquisas de ingredientes, receitas e produtos s
 
 #### Atividades :
 
-Você se encontra na página de pesquisas de mercados e restaurantes, simule a pesquisa e utilize o filtro para encontrar o estabelecimento desejado. No final, clique na opção de entrar em contato com o estabelecimento. Você será direcionado para o link do WhatsApp.
+Você se encontra na página de pesquisas de produtos e restaurantes, simule a pesquisa e utilize o filtro para encontrar o estabelecimento desejado. No final, clique na opção de entrar em contato com o estabelecimento. Você será direcionado para o link do WhatsApp.
 
 #### Possíveis Atritos e Usabilidades :
 
@@ -133,16 +134,17 @@ Você se encontra na página de pesquisas de mercados e restaurantes, simule a p
 * Dificuldade em entrar em contato pelo WhatsApp;
 * Nível de satisfação da pesquisa.
 
+
 ## Fase 2- [Planejamento de Atividades]
 Encontrar os principais atritos e usabilidade para contas **Jurídicas**.
 
 #### **5** Participantes no total
 
-### 1. Usuários interessados em: Cadastro de Estabelecimentos e Produtos 
+### 1. Usuários interessados em: Cadastro de Estabelecimentos
 
 #### Atividades :
 
-Você se encontra na página de Cadastro de estabelecimento e produtos. Simule o cadastro com informações, completando todos os campos obrigatórios e salve as informações no final.
+Você se encontra na página de Cadastro de estabelecimento. Simule o cadastro com informações, completando todos os campos obrigatórios e salve as informações no final.
 
 #### Possíveis Atritos e Usabilidades :
 
@@ -182,6 +184,24 @@ lembre-se de salvar no final.
 * Quantidades de cliques;
 * Erro ao salvar;
 * Nível de interação com a página.
+
+### 4. Usuários interessados em: Cadastro de Produtos  
+
+#### Atividades :
+
+Você se encontra na página de Cadastro de Produtos. Simule o cadastro com as informações, completando todos os campos obrigatórios e salve as informações no final.
+
+#### Possíveis Atritos e Usabilidades :
+
+* Encontrou dificuldade para cadastrar;
+* Poucos campos para preencher;
+* Muitos campos para preencher;
+* Tempo de permanência na página;
+* Quantidades de cliques;
+* Erro ao salvar;
+* Nível de interesse em se cadastrar na plataforma.
+
+
 
 ## Relatório
 
