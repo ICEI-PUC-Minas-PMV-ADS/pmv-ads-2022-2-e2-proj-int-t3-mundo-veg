@@ -177,7 +177,7 @@ namespace mundo_veg.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "UsuarioPfs", new { id = usuarioPf.Id });
             }
             return View(usuarioPf);
         }

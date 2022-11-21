@@ -21,35 +21,46 @@
     }
     <div class="lista-estabelecimentos">
 
+@foreach (var item in Model) {
+    <div id ="Lista">
 
+                <div>
+                    @if (!string.IsNullOrEmpty(item.Imagem))
+                    {
+                        <img src=".\imagens\@{@item.Imagem}" width="250" />
+                    }
+                </div>
 
-        @foreach (var item in Model)
-        {
-            <div id ="Lista">
-
-                <div> <b>Nome:</b>
+                <div>
+                    <b>Nome:</b>
                    @Html.DisplayFor(modelItem => item.Nome)
                 </div>
-                <div><b>Rua:</b>
+                <div>
+                    <b>Rua:</b>
                     @Html.DisplayFor(modelItem => item.Rua)
                 </div>
-                <div><b>Número:</b>
+                <div>
+                    <b>Número:</b>
                     @Html.DisplayFor(modelItem => item.Numero)
                 </div>
-                <div><b>Bairro:</b>
+                <div>
+                    <b>Bairro:</b>
                     @Html.DisplayFor(modelItem => item.Bairro)
                 </div>
-                <div><b>Cidade:</b>
+                <div>
+                    <b>Cidade:</b>
                     @Html.DisplayFor(modelItem => item.Cidade)
                 </div>
                 <div
                     ><b>Estado:</b>
                     @Html.DisplayFor(modelItem => item.Estado)
                 </div>
-                <div><b>Horário de Funcionamento:</b>
+                <div>
+                    <b>Horário de funcionamento:</b>
                     @Html.DisplayFor(modelItem => item.Horario_funcionamento)
                 </div>
-                <div><b>Tem delivery?</b>
+                <div>
+                    <b>Tem delivery?</b>
                     @if (item.Faz_entrega == true)
                     {
                         <span>Sim</span>
@@ -58,15 +69,20 @@
                         <span>Não</span>
                     }
                 </div>
-                <div><b>Tempo de entrega:</b>
+                <div>
+                    <b>Tempo de entrega (minutos):</b>
                     @Html.DisplayFor(modelItem => item.Tempo_entrega)
                 </div>
-                <div><b>Descrição:</b>
+                <div>
+                    <b>Descrição:</b>
                     @Html.DisplayFor(modelItem => item.Descricao)
                 </div>
                 <div>
                     <b>Contato:</b>
-                    @Html.DisplayFor(modelItem => item.Contato)
+                    @if (!string.IsNullOrEmpty(item.Contato))
+                    {
+                        <a href="@{@item.Contato}"><img src="/lib/zap.png" width="30" /></a>
+                    }
                 </div>
             </div>
         }

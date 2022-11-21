@@ -154,7 +154,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Ingredientes,Modo_Preparo,Rendimento,Dificuldade,Tempo_Preparo,Categoria,Imagem")] Receita receita)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Ingredientes,Modo_Preparo,Rendimento,Dificuldade,Tempo_Preparo,Categoria,Imagem")] Receita receita, IFormFile anexo)
         {
             if (id != receita.Id)
             {
@@ -165,7 +165,14 @@ namespace mundo_veg.Controllers
             {
                 try
                 {
+
+                    if (!ValidaImagemEdit(anexo))
+                        return View(receita);
+                    var nomeImg = SalvarArquivo(anexo);
+                    receita.Imagem = nomeImg;
+
                     _context.Update(receita);
+
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -183,7 +190,42 @@ namespace mundo_veg.Controllers
             }
             return View(receita);
         }
+        public bool ValidaImagemEdit(IFormFile anexo)
+        {
+            switch (anexo.ContentType)
+            {
+                case "image/jpg":
+                    return true;
+                case "image/jpeg":
+                    return true;
+                case "image/bmp":
+                    return true;
+                case "image/png":
+                    return true;
+                default:
+                    return false;
+                    break;
 
+            }
+        }
+        public string SalvarArquivoEdit(IFormFile anexo)
+        {
+            var nome = Guid.NewGuid().ToString() + anexo.FileName;
+
+            var filePath = _filePath + "\\imagens";
+
+            if (!Directory.Exists(filePath)) ;
+            {
+                Directory.CreateDirectory(filePath);
+            }
+
+            using (var stream = System.IO.File.Create(filePath + "\\" + nome))
+            {
+                anexo.CopyToAsync(stream);
+            }
+            return nome;
+
+        }
         // GET: Receitas/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
