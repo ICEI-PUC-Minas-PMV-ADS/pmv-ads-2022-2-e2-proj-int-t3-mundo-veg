@@ -4,9 +4,8 @@
     ViewData["Title"] = "Delete";
 }
 
-<h3>Deletar conta</h3>
 
-<h4>Tem certeza que deseja deletar a sua conta?</h4>
+<h4>Tem certeza que deseja excluir a sua conta?</h4>
 <div>
 
     <hr />
@@ -77,17 +76,11 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Categoria)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Senha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Senha)
-        </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Deletar" class="btn btn-danger" />
-        <a class="btn btn-warning btn-rounded" asp-action="Index">Voltar</a>
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <a class="btn btn-warning btn-rounded" asp-controller="Home" asp-action="Index">Voltar</a>
     </form>
 </div>

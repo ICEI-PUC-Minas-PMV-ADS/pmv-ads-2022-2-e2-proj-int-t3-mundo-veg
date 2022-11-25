@@ -6,9 +6,10 @@
 
 <h3>Cadastro de produtos</h3>
 <hr />
+<h5>@ViewBag.Message</h5>
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Nome" class="control-label"></label>
@@ -21,9 +22,9 @@
                 <span asp-validation-for="Quantidade" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Ingredientes" class="control-label"></label>
-                <input asp-for="Ingredientes" class="form-control" />
-                <span asp-validation-for="Ingredientes" class="text-danger"></span>
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Preco" class="control-label"></label>
@@ -34,6 +35,11 @@
                 <label asp-for="Categoria" class="control-label"></label>
                 <select asp-for="Categoria" class="form-select" asp-items="Html.GetEnumSelectList<Categoria>()"></select>
                 <span asp-validation-for="Categoria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Imagem" class="control-label"></label>
+                <input type="file" name="anexo" />
+                <span asp-validation-for="Imagem" class="text-danger"></span>
             </div>
             <br />
             <div class="form-group">

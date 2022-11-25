@@ -125,7 +125,7 @@ namespace mundo_veg.Controllers
                 usuarioPf.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioPf.Senha);
                 _context.Add(usuarioPf);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Login");
             }
             return View(usuarioPf);
         }
@@ -177,7 +177,7 @@ namespace mundo_veg.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "UsuarioPfs", new { id = usuarioPf.Id });
             }
             return View(usuarioPf);
         }

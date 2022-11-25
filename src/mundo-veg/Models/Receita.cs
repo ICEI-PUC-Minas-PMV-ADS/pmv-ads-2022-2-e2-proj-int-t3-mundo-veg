@@ -10,13 +10,16 @@ namespace mundo_veg.Models
         [Key]
         public int Id { get; set; }
 
+        [StringLength(40, MinimumLength = 2, ErrorMessage = "Este campo precisa ter entre 2 e 40 caracteres!")]
         [Required(ErrorMessage = "É necessário informar o nome!")]
         public string? Nome { get; set; }
 
+        [StringLength(500, MinimumLength = 10, ErrorMessage = "Este campo precisa ter entre 10 e 500 caracteres!")]
         [Required(ErrorMessage = "É necessário informar os ingredientes!")]
         public string? Ingredientes { get; set; }
 
         [Display(Name = "Modo de preparo")]
+        [StringLength(1000, MinimumLength = 10, ErrorMessage = "Este campo precisa ter entre 10 e 1000 caracteres!")]
         [Required(ErrorMessage = "É necessário informar o modo de preparo!")]
         public string? Modo_Preparo { get; set; }
 
@@ -34,6 +37,15 @@ namespace mundo_veg.Models
 
         [Required(ErrorMessage = "É necessário informar a categoria!")]
         public Categoria Categoria { get; set; }
+
+        [MaxLength(300)]
+        public string? Imagem { get; set; }
+
+        [ForeignKey("UsuarioPf")]
+        public int ClienteId { get; set; }
+
+        public UsuarioPf? Cliente { get; set; }
+
     }
 
     public enum Dificuldade

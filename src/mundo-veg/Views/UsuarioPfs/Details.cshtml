@@ -79,6 +79,7 @@
     </dl>
 </div>
 <div>
-    <a class="btn btn-success btn-rounded" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
-    <a class="btn btn-warning btn-rounded" asp-controller="Home" asp-action="Index">Voltar</a>
+    <a class="btn btn-success btn-rounded" asp-controller="Home" asp-action="Index">Voltar</a>
+    <a class="btn btn-warning btn-rounded" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+    <a class="btn btn-danger btn-rounded" asp-action="Delete" asp-route-id="@Model.Id">Excluir</a>
 </div>

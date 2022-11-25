@@ -15,9 +15,10 @@ namespace mundo_veg.Controllers
     public class UsuarioPjsController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public UsuarioPjsController(ApplicationDbContext context)
+        private string _filePath;
+        public UsuarioPjsController(ApplicationDbContext context, IWebHostEnvironment env)
         {
+            _filePath = env.WebRootPath;
             _context = context;
         }
 
@@ -84,9 +85,18 @@ namespace mundo_veg.Controllers
 
 
         // GET: UsuarioPjs
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.UsuarioPjs.ToListAsync());
+            var estabelecimentos = await _context.UsuarioPjs.ToListAsync();
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                estabelecimentos = estabelecimentos.Where(s => s.Nome.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)
+                                       || s.Bairro.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)
+                                       || s.Rua.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)
+                                       || s.Cidade.Contains(searchString, StringComparison.CurrentCultureIgnoreCase)).ToList();
+            }
+            return View(estabelecimentos);
         }
 
         // GET: UsuarioPjs/Details/5
@@ -118,18 +128,58 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Senha")] UsuarioPj usuarioPj)
+        public async Task<IActionResult> Create([Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha,Imagem")] UsuarioPj usuarioPj, IFormFile anexo)
         {
             if (ModelState.IsValid)
             {
+                if (!ValidaImagem(anexo))
+                    return View(usuarioPj);
+                var nomeImg = SalvarArquivo(anexo);
+                usuarioPj.Imagem = nomeImg;
+                
                 usuarioPj.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioPj.Senha);
                 _context.Add(usuarioPj);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login","Login");
             }
             return View(usuarioPj);
         }
+        public bool ValidaImagem(IFormFile anexo)
+        {
+            switch (anexo.ContentType)
+            {
+                case "image/jpg":
+                    return true;
+                case "image/jpeg":
+                    return true;
+                case "image/bmp":
+                    return true;
+                case "image/png":
+                    return true;
+                default:
+                    return false;
+                    break;
 
+            }
+        }
+        public string SalvarArquivo(IFormFile anexo)
+        {
+            var nome = Guid.NewGuid().ToString() + anexo.FileName;
+
+            var filePath = _filePath + "\\imagens";
+
+            if (!Directory.Exists(filePath)) ;
+            {
+                Directory.CreateDirectory(filePath);
+            }
+
+            using (var stream = System.IO.File.Create(filePath + "\\" + nome))
+            {
+                anexo.CopyToAsync(stream);
+            }
+            return nome;
+
+        }
         // GET: UsuarioPjs/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -151,7 +201,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-         public async Task<IActionResult> Edit(int id, [Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Senha")] UsuarioPj usuarioPj)
+         public async Task<IActionResult> Edit(int id, [Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha,Imagem")] UsuarioPj usuarioPj, IFormFile anexo)
         {
             if (id != usuarioPj.Id)
             {
@@ -163,6 +213,12 @@ namespace mundo_veg.Controllers
                 try
                 {
                     usuarioPj.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioPj.Senha);
+
+                    if (!ValidaImagemEdit(anexo))
+                        return View(usuarioPj);
+                    var nomeImg = SalvarArquivo(anexo);
+                    usuarioPj.Imagem = nomeImg;
+
                     _context.Update(usuarioPj);
                     await _context.SaveChangesAsync();
                 }
@@ -177,11 +233,46 @@ namespace mundo_veg.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "UsuarioPjs", new { id = usuarioPj.Id });
             }
             return View(usuarioPj);
         }
+        public bool ValidaImagemEdit(IFormFile anexo)
+        {
+            switch (anexo.ContentType)
+            {
+                case "image/jpg":
+                    return true;
+                case "image/jpeg":
+                    return true;
+                case "image/bmp":
+                    return true;
+                case "image/png":
+                    return true;
+                default:
+                    return false;
+                    break;
 
+            }
+        }
+        public string SalvarArquivoEdit(IFormFile anexo)
+        {
+            var nome = Guid.NewGuid().ToString() + anexo.FileName;
+
+            var filePath = _filePath + "\\imagens";
+
+            if (!Directory.Exists(filePath)) ;
+            {
+                Directory.CreateDirectory(filePath);
+            }
+
+            using (var stream = System.IO.File.Create(filePath + "\\" + nome))
+            {
+                anexo.CopyToAsync(stream);
+            }
+            return nome;
+
+        }
         // GET: UsuarioPjs/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -210,10 +301,12 @@ namespace mundo_veg.Controllers
                 return Problem("Entity set 'ApplicationDbContext.UsuarioPjs'  is null.");
             }
             var usuarioPj = await _context.UsuarioPjs.FindAsync(id);
-            if (usuarioPj != null)
-            {
-                _context.UsuarioPjs.Remove(usuarioPj);
-            }
+            string filePathName = _filePath + "\\imagens\\" + usuarioPj.Imagem;
+
+            if (System.IO.File.Exists(filePathName))
+                System.IO.File.Delete(filePathName);
+            _context.UsuarioPjs.Remove(usuarioPj);
+            
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
