@@ -6,9 +6,12 @@
 
 <h3 class="cad-um">Cadastro de estabelecimentos</h3>
 
+<h5>Pessoa jurídica</h5>
+<hr />
+
 <div class="cadastrar">
     <div class="caixas">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="caixa">
                 <label asp-for="CNPJ" class="control-label"></label>
@@ -84,10 +87,11 @@
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
-            <div class="caixa">
-                <label asp-for="Contato" class="control-label">Contato</label>
+            <div class="form-group">
+                <label asp-for="Contato" class="control-label">Contato (WhatsApp)</label>
                 <input asp-for="Contato" class="form-control" />
                 <span asp-validation-for="Contato" class="text-danger"></span>
+                <p style="font-style: italic; line-height: 1; color: green; font-size: 15px">Insira o link a seguir com seu número do WhatsApp: https://wa.me/55xxxxxxxxxxx</p>
             </div>
             <div class="caixa">
                 <label asp-for="Senha" class="control-label"></label>
@@ -108,7 +112,7 @@
 </div>
 
 
-    <link href="/css/estabelecimentos.css" rel="stylesheet" />
+
 
 @section Scripts {
     @{
