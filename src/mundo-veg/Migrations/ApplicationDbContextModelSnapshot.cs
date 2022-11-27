@@ -209,8 +209,8 @@ namespace mundo_veg.Migrations
 
                     b.Property<string>("Contato")
                         .IsRequired()
-                        .HasMaxLength(25)
-                        .HasColumnType("nvarchar(25)");
+                        .HasMaxLength(27)
+                        .HasColumnType("nvarchar(27)");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
