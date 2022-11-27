@@ -17,6 +17,7 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a quantidade!")]
         public int? Quantidade { get; set; }
 
+        [Display(Name = "Descrição)")]
         [Required(ErrorMessage = "É necessário informar a descrição do produto!")]
         public string? Descricao { get; set; }
 
