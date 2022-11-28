@@ -1,7 +1,5 @@
 # Instruções de utilização
 
-## Instalação do Site
-
 Para ter acesso a aplicação interativa, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui</a>.
 
 Para fazer o login no sistema, utilize os dados abaixo:
