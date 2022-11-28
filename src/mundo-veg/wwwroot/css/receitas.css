@@ -16,6 +16,10 @@ p {
     gap: 1rem;
 }
 
+#Lista {
+    margin-top: 200px;
+}
+
 .conteudo {
     max-width: 1200px;
     margin-left: auto;
@@ -32,8 +36,9 @@ h3 {
 
 .corpo {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 30px;
+    text-align: center;
+    background-color: navajowhite;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -67,3 +72,5 @@ h3 {
             text-align: center;
             font-size: 1.125rem;
         }
+    }
+}
