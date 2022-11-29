@@ -13,12 +13,13 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o nome!")]
         public string? Nome { get; set; }
 
-        [Display(Name = "Quantidade (unidades)")]
+        [Display(Name = "Quantidade (Kg)")]
         [Required(ErrorMessage = "É necessário informar a quantidade!")]
         public int? Quantidade { get; set; }
 
-        [Display(Name = "Descrição)")]
+        [Display(Name = "Descrição")]
         [Required(ErrorMessage = "É necessário informar a descrição do produto!")]
+        [StringLength(50, MinimumLength = 4, ErrorMessage = "Este campo precisa ter entre 4 e 50 caracteres!")]
         public string? Descricao { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o preço!")]
