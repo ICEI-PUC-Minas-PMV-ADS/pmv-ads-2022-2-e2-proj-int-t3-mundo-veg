@@ -27,7 +27,7 @@ namespace mundo_veg.Models
         public string? Email { get; set; }
 
         [DataType(DataType.PhoneNumber)]
-        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{4,5})[-. ]?([0-9]{4})$", ErrorMessage = "Digite seu telefone no formato (XXX)XXXX-XXXX")]
+        //[RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{4,5})[-. ]?([0-9]{4})$", ErrorMessage = "Digite seu telefone no formato (XXX)XXXX-XXXX")]
         [Required(ErrorMessage = "É necessário informar o telefone!")]
         public string? Telefone { get; set; }
 
@@ -52,7 +52,7 @@ namespace mundo_veg.Models
         public Estado Estado { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o CEP do estabelecimento!")]
-        [StringLength(10,MinimumLength = 10, ErrorMessage = "Escreva no formato XX.XXX-XXX!")]
+       // [StringLength(10,MinimumLength = 10, ErrorMessage = "Escreva no formato XX.XXX-XXX!")]
         public string? CEP { get; set; }
 
         [Display(Name = "Horário de funcionamento")]
@@ -79,7 +79,7 @@ namespace mundo_veg.Models
         public string? Contato { get; set; }
 
         [Required(ErrorMessage = "É necessário informar a senha!")]
-        [StringLength(15, MinimumLength = 8, ErrorMessage = "Este campo precisa ter entre 8 e 15 caracteres!")]
+        //[StringLength(15, MinimumLength = 8, ErrorMessage = "Este campo precisa ter entre 8 e 15 caracteres!")]
         [DataType(DataType.Password)]
         public string? Senha { get; set; }
 

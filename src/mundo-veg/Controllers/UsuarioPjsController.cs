@@ -22,59 +22,7 @@ namespace mundo_veg.Controllers
             _context = context;
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Login([Bind("Email,Senha")] UsuarioPj usuario)
-        {
-            var user = await _context.UsuarioPjs
-                .FirstOrDefaultAsync(m => m.Email == usuario.Email);
-
-            if (user == null)
-            {
-                ViewBag.Message = "Usuário e/ou senha inválidos!";
-                return View();
-            }
-
-            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, user.Senha);
-
-            if (isSenhaOk)
-            {
-                var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, user.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
-                };
-
-                var userPjIdentity = new ClaimsIdentity(claims, "login");
-
-                ClaimsPrincipal principal = new ClaimsPrincipal(userPjIdentity);
-
-                var props = new AuthenticationProperties
-                {
-                    AllowRefresh = true,
-                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
-                    IsPersistent = true
-                };
-
-                await HttpContext.SignInAsync(principal, props);
-
-                return Redirect("/");
-            }
-
-            ViewBag.Message = "Usuário e/ou Senha inválidos!";
-            return View();
-        }
-
-        [AllowAnonymous]
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync();
-            return RedirectToAction("Login", "UsuarioPjs");
-        }
+     
 
         [AllowAnonymous]
         public IActionResult AccessDenied()
@@ -132,6 +80,23 @@ namespace mundo_veg.Controllers
         {
             if (ModelState.IsValid)
             {
+                var userPj = await _context.UsuarioPjs
+                   .FirstOrDefaultAsync(m => m.Email == usuarioPj.Email);
+                if (userPj != null)
+                {
+                    ViewBag.Message = "Esse email já foi cadastrado!";
+                    return View(usuarioPj);
+                }
+                else
+                {
+                 var userPf = await _context.UsuarioPfs.FirstOrDefaultAsync(m=>m.Email == usuarioPj.Email);
+                    if(userPf != null)
+                    {
+                        ViewBag.Message = "Esse email já foi cadastrado!";
+                        return View(usuarioPj);
+                    }
+                }
+                
                 if (!ValidaImagem(anexo))
                     return View(usuarioPj);
                 var nomeImg = SalvarArquivo(anexo);
