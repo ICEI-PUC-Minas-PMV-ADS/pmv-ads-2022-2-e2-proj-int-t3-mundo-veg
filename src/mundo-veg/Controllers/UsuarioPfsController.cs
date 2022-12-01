@@ -216,7 +216,8 @@ namespace mundo_veg.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Create"); ;
         }
 
         private bool UsuarioPfExists(int id)

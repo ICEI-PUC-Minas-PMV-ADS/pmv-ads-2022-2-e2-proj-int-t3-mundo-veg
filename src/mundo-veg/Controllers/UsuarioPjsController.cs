@@ -309,7 +309,8 @@ namespace mundo_veg.Controllers
             
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Index");
         }
 
         private bool UsuarioPjExists(int id)
