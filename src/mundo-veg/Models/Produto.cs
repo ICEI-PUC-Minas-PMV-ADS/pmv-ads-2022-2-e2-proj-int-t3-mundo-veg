@@ -19,12 +19,12 @@ namespace mundo_veg.Models
 
         [Display(Name = "Descrição")]
         [Required(ErrorMessage = "É necessário informar a descrição do produto!")]
-        [StringLength(50, MinimumLength = 4, ErrorMessage = "Este campo precisa ter entre 4 e 50 caracteres!")]
+        [StringLength(100, MinimumLength = 15, ErrorMessage = "Este campo precisa ter no mínimo 15 caracteres!")]
         public string? Descricao { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o preço!")]
         [Display(Name = "Preço (R$)")]
-        [StringLength(10, MinimumLength = 3, ErrorMessage = "Este campo precisa ter entre 3 e 10 caracteres!")]
+        [StringLength(10, MinimumLength = 3, ErrorMessage = "Escreva no formato R$00,00!")]
         public string? Preco { get; set; }
 
         [Required(ErrorMessage = "É necessário informar a categoria!")]
