@@ -196,7 +196,8 @@ namespace mundo_veg.Migrations
 
                     b.Property<string>("CEP")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("CNPJ")
                         .IsRequired()
