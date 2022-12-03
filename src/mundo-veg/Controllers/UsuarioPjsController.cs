@@ -185,6 +185,11 @@ namespace mundo_veg.Controllers
             }
             var usuarioPj = await _context.UsuarioPjs.FindAsync(id);
 
+            if (usuarioPj != null)
+            {
+                _context.UsuarioPjs.Remove(usuarioPj);
+            }
+
             await _context.SaveChangesAsync();
             await HttpContext.SignOutAsync();
             return RedirectToAction("Index");
