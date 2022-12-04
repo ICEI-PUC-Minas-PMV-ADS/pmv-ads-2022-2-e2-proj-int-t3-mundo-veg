@@ -30,8 +30,6 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar a categoria!")]
         public Categoria Categoria { get; set; }
 
-        public string? Imagem { get; set; }
-
         [ForeignKey("UsuarioPj")]
         public int EstabelecimentoId { get; set; }
         public UsuarioPj? Estabelecimento { get; set; }
