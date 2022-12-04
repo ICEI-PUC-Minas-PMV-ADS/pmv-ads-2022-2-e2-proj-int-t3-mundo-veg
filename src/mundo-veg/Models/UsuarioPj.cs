@@ -21,17 +21,15 @@ namespace mundo_veg.Models
         public string? Nome { get; set; }
 
         [Display(Name = "E-mail")]
-        [StringLength(30, MinimumLength = 8, ErrorMessage = "Este campo precisa ter entre 8 e 30 caracteres!")]
         [EmailAddress(ErrorMessage = "Este não é um formato válido de e-mail!")]
         [Required(ErrorMessage = "É necessário informar o e-mail!")]
         public string? Email { get; set; }
 
         [DataType(DataType.PhoneNumber)]
-        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3,4})[-. ]?([0-9]{4})$", ErrorMessage = "Digite seu telefone no formato (XX)XXXX-XXXX")]
+        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{4,5})[-. ]?([0-9]{4})$", ErrorMessage = "Digite seu telefone no formato (XXX)XXXX-XXXX")]
         [Required(ErrorMessage = "É necessário informar o telefone!")]
         public string? Telefone { get; set; }
 
-        [StringLength(20, MinimumLength = 1, ErrorMessage = "Este campo precisa ter entre 1 e 20 caracteres!")]
         [Required(ErrorMessage = "É necessário informar a rua do estabelecimento!")]
         public string? Rua { get; set; }
 
@@ -40,11 +38,11 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o número do estabelecimento!")]
         public string? Numero { get; set; }
 
-        [StringLength(20, MinimumLength = 1, ErrorMessage = "Este campo precisa ter entre 1 e 20 caracteres!")]
+       
         [Required(ErrorMessage = "É necessário informar o bairro do estabelecimento!")]
         public string? Bairro { get; set; }
 
-        [StringLength(20, MinimumLength = 2, ErrorMessage = "Este campo precisa ter entre 2 e 20 caracteres!")]
+      
         [Required(ErrorMessage = "É necessário informar a cidade do estabelecimento!")]
         public string? Cidade { get; set; }
 
@@ -52,11 +50,11 @@ namespace mundo_veg.Models
         public Estado Estado { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o CEP do estabelecimento!")]
-        [StringLength(10, MinimumLength = 10, ErrorMessage = "Escreva no formato XX.XXX-XXX!")]
+        [StringLength(9, MinimumLength = 9, ErrorMessage = "Escreva no formato XXXXX-XXX!")]
         public string? CEP { get; set; }
 
         [Display(Name = "Horário de funcionamento")]
-        [StringLength(20, MinimumLength = 7, ErrorMessage = "Este campo precisa ter entre 7 e 20 caracteres!")]
+
         [Required(ErrorMessage = "É necessário informar o horário de funcionamento do estabelecimento!")]
         public string? Horario_funcionamento { get; set; }
 
@@ -65,11 +63,10 @@ namespace mundo_veg.Models
         public bool? Faz_entrega { get; set; }
 
         [Display(Name = "Tempo de entrega (minutos)")]
-        [MaxLength(2), MinLength(1, ErrorMessage = "Este campo precisa ter entre 1 ou 2 caracteres!")]
+      
         public string? Tempo_entrega { get; set; }
 
         [Display(Name = "Descrição")]
-        [StringLength(100, MinimumLength = 4, ErrorMessage = "Este campo precisa ter entre 4 e 100 caracteres!")]
         [Required(ErrorMessage = "É necessário informar a descrição!")]
         public string? Descricao { get; set; }
 
