@@ -122,6 +122,23 @@ namespace mundo_veg.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                var userPj = await _context.UsuarioPjs
+                   .FirstOrDefaultAsync(m => m.Email == usuarioPf.Email);
+                if (userPj != null)
+                {
+                    ViewBag.Message = "Esse email já foi cadastrado!";
+                    return View(usuarioPf);
+                }
+                else
+                {
+                    var userPf = await _context.UsuarioPfs.FirstOrDefaultAsync(m => m.Email == usuarioPf.Email);
+                    if (userPf != null)
+                    {
+                        ViewBag.Message = "Esse email já foi cadastrado!";
+                        return View(usuarioPf);
+                    }
+                }
                 usuarioPf.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioPf.Senha);
                 _context.Add(usuarioPf);
                 await _context.SaveChangesAsync();
@@ -216,7 +233,8 @@ namespace mundo_veg.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Create"); ;
         }
 
         private bool UsuarioPfExists(int id)

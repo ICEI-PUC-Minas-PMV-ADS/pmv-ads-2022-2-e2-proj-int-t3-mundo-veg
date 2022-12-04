@@ -24,7 +24,7 @@ namespace mundo_veg.Models
         public string? Email { get; set; }
 
         [DataType(DataType.PhoneNumber)]
-        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3,4})[-. ]?([0-9]{4})$", ErrorMessage = "Este não é um número válido de telefone!")]
+        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3,4})[-. ]?([0-9]{4})$", ErrorMessage = "Digite seu telefone no formato (XX)XXXXX-XXXX")]
         [Required(ErrorMessage = "É necessário informar o telefone!")]
         public string? Telefone { get; set; }
 

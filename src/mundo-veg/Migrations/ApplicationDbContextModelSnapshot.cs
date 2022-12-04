@@ -35,14 +35,11 @@ namespace mundo_veg.Migrations
 
                     b.Property<string>("Descricao")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int>("EstabelecimentoId")
                         .HasColumnType("int");
-
-                    b.Property<string>("Imagem")
-                        .HasMaxLength(300)
-                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -81,10 +78,6 @@ namespace mundo_veg.Migrations
 
                     b.Property<int>("Dificuldade")
                         .HasColumnType("int");
-
-                    b.Property<string>("Imagem")
-                        .HasMaxLength(300)
-                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("Ingredientes")
                         .IsRequired()
@@ -195,7 +188,8 @@ namespace mundo_veg.Migrations
 
                     b.Property<string>("CEP")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("CNPJ")
                         .IsRequired()
@@ -233,10 +227,6 @@ namespace mundo_veg.Migrations
                         .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
-
-                    b.Property<string>("Imagem")
-                        .HasMaxLength(300)
-                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
