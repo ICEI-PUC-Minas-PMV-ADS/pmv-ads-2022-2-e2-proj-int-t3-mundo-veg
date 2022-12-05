@@ -1,6 +1,6 @@
 # Instruções de utilização
 
-Para ter acesso a aplicação interativa, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui</a>.
+Para ter acesso a aplicação interativa, <a href="http://daianecampos-001-site1.itempurl.com/">clique aqui</a>.
 
 Para fazer o login no sistema, utilize os dados abaixo:
 
@@ -18,4 +18,10 @@ Senha: 12345
 #### Adicionado
 - Atualização das páginas de cadastro de usuários, cadastro de estabelecimentos, estabelecimentos, receitas, mercado e o filtro de pesquisa;
 - Validação de campos dos formulários de cadastro;
+- Atualização do CSS das páginas.
+
+### [0.1.2] - 11/12/2022
+#### Adicionado
+- Atualização das páginas de cadastro de usuários, cadastro de estabelecimentos, cadastro de receitas, cadastros de produtos, estabelecimentos, receitas e mercado;
+- Atualização da validação de campos dos formulários de cadastro;
 - Atualização do CSS das páginas.
