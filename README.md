@@ -23,7 +23,7 @@ O objetivo geral deste projeto é a criação de uma aplicação interativa de f
 
 ## Instruções de utilização
 
-Para ter acesso a aplicação interativa, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui</a>.
+Para ter acesso a aplicação interativa, <a href="http://daianecampos-001-site1.itempurl.com/">clique aqui</a>.
 
 Para fazer o login no sistema, utilize os dados abaixo:
 
