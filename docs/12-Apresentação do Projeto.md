@@ -1,16 +1,21 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+<span style="color:red">Pré-requisitos: Todos os demais artefatos.</span>
 
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
 ## Título do Projeto
 
-Mundo Veg
+Mundo Veg: consumo consciente
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+<p>Cores: RGB: #006400, #fff e #ADFF2F.</p>
+<p>Font-family: "Arial, Helvetica, sans-serif" e "'Segoe UI', Arial, sans-serif".</p>
+
+<h3>Marca</h3>
+
+![Logo](https://user-images.githubusercontent.com/100447878/205716015-2fbb549e-205d-4134-aa55-2b7c78eefcd2.png)
 
 ## Conjunto de Slides (Estrutura)
 
