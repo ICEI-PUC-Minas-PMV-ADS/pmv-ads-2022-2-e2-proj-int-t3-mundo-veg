@@ -17,4 +17,5 @@ Mundo Veg: consumo consciente
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
+Clique <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg/files/10157830/Apresentacao.final.pdf">aqui</a> para acessar o conjunto de slides da apresentação.
+
