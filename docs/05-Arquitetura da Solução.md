@@ -11,15 +11,13 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
   <img src="https://user-images.githubusercontent.com/100734910/201675204-c659cedb-1304-48ed-8abc-083fba9f69b6.png"
           <figcaption>Figura 17 - Diagrama de classes</figcaption>
 <figure>
-  
-
 
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/100447878/202818985-b27ab427-2a24-47f5-b25f-a91c1f8a8d6e.png"
+  <img src="https://user-images.githubusercontent.com/100447878/205713498-b83bcf44-ecec-4218-bba1-ebab8c1f86a0.png"
   <figcaption>Figura 18 - Modelo Entidade Relacionamento</figcaption>
 <figure>
 
@@ -28,7 +26,7 @@ O Modelo ER representa através de um diagrama como as entidades se relacionam e
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
   
 <figure>
-  <img src="https://user-images.githubusercontent.com/100447878/202819008-87f4cacb-0cc5-422a-b16d-d5041948bb6c.png"
+  <img src="https://user-images.githubusercontent.com/100447878/205713628-610e4b38-5392-4d05-90ca-6cba6101bcca.png"
   <figcaption>Figura 19 - Projeto da Base de Dados</figcaption>
 <figure>
 
@@ -56,7 +54,7 @@ A figura abaixo exemplifica como uma interação do usuário com o sistema vai s
 <p>Fonte: INTRODUCTION to the server side. <b>MDN web docs</b>, 9 set. 2022. Disponível em: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction. Acesso em: 04 out. 2022.
   
 ## Hospedagem
-A aplicação interativa foi hospedada em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022. Para ter acesso a aplicação, <a href="http://gfaustini-001-site1.atempurl.com/">clique aqui.</a>
+A aplicação interativa foi hospedada em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022. Para ter acesso a aplicação, <a href="http://daianecampos-001-site1.itempurl.com/">clique aqui.</a>
   <figure>
     <img src="https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png";
     <figcaption>Figura 21 - Hospedagem da aplicação</figcaption>
