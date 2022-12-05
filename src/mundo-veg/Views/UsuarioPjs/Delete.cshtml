@@ -8,7 +8,6 @@
 
 <h3>Deseja excluir sua conta?</h3>
 <div>
-    <h4>UsuarioPj</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -77,30 +76,7 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Horario_funcionamento)
         </dd>
-        <dd class="col-sm-2">
-            @Html.DisplayFor(model => model.Faz_entrega)
-        </dd>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Faz_entrega)
-        </dd>
-        <dd class="col-sm-2">
-            @Html.DisplayFor(model => model.Tempo_entrega)
-        </dd>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Tempo_entrega)
-        </dd>
-        <dd class="col-sm-2">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dd class="col-sm-2">
-            @Html.DisplayFor(model => model.Contato)
-        </dd>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contato)
-        </dd>
+</dl>
 
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />

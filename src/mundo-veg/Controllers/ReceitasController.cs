@@ -14,10 +14,8 @@ namespace mundo_veg.Controllers
     public class ReceitasController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private string _filePath;
-        public ReceitasController(ApplicationDbContext context, IWebHostEnvironment env)
+        public ReceitasController(ApplicationDbContext context)
         {
-            _filePath = env.WebRootPath;
             _context = context;
         }
 
@@ -72,19 +70,13 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Ingredientes,Modo_Preparo,Rendimento,Dificuldade,Tempo_Preparo,Categoria,Imagem")] Receita receita, IFormFile anexo)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Ingredientes,Modo_Preparo,Rendimento,Dificuldade,Tempo_Preparo,Categoria")] Receita receita)
         {
             var user = HttpContext.User;
             var userId = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Sid).Value;
             receita.ClienteId = int.Parse(userId);
             if (ModelState.IsValid)
             {
-
-                if (!ValidaImagem(anexo))
-                    return View(receita);
-                var nomeImg = SalvarArquivo(anexo);
-                receita.Imagem = nomeImg;
-
                 _context.Add(receita);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -95,42 +87,7 @@ namespace mundo_veg.Controllers
             return View(receita);
 
         }
-        public bool ValidaImagem(IFormFile anexo)
-        {
-            switch (anexo.ContentType)
-            {
-                case "image/jpg":
-                    return true;
-                case "image/jpeg":
-                    return true;
-                case "image/bmp":
-                    return true;
-                case "image/png":
-                    return true;
-                default:
-                    return false;
-                    break;
 
-            }
-        }
-        public string SalvarArquivo(IFormFile anexo)
-        {
-            var nome = Guid.NewGuid().ToString() + anexo.FileName;
-
-            var filePath = _filePath + "\\imagens";
-
-            if (!Directory.Exists(filePath)) ;
-            {
-                Directory.CreateDirectory(filePath);
-            }
-
-            using (var stream = System.IO.File.Create(filePath + "\\" + nome))
-            {
-                anexo.CopyToAsync(stream);
-            }
-            return nome;
-
-        }
         // GET: Receitas/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -154,7 +111,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Ingredientes,Modo_Preparo,Rendimento,Dificuldade,Tempo_Preparo,Categoria,Imagem")] Receita receita, IFormFile anexo)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Ingredientes,Modo_Preparo,Rendimento,Dificuldade,Tempo_Preparo,Categoria")] Receita receita, IFormFile anexo)
         {
             if (id != receita.Id)
             {
@@ -165,14 +122,7 @@ namespace mundo_veg.Controllers
             {
                 try
                 {
-
-                    if (!ValidaImagemEdit(anexo))
-                        return View(receita);
-                    var nomeImg = SalvarArquivo(anexo);
-                    receita.Imagem = nomeImg;
-
                     _context.Update(receita);
-
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -190,42 +140,7 @@ namespace mundo_veg.Controllers
             }
             return View(receita);
         }
-        public bool ValidaImagemEdit(IFormFile anexo)
-        {
-            switch (anexo.ContentType)
-            {
-                case "image/jpg":
-                    return true;
-                case "image/jpeg":
-                    return true;
-                case "image/bmp":
-                    return true;
-                case "image/png":
-                    return true;
-                default:
-                    return false;
-                    break;
 
-            }
-        }
-        public string SalvarArquivoEdit(IFormFile anexo)
-        {
-            var nome = Guid.NewGuid().ToString() + anexo.FileName;
-
-            var filePath = _filePath + "\\imagens";
-
-            if (!Directory.Exists(filePath)) ;
-            {
-                Directory.CreateDirectory(filePath);
-            }
-
-            using (var stream = System.IO.File.Create(filePath + "\\" + nome))
-            {
-                anexo.CopyToAsync(stream);
-            }
-            return nome;
-
-        }
         // GET: Receitas/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -249,15 +164,17 @@ namespace mundo_veg.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-           
+
+            if (_context.Receitas == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.Receitas'  is null.");
+            }
             var receita = await _context.Receitas.FindAsync(id);
-            string filePathName = _filePath + "\\imagens\\" + receita.Imagem;
 
-          
-            if (System.IO.File.Exists(filePathName))
-                System.IO.File.Delete(filePathName);  
-
-               _context.Receitas.Remove(receita);
+            if (receita != null)
+            {
+                _context.Receitas.Remove(receita);
+            }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -267,7 +184,5 @@ namespace mundo_veg.Controllers
         {
             return _context.Receitas.Any(e => e.Id == id);
         }
-
     }
-
 }

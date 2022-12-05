@@ -13,24 +13,22 @@ namespace mundo_veg.Models
         [Required(ErrorMessage = "É necessário informar o nome!")]
         public string? Nome { get; set; }
 
-        [Display(Name = "Quantidade (unidades)")]
+        [Display(Name = "Quantidade (Kg)")]
         [Required(ErrorMessage = "É necessário informar a quantidade!")]
         public int? Quantidade { get; set; }
 
-        [Display(Name = "Descrição)")]
+        [Display(Name = "Descrição")]
         [Required(ErrorMessage = "É necessário informar a descrição do produto!")]
+        [StringLength(100, MinimumLength = 15, ErrorMessage = "Este campo precisa ter no mínimo 15 caracteres!")]
         public string? Descricao { get; set; }
 
         [Required(ErrorMessage = "É necessário informar o preço!")]
         [Display(Name = "Preço (R$)")]
-        [StringLength(10, MinimumLength = 3, ErrorMessage = "Este campo precisa ter entre 3 e 10 caracteres!")]
+        [StringLength(10, MinimumLength = 3, ErrorMessage = "Escreva no formato R$00,00!")]
         public string? Preco { get; set; }
 
         [Required(ErrorMessage = "É necessário informar a categoria!")]
         public Categoria Categoria { get; set; }
-
-        [MaxLength(300)]
-        public string? Imagem { get; set; }
 
         [ForeignKey("UsuarioPj")]
         public int EstabelecimentoId { get; set; }

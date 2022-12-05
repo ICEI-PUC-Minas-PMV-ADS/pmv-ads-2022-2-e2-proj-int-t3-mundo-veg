@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>mundo_veg</RootNamespace>
+	<AspNetCoreHostingModel>OutofProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
   <ItemGroup>
