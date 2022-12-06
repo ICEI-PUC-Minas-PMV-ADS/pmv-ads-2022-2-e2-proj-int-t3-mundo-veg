@@ -28,4 +28,12 @@ No planejamento inicial do projeto, os usuários da aplicação interativa poder
 
 O erro no cadastro da imagem, como mostrado abaixo, acontecia de forma aleatória, o que dificultou o entendimento do problema pelo grupo:
 
+Video 1: registro da imagem com sucesso
 
+https://user-images.githubusercontent.com/100447878/206046901-6b3e77fe-6eed-4cd1-8bb9-1811fa8f7fc9.mp4
+
+Vídeo 2: registro da imagem com erro
+
+https://user-images.githubusercontent.com/100447878/206046972-bffc4b4c-9cb3-4ac7-826e-842b90798444.mp4
+
+A branch "daiane" possui o código utilizado para a implementação dessa funcionalidade.
