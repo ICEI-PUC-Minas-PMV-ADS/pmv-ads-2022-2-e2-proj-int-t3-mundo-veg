@@ -22,4 +22,10 @@ Neste etapa foram realizados os testes referentes ao cadastro de usuários, esta
 
 ## Avaliação
 
-Os testes foram realizados com sucesso e os comportamentos esperados pela aplicação interativa foram alcançados.
+Os testes foram realizados e os requisitos funcionais foram atendidos.
+
+No planejamento inicial do projeto, os usuários da aplicação interativa poderiam cadastrar uma imagem ao cadastrar um estabelecimento, receita ou produto. Porém, devido a dificuldades na programação, a ideia inicial foi alterada e uma imagem padrão é registrada com cada cadastro de estabelecimento, receita e produto.
+
+O erro no cadastro da imagem, como mostrado abaixo, acontecia de forma aleatória, o que dificultou o entendimento do problema pelo grupo:
+
+
