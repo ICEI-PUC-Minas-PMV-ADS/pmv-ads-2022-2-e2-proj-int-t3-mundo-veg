@@ -28,7 +28,7 @@ No planejamento inicial do projeto, os usuários da aplicação interativa poder
 
 O erro no cadastro da imagem, como mostrado abaixo, acontecia de forma aleatória, o que dificultou o entendimento do problema pelo grupo:
 
-Video 1: registro da imagem com sucesso
+Vídeo 1: registro da imagem com sucesso
 
 https://user-images.githubusercontent.com/100447878/206047528-9680bb2d-fef7-4b5a-b986-01b6a65c8d42.mp4
 
