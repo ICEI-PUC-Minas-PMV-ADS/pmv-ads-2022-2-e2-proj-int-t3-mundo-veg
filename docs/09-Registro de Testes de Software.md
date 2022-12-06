@@ -6,7 +6,7 @@ Neste etapa foram realizados os testes referentes ao cadastro de usuários, esta
 
 |Caso de teste    | Requisito Associado  | Registro de teste |
 |------|-----------------------------------------|----|
-|CT-01 – Cadastrar perfil de usuário| RF-001 - A aplicação interativa deve permitir ao usuário cadastrar uma conta. | <a href="https://user-images.githubusercontent.com/100447878/197885998-883a6ce5-1971-4432-ad8f-87392b9fc9e9.mp4">Clique aqui para ver o vídeo</a>  | 
+|CT-01 – Cadastrar perfil de usuário| RF-001 - A aplicação interativa deve permitir ao usuário cadastrar uma conta. | <a href="https://user-images.githubusercontent.com/100734910/206000402-ba8155aa-f1f0-47ba-81a9-13f520223b4d.mp4">Clique aqui para ver o vídeo</a>  | 
 |CT-02 – Cadastrar estabelecimentos| RF-002 - A aplicação interativa deve permitir aos donos de restaurantes e mercados cadastrar uma conta com informações sobre o estabelecimento. | <a href="https://user-images.githubusercontent.com/98122346/198107177-e275e0c0-2535-4faa-84e6-8beb3940f93a.mp4">Clique aqui para ver o vídeo</a>  | 
 |CT-03 – Efetuar login| RF-003 - A aplicação interativa deve permitir ao usuário cadastrado fazer o login da sua conta.  | <a href="https://user-images.githubusercontent.com/100447878/197886076-685fa43a-d3e1-4419-99d4-e1798529e9d9.mp4">Clique aqui para ver o vídeo</a>  |
 |CT-04 – Filtro/pesquisa de produtos e receitas| RF-004 - A aplicação interativa deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar produtos e receitas.  | <a href="https://user-images.githubusercontent.com/98122346/199348281-acf92c2c-95e9-4f18-851e-bedc25423694.mp4">Clique aqui para ver o vídeo</a>|
