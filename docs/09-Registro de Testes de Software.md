@@ -30,10 +30,10 @@ O erro no cadastro da imagem, como mostrado abaixo, acontecia de forma aleatóri
 
 Video 1: registro da imagem com sucesso
 
-
+https://user-images.githubusercontent.com/100447878/206047528-9680bb2d-fef7-4b5a-b986-01b6a65c8d42.mp4
 
 Vídeo 2: registro da imagem com erro
 
-
+https://user-images.githubusercontent.com/100447878/206047923-9b5fcd03-81a6-4edc-9e27-73cdc31033ec.mp4
 
 A branch "daiane" possui o código utilizado para a implementação dessa funcionalidade.
