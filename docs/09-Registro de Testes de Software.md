@@ -15,10 +15,9 @@ Neste etapa foram realizados os testes referentes ao cadastro de usuários, esta
 |CT-07 – Visualizar informações dos estabelecimentos| RF-007 - A aplicação interativa deve permitir ao usuário visualizar as informações de contato dos estabelecimentos.  | <a href="https://user-images.githubusercontent.com/98122346/206278056-32a7fa10-4407-4f14-adfe-a38723b50c07.mp4">Clique aqui para ver o vídeo</a>|
 |CT-08 – Contactar os estabelecimentos através do WhatsApp| RF-008 A aplicação interativa deve permitir ao usuário entrar em contato com os estabelecimentos.  | <a href="https://user-images.githubusercontent.com/98122346/206278140-7ba079f0-66eb-4208-8df8-44e1a0e3000a.mp4">Clique aqui para ver o vídeo</a>|
 |CT-09 – Cadastrar receitas| RF-009 - A aplicação interativa deve permitir o cadastro de receitas pelos usuários logados na plataforma.  | <a href="https://user-images.githubusercontent.com/100742971/206867089-a7b7ce47-dba9-483d-b96c-6948723886b4.mp4">Clique aqui para ver o vídeo</a>  |
-|CT-10 – Gerenciar conta| RF-010 - A aplicação interativa deve permitir ao usuário gerenciar a sua conta (Clientes). | <a href="https://user-images.githubusercontent.com/100447878/197886116-b7bb9a6a-93fb-4cf3-9218-afa99e5b18ca.mp4">Clique aqui para ver o vídeo</a>  |
+|CT-10 – Gerenciar conta| RF-010 - A aplicação interativa deve permitir ao usuário gerenciar a sua conta (Clientes). | <a href="https://user-images.githubusercontent.com/100742971/206868450-6e0a5c2c-e6a8-4912-a1f0-baf9189329bf.mp4">Clique aqui para ver o vídeo</a>  |
 |CT-10 – Gerenciar conta| RF-010 - A aplicação interativa deve permitir ao usuário gerenciar a sua conta (Estabelecimentos). | <a href="https://user-images.githubusercontent.com/100447878/204158228-85e7436c-d443-4309-b5d8-07a0edf33ae3.mp4">Clique aqui para ver o vídeo</a> |
 |CT-11 – Cadastrar produtos| RF-011 - A aplicação interativa deve permitir o cadastro de produtos pelos estabelecimentos logados na plataforma. | <a href="https://user-images.githubusercontent.com/98122346/198107825-8908ebca-0686-4a1d-a1b6-f2694ea31e05.mp4">Clique aqui para ver o vídeo</a>  |
-
 
 
 
