@@ -56,6 +56,6 @@ A figura abaixo exemplifica como uma interação do usuário com o sistema vai s
 ## Hospedagem
 A aplicação interativa foi hospedada em SmarterASP.NET com database MSSQL, através da opção Publish do Microsoft Visual Studio 2022. Para ter acesso a aplicação, <a href="http://daianecampos-001-site1.itempurl.com/">clique aqui.</a>
   <figure>
-    <img src="https://user-images.githubusercontent.com/100742971/198089584-6167192b-8530-4426-8d08-548887240a76.png";
+    <img src="https://user-images.githubusercontent.com/100447878/205776031-43b0d459-1044-4c69-9cc1-981db61a382a.png";
     <figcaption>Figura 21 - Hospedagem da aplicação</figcaption>
 <figure>
