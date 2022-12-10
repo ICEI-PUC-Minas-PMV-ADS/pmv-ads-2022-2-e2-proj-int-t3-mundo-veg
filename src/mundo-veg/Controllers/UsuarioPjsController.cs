@@ -124,7 +124,7 @@ namespace mundo_veg.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-         public async Task<IActionResult> Edit(int id, [Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha")] UsuarioPj usuarioPj, IFormFile anexo)
+         public async Task<IActionResult> Edit(int id, [Bind("Id,CNPJ,Nome,Email,Telefone,Rua,Numero,Bairro,Cidade,Estado,CEP,Horario_funcionamento,Faz_entrega,Tempo_entrega,Descricao,Contato,Senha")] UsuarioPj usuarioPj)
         {
             if (id != usuarioPj.Id)
             {
