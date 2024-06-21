@@ -6,6 +6,33 @@
 
 #### 2022/2
 
+[Uploadinmessage: Please cite this software using these metadata.
+title: Mundo Veg
+authors:
+  - family-names: de Angelis Souza Freitas
+    given-names: Anna Luiza
+  - family-names: Campos Procópio
+    given-names: Daiane
+  - family-names: Augusta de Barcelos Coura
+    given-names: Fernanda
+  - family-names: Faustini de Azevedo
+    given-names: Guilherme
+  - family-names: Calazans Rodrigues de Magalhães
+    given-names: Juliana
+  - family-names: Karina Prado Costa
+    given-names: Rúbia
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Wilson Da Costa
+    given-names: José
+keywords:
+  - Alimentação saudável
+  - Gestão empresarial
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-mundo-veg
+version: 1.0.0
+date-released: 2022-12-11g citation.cff…]()
+
+
 O objetivo geral deste projeto é a criação de uma aplicação interativa de fácil acesso que permita praticidade na localização de produtos considerando as restrições diárias dos usuários vegetarianos e veganos, e pessoas interessadas neste tipo de dieta e estilo de vida.
 
 ## Integrantes
